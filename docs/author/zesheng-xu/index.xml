@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zesheng Xu | Rice Robot$\Pi$ Lab</title>
+    <link>https://vector-wangel.github.io/wowchemy_website/author/zesheng-xu/</link>
+      <atom:link href="https://vector-wangel.github.io/wowchemy_website/author/zesheng-xu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zesheng Xu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 28 Jun 2023 17:02:54 +0000</lastBuildDate>
+    <image>
+      <url>https://vector-wangel.github.io/wowchemy_website/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Zesheng Xu</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/author/zesheng-xu/</link>
+    </image>
+    
+    <item>
+      <title>Self-Supervised Unseen Object Instance Segmentation via Long-Term Robot Interaction</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/self-supervised-unseen-object-instance-segmentation-via-long-term-robot-interaction/</link>
+      <pubDate>Wed, 28 Jun 2023 17:02:54 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/self-supervised-unseen-object-instance-segmentation-via-long-term-robot-interaction/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

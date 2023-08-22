@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ximin Lyu | Rice Robot$\Pi$ Lab</title>
+    <link>https://vector-wangel.github.io/wowchemy_website/author/ximin-lyu/</link>
+      <atom:link href="https://vector-wangel.github.io/wowchemy_website/author/ximin-lyu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ximin Lyu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 11 Mar 2019 20:46:00 +0000</lastBuildDate>
+    <image>
+      <url>https://vector-wangel.github.io/wowchemy_website/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Ximin Lyu</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/author/ximin-lyu/</link>
+    </image>
+    
+    <item>
+      <title>Perching and resting -- A paradigm for UAV maneuvering with modularized landing gears</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/perching-and-resting-a-paradigm-for-uav-maneuvering-with-modularized-landing-gears/</link>
+      <pubDate>Mon, 11 Mar 2019 20:46:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/perching-and-resting-a-paradigm-for-uav-maneuvering-with-modularized-landing-gears/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

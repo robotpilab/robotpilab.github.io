@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Silvia Cruciani | Rice Robot$\Pi$ Lab</title>
+    <link>https://vector-wangel.github.io/wowchemy_website/author/silvia-cruciani/</link>
+      <atom:link href="https://vector-wangel.github.io/wowchemy_website/author/silvia-cruciani/index.xml" rel="self" type="application/rss+xml" />
+    <description>Silvia Cruciani</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Aug 2020 20:40:00 +0000</lastBuildDate>
+    <image>
+      <url>https://vector-wangel.github.io/wowchemy_website/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Silvia Cruciani</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/author/silvia-cruciani/</link>
+    </image>
+    
+    <item>
+      <title>Benchmarking In-Hand Manipulation</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/benchmarking-in-hand-manipulation/</link>
+      <pubDate>Tue, 11 Aug 2020 20:40:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/benchmarking-in-hand-manipulation/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Placing Objects with prior In-Hand Manipulation using Dexterous Manipulation Graphs</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/placing-objects-with-prior-in-hand-manipulation-using-dexterous-manipulation-graphs/</link>
+      <pubDate>Sat, 29 Jun 2019 03:25:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/placing-objects-with-prior-in-hand-manipulation-using-dexterous-manipulation-graphs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dual-Arm In-Hand Manipulation Using Visual Feedback</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/dual-arm-in-hand-manipulation-using-visual-feedback/</link>
+      <pubDate>Sat, 29 Jun 2019 03:23:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/dual-arm-in-hand-manipulation-using-visual-feedback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dexterous Manipulation Graphs</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/dexterous-manipulation-graphs/</link>
+      <pubDate>Sat, 30 Jun 2018 18:37:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/dexterous-manipulation-graphs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
