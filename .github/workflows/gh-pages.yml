@@ -20,7 +20,7 @@ jobs:
       uses: benmatselby/hugo-deploy-gh-pages@master
       env:
         HUGO_VERSION: 0.68.3
-        TARGET_REPO: vector-wangel/vector-wangel.github.io
+        TARGET_REPO: robotpilab/robotpilab.github.io
         TOKEN: ${{ secrets.TOKEN1 }}
-        CNAME: vector-wangel.github.io
+        CNAME: robotpilab.github.io
 
