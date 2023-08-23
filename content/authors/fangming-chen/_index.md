@@ -1,5 +1,5 @@
 ---
-title: Fangming Chen
+title: Fangming Cheng
 role: Master student in Computer Science
 avatar_filename: avatar.jpg
 bio: I am a second year MCS student at Rice University. I am interested in robot
