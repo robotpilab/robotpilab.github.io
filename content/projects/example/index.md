@@ -24,6 +24,6 @@ image:
 url_code: ""
 ---
 <!--StartFragment-->
-Enabling multi-modal robot nonprehensile manipulation by concurrently building multiple motion trees and adaptively switching between them.
+Enabling multi-modal robot nonprehensile manipulation by concurrently building multiple motion tree and adaptively switching between them.
 
 <!--EndFragment-->
