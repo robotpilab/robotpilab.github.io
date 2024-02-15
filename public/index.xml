@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rice Robot∏ Lab</title>
+    <title>Rice Robot$\Pi$ Lab</title>
     <link>https://robotpilab.github.io/</link>
       <atom:link href="https://robotpilab.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Rice Robot∏ Lab</description>
+    <description>Rice Robot$\Pi$ Lab</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
-      <title>Rice Robot∏ Lab</title>
+      <title>Rice Robot$\Pi$ Lab</title>
       <link>https://robotpilab.github.io/</link>
     </image>
     
@@ -202,7 +202,7 @@
       <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://robotpilab.github.io/projects/example/</guid>
       <description>&lt;!--StartFragment--&gt;
-&lt;p&gt;Enabling multi-modal robot nonprehensile manipulation by concurrently building multiple motion tree and adaptively switching between them.&lt;/p&gt;
+&lt;p&gt;Enabling multi-modal robot nonprehensile manipulation by concurrently building multiple motion trees and adaptively switching between them.&lt;/p&gt;
 &lt;!--EndFragment--&gt;
 </description>
     </item>
