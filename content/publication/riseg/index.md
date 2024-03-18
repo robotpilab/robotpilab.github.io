@@ -22,7 +22,7 @@ summary: We introduce RISeg, a robot interactive perception framework that signi
 url_dataset: ""
 url_project: ""
 url_source: ""
-url_video: https://www.youtube.com/watch?v=g1sAPa2m4gA&ab_channel=HowardQian
+url_video: https://www.youtube.com/watch?v=K_FU310Jm1k
 author_notes: []
 doi: ""
 publication: IEEE International Conference on Robotics and Automation, 2024

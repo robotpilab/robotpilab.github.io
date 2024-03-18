@@ -552,5 +552,8 @@
   </url><url>
     <loc>https://robotpilab.github.io/project/</loc>
     <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/xiaoyu-yuan/</loc>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>

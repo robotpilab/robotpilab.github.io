@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaoyu Yuan | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/xiaoyu-yuan/</link>
+      <atom:link href="https://robotpilab.github.io/author/xiaoyu-yuan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiaoyu Yuan</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://robotpilab.github.io/author/xiaoyu-yuan/avatar_hu0f7069bef64beee285a72cf82d481f01_834543_270x270_fill_lanczos_center_3.png</url>
+      <title>Xiaoyu Yuan</title>
+      <link>https://robotpilab.github.io/author/xiaoyu-yuan/</link>
+    </image>
+    
+  </channel>
+</rss>
