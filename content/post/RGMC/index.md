@@ -1,5 +1,5 @@
 ---
-title: In-Hand Manipulation Competition for the 9th Robotic Grasping and Manipulation Competition (RGMC)
+title: In-Hand Manipulation Competition in the 9th RGMC
 date: 2024-02-08T23:13:00.000Z
 draft: false
 featured: false
