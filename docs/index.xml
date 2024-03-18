@@ -13,6 +13,34 @@
     </image>
     
     <item>
+      <title>Direct Self-Identification of Inverse Jacobians for Dexterous Manipulation Through Particle Filtering</title>
+      <link>https://robotpilab.github.io/publication/josh/</link>
+      <pubDate>Sun, 11 Aug 2024 20:40:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/josh/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RISeg: Robot Interactive Object Segmentation via Body Frame-Invariant Features</title>
+      <link>https://robotpilab.github.io/publication/riseg/</link>
+      <pubDate>Sun, 11 Aug 2024 20:40:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/riseg/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>In-Hand Manipulation Competition for the 9th Robotic Grasping and Manipulation Competition (RGMC)</title>
+      <link>https://robotpilab.github.io/post/rgmc/</link>
+      <pubDate>Thu, 08 Feb 2024 23:13:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/post/rgmc/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;We are organizing the &lt;a href=&#34;https://www.cse.usf.edu/~yusun/rgmc/2024.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;9th Robotic Grasping and Manipulation Competition (RGMC)&lt;/a&gt; at IEEE-RAS ICRA 2024 in Yokohama, Japan, on May 13-17. Dr. Hang is the lead organizer of the &lt;a href=&#34;https://hangkaiyu.github.io/RGMC_in_hand_manipulation_subtrack.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;In-Hand Manipulation Competition (Sub-Track 2)&lt;/a&gt; within the Essential Skill Track. We look forward to seeing everyone in the competition!&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
       <title>Non-Parametric Self-Identification and Model Predictive Control of Dexterous In-Hand Manipulation</title>
       <link>https://robotpilab.github.io/publication/pod/</link>
       <pubDate>Fri, 28 Jul 2023 17:55:21 +0000</pubDate>

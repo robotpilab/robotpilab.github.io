@@ -5,12 +5,22 @@
     <link>https://robotpilab.github.io/post/</link>
       <atom:link href="https://robotpilab.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 29 Jun 2023 22:08:14 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 08 Feb 2024 23:13:00 +0000</lastBuildDate>
     <image>
       <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
       <title>Latest News</title>
       <link>https://robotpilab.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>In-Hand Manipulation Competition for the 9th Robotic Grasping and Manipulation Competition (RGMC)</title>
+      <link>https://robotpilab.github.io/post/rgmc/</link>
+      <pubDate>Thu, 08 Feb 2024 23:13:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/post/rgmc/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;We are organizing the &lt;a href=&#34;https://www.cse.usf.edu/~yusun/rgmc/2024.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;9th Robotic Grasping and Manipulation Competition (RGMC)&lt;/a&gt; at IEEE-RAS ICRA 2024 in Yokohama, Japan, on May 13-17. Dr. Hang is the lead organizer of the &lt;a href=&#34;https://hangkaiyu.github.io/RGMC_in_hand_manipulation_subtrack.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;In-Hand Manipulation Competition (Sub-Track 2)&lt;/a&gt; within the Essential Skill Track. We look forward to seeing everyone in the competition!&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
     
     <item>
       <title>National Science Foundation CAREER Award</title>
