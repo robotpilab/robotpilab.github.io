@@ -541,6 +541,9 @@
     <loc>https://robotpilab.github.io/admin/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://robotpilab.github.io/author/ben-leebron/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://robotpilab.github.io/categories/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -551,6 +554,9 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/project/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/weihang-guo/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/author/xiaoyu-yuan/</loc>
