@@ -19,10 +19,10 @@ sections:
   - block: collection
     content:
       title: |
-        <span style="font-family: 'Century Gothic';">Latest News</span>
+        <span style="font-family: 'Century Gothic';">News</span>
       subtitle:
       text:
-      count: 4
+      count: 6
       filters:
         author: ''
         category: ''
