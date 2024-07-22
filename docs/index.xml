@@ -78,12 +78,28 @@
     </item>
     
     <item>
-      <title>Our Paper &#34;RISeg, Robot Interactive Object Segmentation via Body Frame-Invariant Features&#34; accepted by IEEE-RAS ICRA 2024</title>
+      <title>Howard Qian Awarded &#34;Distinction in Research and Creative Works&#34; by Rice University</title>
+      <link>https://robotpilab.github.io/post/howard_award/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/post/howard_award/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;We are thrilled to announce that our esteemed lab member, Howard Qian, has been awarded the prestigious &amp;ldquo;Distinction in Research and Creative Works&amp;rdquo; by Rice University.&lt;/p&gt;
+&lt;p&gt;This is a university honor for graduating students that will be granted at Commencement and will appear on recipients&amp;rsquo; transcripts and diplomas. To apply, CS students should submit a work or body of work that illustrates creativity, self-initiation, independence, perseverance, and dedication. In all cases, we expect that students who apply for distinction in undergraduate research in computer science will have produced something that goes beyond the traditional expectations of their coursework.&lt;/p&gt;
+&lt;p&gt;For Computer Science students, the application process involves submitting a work or body of work that goes beyond the traditional expectations of coursework. Howard&amp;rsquo;s successful application cited his contributions to the RISeg paper, with his first authorship and the paper&amp;rsquo;s acceptance to ICRA being key factors in receiving this honor.&lt;/p&gt;
+&lt;p&gt;This award underscores the high-quality research being conducted in our lab and highlights Howard&amp;rsquo;s exceptional contributions to the field. We congratulate Howard on this well-deserved recognition and look forward to his continued success in future endeavors.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Our Paper &#34;RISeg, Robot Interactive Object Segmentation via Body Frame-Invariant Features&#34; accepted by IEEE-RAS ICRA 2024, as well as its 3DVRM workshop</title>
       <link>https://robotpilab.github.io/post/riseg_icra_24/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://robotpilab.github.io/post/riseg_icra_24/</guid>
       <description>&lt;!--StartFragment--&gt;
 &lt;p&gt;Our paper &lt;a href=&#34;https://arxiv.org/abs/2403.01731&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;RISeg: Robot Interactive Object Segmentation via Body Frame-Invariant Features&amp;rdquo; &lt;/a&gt; has been accepted by IEEE-RAS International Conference on Robotics and Automation (IEEE-RAS ICRA).  Check out the &lt;a href=&#34;https://www.youtube.com/watch?v=K_FU310Jm1k&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;RISeg was also recently accepted to the &lt;a href=&#34;https://3d-manipulation-workshop.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;3DVRM workshop&amp;rdquo; &lt;/a&gt; at ICRA!&lt;/p&gt;
+&lt;p&gt;RISeg is an interactive perception framework in which robot actions are selected based on a scene&amp;rsquo;s uncertainty heatmap representation and object segmentation is improved via a body frame-invariant feature.&lt;/p&gt;
+&lt;p&gt;In order to successfully perform manipulation tasks in new environments, such as grasping, robots must be proficient in segmenting unseen objects from the background and/or other objects. Previous works perform unseen object instance segmentation (UOIS) by training deep neural networks on large-scale data to learn RGB/RGB-D feature embeddings, where cluttered environments often result in inaccurate segmentations. We build upon these methods and introduce a novel approach to correct inaccurate segmentation, such as under-segmentation, of static image-based UOIS masks by using robot interaction and a designed body frame-invariant feature. We demonstrate that the relative linear and rotational velocities of frames randomly attached to rigid bodies due to robot interactions can be used to identify objects and accumulate corrected object-level segmentation masks. By introducing motion to regions of segmentation uncertainty, we are able to drastically improve segmentation accuracy in an uncertainty-driven manner with minimal, non-disruptive interactions (ca. 2-3 per scene). We demonstrate the effectiveness of our proposed interactive perception pipeline in accurately segmenting cluttered scenes by achieving an average object segmentation accuracy rate of 80.7%, an increase of 28.2% when compared with other state-of-the-art UOIS methods.&lt;/p&gt;
 &lt;!--EndFragment--&gt;</description>
     </item>
     

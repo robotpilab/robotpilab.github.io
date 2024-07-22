@@ -9,7 +9,7 @@ authors:
   - Joshua T. Grace
   - Aaron M. Dollar
   - Kaiyu Hang
-publication_short: ArXiv
+publication_short: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 abstract: Calibrating robots into their workspaces is crucial for manipulation tasks. Existing calibration techniques often rely on sensors external to the robot (cameras, laser scanners, etc.) or specialized tools. This reliance complicates the calibration process and increases the costs and time requirements. Furthermore, the associated setup and measurement procedures require significant human intervention, which makes them more challenging to operate. Using the built-in force-torque sensors, which are nowadays a default component in collaborative robots, this work proposes a self-calibration framework where robot-environmental spatial relations are automatically estimated through compliant exploratory actions by the robot itself. The self-calibration approach converges, verifies its own accuracy, and terminates upon completion, autonomously purely through interactive exploration of the environment's geometries. Extensive experiments validate the effectiveness of our self-calibration approach in accurately establishing the robot-environment spatial relationships without the need for additional sensing equipment or any human intervention.
 draft: false
 featured: false
@@ -23,7 +23,7 @@ url_source: ""
 url_video: https://youtu.be/NiDBvtswzV4
 author_notes: []
 doi: ""
-publication: ArXiv
+publication: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 tags:
   - Source Themes
 image:

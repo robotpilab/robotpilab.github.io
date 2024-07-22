@@ -7,7 +7,7 @@ authors:
   - Gaotian Wang
   - Kejia Ren
   - Kaiyu Hang
-publication_short: ArXiv
+publication_short: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 abstract: Nonprehensile manipulation through precise pushing is an essential skill that has been commonly challenged by perception and physical uncertainties, such as those associated with contacts, object geometries, and physical properties. For this, we propose a unified framework that jointly addresses system modeling, action generation, and control. While most existing approaches either heavily rely on a priori system information for analytic modeling, or leverage a large dataset to learn dynamic models, our framework approximates a system transition function via non-parametric learning only using a small number of exploratory actions (ca. 10). The approximated function is then integrated with model predictive control to provide precise pushing manipulation. Furthermore, we show that the approximated system transition functions can be robustly transferred across novel objects while being online updated to continuously improve the manipulation accuracy. Through extensive experiments on a real robot platform with a set of novel objects and comparing against a state-of-the-art baseline, we show that the proposed unified framework is a light-weight and highly effective approach to enable precise pushing manipulation all by itself. Our evaluation results illustrate that the system can robustly ensure millimeter-level precision and can straightforwardly work on any novel object.
 draft: false
 featured: false
@@ -21,7 +21,7 @@ url_source: ""
 url_video: https://www.youtube.com/watch?v=MLzGTxhKs6E&t=1s
 author_notes: []
 doi: ""
-publication: ArXiv
+publication: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 tags:
   - Source Themes
 image:
