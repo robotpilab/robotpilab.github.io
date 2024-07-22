@@ -5,12 +5,42 @@
     <link>https://robotpilab.github.io/author/false/</link>
       <atom:link href="https://robotpilab.github.io/author/false/index.xml" rel="self" type="application/rss+xml" />
     <description>false</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 08 Feb 2024 23:13:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 07 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
       <title>false</title>
       <link>https://robotpilab.github.io/author/false/</link>
     </image>
+    
+    <item>
+      <title>Our Paper &#34;Interactive Robot-Environment Self-Calibration via Compliant Exploratory Actions&#34; accepted by IEEE/RSJ IROS 2024</title>
+      <link>https://robotpilab.github.io/post/self_cali_iros_24/</link>
+      <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/post/self_cali_iros_24/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Our paper &lt;a href=&#34;https://arxiv.org/abs/2403.13144&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Interactive Robot-Environment Self-Calibration via Compliant Exploratory Actions&amp;rdquo; &lt;/a&gt; has been accepted by IEEE/RSJ IEEE International Conference on Intelligent Robots and Systems (IEEE/RSJ IROS) 2024.  Check out the &lt;a href=&#34;https://youtu.be/NiDBvtswzV4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;!&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Our Paper &#34;UNO Push, Unified Nonprehensile Object Pushing via Non-Parametric Estimation and Model Predictive Control&#34; accepted by IEEE/RSJ IROS 2024</title>
+      <link>https://robotpilab.github.io/post/uno_push_iros_24/</link>
+      <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/post/uno_push_iros_24/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Our paper &lt;a href=&#34;https://arxiv.org/abs/2403.13274&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;UNO Push: Unified Nonprehensile Object Pushing via Non-Parametric Estimation and Model Predictive Control&amp;rdquo; &lt;/a&gt; has been accepted by IEEE/RSJ IEEE International Conference on Intelligent Robots and Systems (IEEE/RSJ IROS) 2024.  Check out the &lt;a href=&#34;https://www.youtube.com/watch?v=MLzGTxhKs6E&amp;amp;t=1s&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;!&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Our Paper &#34;RISeg, Robot Interactive Object Segmentation via Body Frame-Invariant Features&#34; accepted by IEEE-RAS ICRA 2024</title>
+      <link>https://robotpilab.github.io/post/riseg_icra_24/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/post/riseg_icra_24/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Our paper &lt;a href=&#34;https://arxiv.org/abs/2403.01731&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;RISeg: Robot Interactive Object Segmentation via Body Frame-Invariant Features&amp;rdquo; &lt;/a&gt; has been accepted by IEEE-RAS International Conference on Robotics and Automation (IEEE-RAS ICRA).  Check out the &lt;a href=&#34;https://www.youtube.com/watch?v=K_FU310Jm1k&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;!&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
     
     <item>
       <title>In-Hand Manipulation Competition in the 9th RGMC</title>
@@ -55,7 +85,7 @@
       <link>https://robotpilab.github.io/post/20-12-01-wowchemy-prize/</link>
       <pubDate>Thu, 02 Mar 2023 06:00:00 +0000</pubDate>
       <guid>https://robotpilab.github.io/post/20-12-01-wowchemy-prize/</guid>
-      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://arxiv.org/abs/2302.03793&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Self-Supervised Unseen Object Instance Segmentation via Long-Term Robot Interaction&amp;rdquo; &lt;/a&gt;has been accepted by Robotics: Science and Systems (RSS 2023). Check out the &lt;a href=&#34;https://youtu.be/_ykvsRAXRT0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;!&lt;/p&gt;
+      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://arxiv.org/abs/2302.03793&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Self-Supervised Unseen Object Instance Segmentation via Long-Term Robot Interaction&amp;rdquo; &lt;/a&gt; has been accepted by Robotics: Science and Systems (RSS 2023). Check out the &lt;a href=&#34;https://youtu.be/_ykvsRAXRT0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;!&lt;/p&gt;
 </description>
     </item>
     
@@ -70,7 +100,7 @@
     </item>
     
     <item>
-      <title>Our Paper &#34;Kinodynamic Rapidly-exploring Random Forest for Rearrangement-Based Nonprehensile Manipulation&#34; accepted by IEEE-RAS ICRA</title>
+      <title>Our Paper &#34;Kinodynamic Rapidly-exploring Random Forest for Rearrangement-Based Nonprehensile Manipulation&#34; accepted by IEEE-RAS ICRA 2023</title>
       <link>https://robotpilab.github.io/post/20-12-02-icml-best-paper/</link>
       <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://robotpilab.github.io/post/20-12-02-icml-best-paper/</guid>

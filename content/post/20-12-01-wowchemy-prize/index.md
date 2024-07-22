@@ -5,4 +5,4 @@ date: 2023-03-02T06:00:00.000Z
 image:
   filename: featured.png
 ---
-Our paper ["Self-Supervised Unseen Object Instance Segmentation via Long-Term Robot Interaction" ](https://arxiv.org/abs/2302.03793)has been accepted by Robotics: Science and Systems (RSS 2023). Check out the [video](https://youtu.be/_ykvsRAXRT0)!
+Our paper ["Self-Supervised Unseen Object Instance Segmentation via Long-Term Robot Interaction" ](https://arxiv.org/abs/2302.03793) has been accepted by Robotics: Science and Systems (RSS 2023). Check out the [video](https://youtu.be/_ykvsRAXRT0)!
