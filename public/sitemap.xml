@@ -2,8 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://robotpilab.github.io/publication-type/2/</loc>
+    <lastmod>2024-09-30T22:16:51+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/andrew-s.-morgan/</loc>
+    <lastmod>2024-09-30T22:16:51+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://robotpilab.github.io/authors/</loc>
-    <lastmod>2024-09-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-30T22:16:51+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/gaotian-wang/</loc>
+    <lastmod>2024-09-30T22:16:51+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/kaiyu-hang/</loc>
+    <lastmod>2024-09-30T22:16:51+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/kejia-ren/</loc>
+    <lastmod>2024-09-30T22:16:51+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/lydia-e.-kavraki/</loc>
+    <lastmod>2024-09-30T22:16:51+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/publication/uno_sort/</loc>
+    <lastmod>2024-09-30T22:16:51+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/publication_types/</loc>
+    <lastmod>2024-09-30T22:16:51+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/publication/</loc>
+    <lastmod>2024-09-30T22:16:51+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/source-themes/</loc>
+    <lastmod>2024-09-30T22:16:51+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tags/</loc>
+    <lastmod>2024-09-30T22:16:51+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/author/false/</loc>
@@ -30,10 +74,6 @@
     <lastmod>2024-08-11T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://robotpilab.github.io/author/gaotian-wang/</loc>
-    <lastmod>2024-08-11T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://robotpilab.github.io/author/hayden-webb/</loc>
     <lastmod>2024-08-11T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -50,14 +90,6 @@
     <lastmod>2024-08-11T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://robotpilab.github.io/author/kaiyu-hang/</loc>
-    <lastmod>2024-08-11T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/author/kejia-ren/</loc>
-    <lastmod>2024-08-11T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://robotpilab.github.io/author/ninad-khargonkar/</loc>
     <lastmod>2024-08-11T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -66,27 +98,11 @@
     <lastmod>2024-08-11T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://robotpilab.github.io/publication_types/</loc>
-    <lastmod>2024-08-11T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/publication/</loc>
-    <lastmod>2024-08-11T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://robotpilab.github.io/publication/riseg/</loc>
     <lastmod>2024-08-11T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/author/shenli-yuan/</loc>
-    <lastmod>2024-08-11T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/tag/source-themes/</loc>
-    <lastmod>2024-08-11T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/tags/</loc>
     <lastmod>2024-08-11T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -135,10 +151,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/publication/kinodynamic-rapidly-exploring-random-forest-for-rearrangement-based-nonprehensile-manipulation/</loc>
-    <lastmod>2023-06-28T17:55:21+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/author/lydia-e.-kavraki/</loc>
     <lastmod>2023-06-28T17:55:21+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -230,15 +242,7 @@
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://robotpilab.github.io/publication-type/2/</loc>
-    <lastmod>2022-03-04T01:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://robotpilab.github.io/author/and-aaron-m.-dollar/</loc>
-    <lastmod>2022-03-04T01:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/author/andrew-s.-morgan/</loc>
     <lastmod>2022-03-04T01:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
