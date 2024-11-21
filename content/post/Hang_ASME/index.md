@@ -10,5 +10,3 @@ Dr. Kaiyu Hang has been selected by the American Society of Mechanical Engineers
 manipulation. 
 
 Dr. Kaiyu Hang presented his work at the award ceremony in the 2024 International Mechanical Engineering Congress & Exposition (ASME IMECE), Portland, Oregon, USA.
-
-![ASME Logo](ASME.jpg "American Society of Mechanical Engineers (ASME)")
