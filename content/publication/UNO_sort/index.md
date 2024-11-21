@@ -20,7 +20,7 @@ summary: We propose a novel object-centric planning paradigm for nonprehensile r
 url_dataset: ""
 url_project: "https://arxiv.org/abs/2410.00261"
 url_source: ""
-url_video: ""
+url_video: "https://www.youtube.com/watch?v=PV2Y5SLSZkQ"
 author_notes: []
 doi: ""
 publication: arXiv preprint

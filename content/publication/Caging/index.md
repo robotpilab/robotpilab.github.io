@@ -21,7 +21,6 @@ url_project: ""
 url_source: ""
 url_video: "https://www.youtube.com/watch?v=Ag_jTzazuSM"
 author_notes: []
-doi: "10.48550/arXiv.2410.16481"
 publication: arXiv preprint
 tags:
   - Robotics
