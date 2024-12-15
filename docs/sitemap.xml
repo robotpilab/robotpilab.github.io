@@ -2,8 +2,120 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://robotpilab.github.io/publication-type/2/</loc>
+    <lastmod>2024-12-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/andrew-s.-morgan/</loc>
+    <lastmod>2024-12-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://robotpilab.github.io/authors/</loc>
-    <lastmod>2024-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/publication/collision-inclusive-manipulation/</loc>
+    <lastmod>2024-12-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/collision-inclusive-planning/</loc>
+    <lastmod>2024-12-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/compliant-control/</loc>
+    <lastmod>2024-12-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/gaotian-wang/</loc>
+    <lastmod>2024-12-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/kaiyu-hang/</loc>
+    <lastmod>2024-12-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/kejia-ren/</loc>
+    <lastmod>2024-12-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/object-manipulation/</loc>
+    <lastmod>2024-12-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/publication_types/</loc>
+    <lastmod>2024-12-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/publication/</loc>
+    <lastmod>2024-12-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/robotics/</loc>
+    <lastmod>2024-12-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tags/</loc>
+    <lastmod>2024-12-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/alessio-xompero/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/anastasia-mavrommati/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/andrea-cavallaro/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/berk-calli/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/competition/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/francis-wyffels/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/grasping/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/jose-avendano/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/kenny-kimble/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/manipulation/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/maximo-a.-roa/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/publication/rgmc/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/salvatore-davella/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/victor-louis-de-gusseme/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/yu-sun/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/post/hang_asme/</loc>
@@ -18,14 +130,6 @@
     <lastmod>2024-11-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://robotpilab.github.io/publication-type/2/</loc>
-    <lastmod>2024-10-21T20:12:45+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/author/andrew-s.-morgan/</loc>
-    <lastmod>2024-10-21T20:12:45+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://robotpilab.github.io/tag/caging/</loc>
     <lastmod>2024-10-21T20:12:45+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -34,39 +138,7 @@
     <lastmod>2024-10-21T20:12:45+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://robotpilab.github.io/author/gaotian-wang/</loc>
-    <lastmod>2024-10-21T20:12:45+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/author/kaiyu-hang/</loc>
-    <lastmod>2024-10-21T20:12:45+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/author/kejia-ren/</loc>
-    <lastmod>2024-10-21T20:12:45+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/tag/object-manipulation/</loc>
-    <lastmod>2024-10-21T20:12:45+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/publication_types/</loc>
-    <lastmod>2024-10-21T20:12:45+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/publication/</loc>
-    <lastmod>2024-10-21T20:12:45+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/tag/robotics/</loc>
-    <lastmod>2024-10-21T20:12:45+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://robotpilab.github.io/tag/robust-control/</loc>
-    <lastmod>2024-10-21T20:12:45+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/tags/</loc>
     <lastmod>2024-10-21T20:12:45+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -366,10 +438,6 @@
     <lastmod>2020-08-11T20:38:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://robotpilab.github.io/author/berk-calli/</loc>
-    <lastmod>2020-08-11T20:38:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://robotpilab.github.io/author/fadi-m.-alladkani/</loc>
     <lastmod>2020-08-11T20:38:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -427,10 +495,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/author/maxime-adjigble/</loc>
-    <lastmod>2019-08-11T20:41:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/author/maximo-a.-roa/</loc>
     <lastmod>2019-08-11T20:41:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

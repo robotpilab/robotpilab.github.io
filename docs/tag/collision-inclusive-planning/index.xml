@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Collision-inclusive Planning | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/tag/collision-inclusive-planning/</link>
+      <atom:link href="https://robotpilab.github.io/tag/collision-inclusive-planning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Collision-inclusive Planning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 12 Dec 2024 20:12:45 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
+      <title>Collision-inclusive Planning</title>
+      <link>https://robotpilab.github.io/tag/collision-inclusive-planning/</link>
+    </image>
+    
+    <item>
+      <title>Collision-inclusive Manipulation Planning for Occluded Object Grasping via Compliant Robot Motions</title>
+      <link>https://robotpilab.github.io/publication/collision-inclusive-manipulation/</link>
+      <pubDate>Thu, 12 Dec 2024 20:12:45 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/collision-inclusive-manipulation/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://arxiv.org/abs/2412.06983&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
