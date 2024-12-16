@@ -25,9 +25,9 @@ slides: null
 summary: The 2024 RGMC at ICRA featured five tracks testing autonomous robotic manipulation capabilities, drawing participation from teams worldwide to address challenges in manufacturing and essential manipulation skills.
 url_dataset: ""
 url_project: ""
-url_source: "https://ieeexplore.ieee.org/document/10794508"
+url_source: ""
 url_video: ""
-url_pdf: "Robotic_Grasping_and_Manipulation_Competition_at_the_2024_IEEE_RAS_International_Conference_on_Robotics_and_Automation_Competitions.pdf"
+url_pdf: "https://ieeexplore.ieee.org/document/10794508"
 author_notes: []
 publication: "IEEE Robotics & Automation Magazine"
 tags:

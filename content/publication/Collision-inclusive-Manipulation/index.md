@@ -14,7 +14,7 @@ draft: false
 featured: false
 projects: []
 slides: null
-url_pdf: "./2412.06983v1.pdf"
+url_pdf: "https://arxiv.org/pdf/2412.06983.pdf"
 summary: We propose a collision-inclusive planning framework for occluded object grasping that allows and exploits intentional collisions through compliant robot motions, demonstrating effective manipulation in scenarios where traditional collision-free approaches are insufficient.
 url_dataset: ""
 url_project: ""
