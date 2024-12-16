@@ -16,7 +16,7 @@ authors:
   - Maximo A. Roa
   - Jose Avendano
   - Anastasia Mavrommati
-publication_short: IEEE RAM
+publication_short: IEEE Robotics & Automation Magazine
 abstract: The Ninth Robotic Grasping and Manipulation Competition (RGMC) took place in Yokohama, Japan, during the 2024 IEEE/RAS International Conference on Robotics and Automation (ICRA). The competition organized five tracks grouped into two categories - the manufacturing track and four essential skill tracks, including cloth manipulation, in-hand manipulation, picking in clutter, and human-to-robot handovers. All tasks were performed autonomously by robots, attracting over 70 teams worldwide with 31 teams selected to participate in Yokohama. The competition aimed to assess autonomous manipulation capabilities in handling unknown objects and scenarios with varying degrees of uncertainty.
 draft: false
 featured: false
