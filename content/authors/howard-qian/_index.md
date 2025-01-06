@@ -1,6 +1,6 @@
 ---
 title: Howard Qian
-role: Undergraduate student in Computer Science
+role: Graduate student in Computer Science
 avatar_filename: avatar.png
 social:
   - display:
@@ -13,5 +13,5 @@ organizations:
   - name: Rice University
     url: ""
 user_groups:
-  - Master and Undergraduate Students
+  - Ph.D. students
 ---
