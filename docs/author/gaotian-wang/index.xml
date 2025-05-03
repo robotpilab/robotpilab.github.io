@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaotian Wang | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/gaotian-wang/</link>
+      <atom:link href="https://robotpilab.github.io/author/gaotian-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gaotian Wang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 03 May 2025 20:12:45 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/author/gaotian-wang/avatar_hu68b21c442a7735cb8363ccd1f4c0e84d_1042820_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Gaotian Wang</title>
+      <link>https://robotpilab.github.io/author/gaotian-wang/</link>
+    </image>
+    
+    <item>
+      <title>Caging in Time: A Framework for Robust Object Manipulation under Uncertainties and Limited Robot Perception</title>
+      <link>https://robotpilab.github.io/publication/caging/</link>
+      <pubDate>Sat, 03 May 2025 20:12:45 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/caging/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://arxiv.org/abs/2410.16481&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Collision-inclusive Manipulation Planning for Occluded Object Grasping via Compliant Robot Motions</title>
+      <link>https://robotpilab.github.io/publication/collision-inclusive-manipulation/</link>
+      <pubDate>Thu, 12 Dec 2024 20:12:45 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/collision-inclusive-manipulation/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://arxiv.org/abs/2412.06983&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Object-Centric Kinodynamic Planning for Nonprehensile Robot Rearrangement Manipulation</title>
+      <link>https://robotpilab.github.io/publication/uno_sort/</link>
+      <pubDate>Mon, 30 Sep 2024 22:16:51 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/uno_sort/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://arxiv.org/abs/2410.00261&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RISeg: Robot Interactive Object Segmentation via Body Frame-Invariant Features</title>
+      <link>https://robotpilab.github.io/publication/riseg/</link>
+      <pubDate>Sun, 11 Aug 2024 20:40:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/riseg/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>UNO Push: Unified Nonprehensile Object Pushing via Non-Parametric Estimation and Model Predictive Control</title>
+      <link>https://robotpilab.github.io/publication/uno/</link>
+      <pubDate>Sun, 11 Aug 2024 20:40:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/uno/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nonprehensile Manipulation through Forest-based Planning with Dynamic Planning Horizons</title>
+      <link>https://robotpilab.github.io/projects/example/</link>
+      <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/projects/example/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Enabling multi-modal robot nonprehensile manipulation by concurrently building multiple motion trees and adaptively switching between them.&lt;/p&gt;
+&lt;!--EndFragment--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploring Robust Robot Manipulation through Compliance-Based and Motion-based Manipulation Funnels</title>
+      <link>https://robotpilab.github.io/projects/funnel/</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/projects/funnel/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;We investigate “manipulation funnels”, which effectively converge complex manipulation states towards strictly smaller subsets, to provide robust manipulation against various uncertainties, as well as creating new manipulation possibilities that were traditionally infeasible.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

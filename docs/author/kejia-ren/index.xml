@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kejia Ren | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/kejia-ren/</link>
+      <atom:link href="https://robotpilab.github.io/author/kejia-ren/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kejia Ren</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 03 May 2025 20:12:45 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/author/kejia-ren/avatar_hu0cd1ea83568d2dc5b9562d02b6bbed6b_53716_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Kejia Ren</title>
+      <link>https://robotpilab.github.io/author/kejia-ren/</link>
+    </image>
+    
+    <item>
+      <title>Caging in Time: A Framework for Robust Object Manipulation under Uncertainties and Limited Robot Perception</title>
+      <link>https://robotpilab.github.io/publication/caging/</link>
+      <pubDate>Sat, 03 May 2025 20:12:45 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/caging/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://arxiv.org/abs/2410.16481&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Collision-inclusive Manipulation Planning for Occluded Object Grasping via Compliant Robot Motions</title>
+      <link>https://robotpilab.github.io/publication/collision-inclusive-manipulation/</link>
+      <pubDate>Thu, 12 Dec 2024 20:12:45 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/collision-inclusive-manipulation/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://arxiv.org/abs/2412.06983&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Object-Centric Kinodynamic Planning for Nonprehensile Robot Rearrangement Manipulation</title>
+      <link>https://robotpilab.github.io/publication/uno_sort/</link>
+      <pubDate>Mon, 30 Sep 2024 22:16:51 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/uno_sort/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://arxiv.org/abs/2410.00261&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interactive Robot-Environment Self-Calibration via Compliant Exploratory Actions</title>
+      <link>https://robotpilab.github.io/publication/interactive/</link>
+      <pubDate>Sun, 11 Aug 2024 20:40:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/interactive/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RISeg: Robot Interactive Object Segmentation via Body Frame-Invariant Features</title>
+      <link>https://robotpilab.github.io/publication/riseg/</link>
+      <pubDate>Sun, 11 Aug 2024 20:40:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/riseg/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>UNO Push: Unified Nonprehensile Object Pushing via Non-Parametric Estimation and Model Predictive Control</title>
+      <link>https://robotpilab.github.io/publication/uno/</link>
+      <pubDate>Sun, 11 Aug 2024 20:40:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/uno/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Non-Parametric Self-Identification and Model Predictive Control of Dexterous In-Hand Manipulation</title>
+      <link>https://robotpilab.github.io/publication/pod/</link>
+      <pubDate>Fri, 28 Jul 2023 17:55:21 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/pod/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://arxiv.org/abs/2302.04360&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kinodynamic Rapidly-exploring Random Forest for Rearrangement-Based Nonprehensile Manipulation</title>
+      <link>https://robotpilab.github.io/publication/kinodynamic-rapidly-exploring-random-forest-for-rearrangement-based-nonprehensile-manipulation/</link>
+      <pubDate>Wed, 28 Jun 2023 17:55:21 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/kinodynamic-rapidly-exploring-random-forest-for-rearrangement-based-nonprehensile-manipulation/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://arxiv.org/abs/2302.04360&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rearrangement-Based Manipulation via Kinodynamic Planning and Dynamic Planning Horizons</title>
+      <link>https://robotpilab.github.io/publication/conference-paper/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/conference-paper/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://arxiv.org/abs/2208.02312&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nonprehensile Manipulation through Forest-based Planning with Dynamic Planning Horizons</title>
+      <link>https://robotpilab.github.io/projects/example/</link>
+      <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/projects/example/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Enabling multi-modal robot nonprehensile manipulation by concurrently building multiple motion trees and adaptively switching between them.&lt;/p&gt;
+&lt;!--EndFragment--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploring Robust Robot Manipulation through Compliance-Based and Motion-based Manipulation Funnels</title>
+      <link>https://robotpilab.github.io/projects/funnel/</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/projects/funnel/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;We investigate “manipulation funnels”, which effectively converge complex manipulation states towards strictly smaller subsets, to provide robust manipulation against various uncertainties, as well as creating new manipulation possibilities that were traditionally infeasible.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Self-Identification for Robot Manipulation under Uncertainty Aided by Passive Adaptability</title>
+      <link>https://robotpilab.github.io/projects/teros/</link>
+      <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/projects/teros/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Combining modern state estimation techniques with specialized adaptable robot hardware to enable online discovery and updating of manipulation “controllers” that require minimal sensing and are highly robust to uncertainty.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robust Control | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/tag/robust-control/</link>
+      <atom:link href="https://robotpilab.github.io/tag/robust-control/index.xml" rel="self" type="application/rss+xml" />
+    <description>Robust Control</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 03 May 2025 20:12:45 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
+      <title>Robust Control</title>
+      <link>https://robotpilab.github.io/tag/robust-control/</link>
+    </image>
+    
+    <item>
+      <title>Caging in Time: A Framework for Robust Object Manipulation under Uncertainties and Limited Robot Perception</title>
+      <link>https://robotpilab.github.io/publication/caging/</link>
+      <pubDate>Sat, 03 May 2025 20:12:45 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/caging/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://arxiv.org/abs/2410.16481&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
