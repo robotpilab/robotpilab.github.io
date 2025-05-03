@@ -1,6 +1,6 @@
 ---
 title: Hayden Webb
-role: Undergraduate student in Mechanical Engineering
+role: Ph.D. student at Cornell University
 avatar_filename: avatar.jpg
 social:
   - display:
@@ -13,5 +13,5 @@ organizations:
   - name: Rice University
     url: ""
 user_groups:
-  - Master and Undergraduate Students
+  - Alumni
 ---

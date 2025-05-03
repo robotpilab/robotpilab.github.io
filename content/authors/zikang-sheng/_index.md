@@ -1,6 +1,6 @@
 ---
 title: Zikang Sheng
-role: Master student in Electrical and Computer Engineering
+role: Microsoft
 
 avatar_filename: avatar.jpg
 social:
@@ -14,5 +14,5 @@ organizations:
   - name: Rice University
     url: ""
 user_groups:
-  - Master and Undergraduate Students
+  - Alumni
 ---

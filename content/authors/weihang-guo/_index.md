@@ -1,6 +1,6 @@
 ---
 title: Weihang Guo
-role: Master student in Computer Science
+role: Ph.D. student at Rice University (Lydia Kavraki's Lab)
 
 avatar_filename: avatar.jpg
 social:
@@ -14,5 +14,5 @@ organizations:
   - name: Rice University
     url: ""
 user_groups:
-  - Master and Undergraduate Students
+  - Alumni
 ---
