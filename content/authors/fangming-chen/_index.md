@@ -1,6 +1,6 @@
 ---
 title: Fangming Cheng
-role: Master student in Computer Science
+role: Ph.D. student at the University of Hong Kong
 avatar_filename: avatar.jpg
 bio: I am a second year MCS student at Rice University. I am interested in robot
   manipulation and path optimization. Currently I am researching in robot path
