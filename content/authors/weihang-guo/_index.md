@@ -1,6 +1,6 @@
 ---
 title: Weihang Guo
-role: Ph.D. student at Rice University (Kavraki's Lab)
+role: Master student -> Ph.D. student at Rice University (Kavraki's Lab)
 
 avatar_filename: avatar.jpg
 social:

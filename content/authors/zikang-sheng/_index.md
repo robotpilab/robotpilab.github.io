@@ -1,6 +1,6 @@
 ---
 title: Zikang Sheng
-role: Microsoft
+role: Master student -> Microsoft
 
 avatar_filename: avatar.jpg
 social:
