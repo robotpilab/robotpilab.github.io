@@ -2,15 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://robotpilab.github.io/authors/</loc>
+    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/post/2025_ben_distinction/</loc>
+    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/false/</loc>
+    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/post/</loc>
+    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://robotpilab.github.io/publication-type/2/</loc>
     <lastmod>2025-05-03T20:12:45+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/author/andrew-s.-morgan/</loc>
-    <lastmod>2025-05-03T20:12:45+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/authors/</loc>
     <lastmod>2025-05-03T20:12:45+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -56,14 +68,6 @@
   </url><url>
     <loc>https://robotpilab.github.io/tags/</loc>
     <lastmod>2025-05-03T20:12:45+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/author/false/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/post/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/post/2025_gaotian_ijrr/</loc>
