@@ -1,7 +1,7 @@
 ---
 title: Kaiyu Hang
 
-role: Assistant Professor of Department of Computer Science
+role: Assistant Professor of Computer Science
 avatar_filename: profile2.png
 organizations:
   - name: Rice University

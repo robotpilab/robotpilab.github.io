@@ -14,6 +14,6 @@ organizations:
 
 superuser: false
 user_groups:
-  - Ph.D. students
+  - Ph.D. Students
 email: "yc203@rice.edu"
 ---

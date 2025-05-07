@@ -13,5 +13,5 @@ organizations:
   - name: Rice University
     url: ""
 user_groups:
-  - Alumni
+  - Undergraduate Students
 ---
