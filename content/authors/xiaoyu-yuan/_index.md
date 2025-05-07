@@ -1,6 +1,6 @@
 ---
 title: Xiaoyu Yuan
-role: Master student in Computer Science
+role: Master student
 
 avatar_filename: avatar.jpg
 social:

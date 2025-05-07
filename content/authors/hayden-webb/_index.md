@@ -1,6 +1,6 @@
 ---
 title: Hayden Webb
-role: Undergraduate -> Ph.D. student at Cornell University
+role: Undergraduate → Ph.D. student at Cornell University
 avatar_filename: avatar.jpg
 social:
   - display:
