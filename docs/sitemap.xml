@@ -2,19 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://robotpilab.github.io/authors/</loc>
-    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+    <loc>https://robotpilab.github.io/post/2025_iros/</loc>
+    <lastmod>2025-06-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://robotpilab.github.io/post/2025_ben_distinction/</loc>
-    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+    <loc>https://robotpilab.github.io/authors/</loc>
+    <lastmod>2025-06-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/author/false/</loc>
-    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/post/</loc>
+    <lastmod>2025-06-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/post/2025_ben_distinction/</loc>
     <lastmod>2025-05-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
