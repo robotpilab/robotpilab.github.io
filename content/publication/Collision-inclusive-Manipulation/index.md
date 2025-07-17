@@ -8,7 +8,7 @@ authors:
   - Gaotian Wang
   - Andrew S. Morgan
   - Kaiyu Hang
-publication_short: ArXiv
+publication_short: IEEE Robotics and Automation Letters (RAL)
 abstract: Traditional robotic manipulation mostly focuses on collision-free tasks. In practice, however, many manipulation tasks (e.g., occluded object grasping) require the robot to intentionally collide with the environment to reach a desired task configuration. By enabling compliant robot motions, collisions between the robot and the environment are allowed and can thus be exploited, but more physical uncertainties are introduced. To address collision-rich problems such as occluded object grasping while handling the involved uncertainties, we propose a collision-inclusive planning framework that can transition the robot to a desired task configuration via roughly modeled collisions absorbed by Cartesian impedance control. By strategically exploiting the environmental constraints and exploring inside a manipulation funnel formed by task repetitions, our framework can effectively reduce physical and perception uncertainties. With real-world evaluations on both single-arm and dual-arm setups, we show that our framework is able to efficiently address various realistic occluded grasping problems where a feasible grasp does not initially exist.
 draft: false
 featured: false
@@ -21,7 +21,7 @@ url_project: ""
 url_source: ""
 url_video: "https://www.youtube.com/watch?v=NxHyLqYKbPY"
 author_notes: []
-publication: arXiv preprint
+publication: IEEE Robotics and Automation Letters (RAL), 2025
 tags:
   - Robotics
   - Object Manipulation

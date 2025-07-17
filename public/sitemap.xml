@@ -190,7 +190,15 @@
     <lastmod>2024-08-11T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://robotpilab.github.io/author/howard-h.-qian/</loc>
+    <lastmod>2024-08-11T20:40:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://robotpilab.github.io/author/howard-qian/</loc>
+    <lastmod>2024-08-11T20:40:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/interactive-perception/</loc>
     <lastmod>2024-08-11T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -214,6 +222,14 @@
     <lastmod>2024-08-11T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://robotpilab.github.io/publication/riseg2/</loc>
+    <lastmod>2024-08-11T20:40:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/segmentation/</loc>
+    <lastmod>2024-08-11T20:40:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://robotpilab.github.io/author/shenli-yuan/</loc>
     <lastmod>2024-08-11T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -222,11 +238,19 @@
     <lastmod>2024-08-11T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://robotpilab.github.io/tag/unseen-object-instance-segmentation/</loc>
+    <lastmod>2024-08-11T20:40:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://robotpilab.github.io/publication/hayden/</loc>
     <lastmod>2024-08-11T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/author/yangxiao-lu/</loc>
+    <lastmod>2024-08-11T20:40:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/yiting-chen/</loc>
     <lastmod>2024-08-11T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -707,9 +731,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/author/xiaoyu-yuan/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/author/yiting-chen/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/author/zikang-sheng/</loc>
