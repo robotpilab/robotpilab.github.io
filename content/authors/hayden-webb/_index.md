@@ -1,6 +1,6 @@
 ---
 title: Hayden Webb
-role: Undergraduate → Ph.D. student at Cornell University
+role: Undergraduate → Ph.D. student @ Cornell University
 avatar_filename: avatar.jpg
 social:
   - display:
@@ -13,5 +13,5 @@ organizations:
   - name: Rice University
     url: ""
 user_groups:
-  - Undergraduate Students
+  - Alumni
 ---

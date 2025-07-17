@@ -1,6 +1,6 @@
 ---
 title: Weihang Guo
-role: Master student → Ph.D. student at Rice University
+role: Master student → Ph.D. student @ Rice University
 
 avatar_filename: avatar.jpg
 social:

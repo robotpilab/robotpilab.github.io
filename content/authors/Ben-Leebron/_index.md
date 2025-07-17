@@ -1,6 +1,6 @@
 ---
 title: Ben Leebron
-role: Undergraduate Student in Computer Science
+role: Undergraduate Student → SWE @ NASA
 
 avatar_filename: avatar.jpg
 social:
@@ -14,5 +14,5 @@ organizations:
   - name: Rice University
     url: ""
 user_groups:
-  - Undergraduate Students
+  - Alumni
 ---
