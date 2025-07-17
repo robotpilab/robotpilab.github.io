@@ -5,12 +5,20 @@
     <link>https://robotpilab.github.io/tag/robotics/</link>
       <atom:link href="https://robotpilab.github.io/tag/robotics/index.xml" rel="self" type="application/rss+xml" />
     <description>Robotics</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 03 May 2025 20:12:45 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 17 Jul 2025 20:40:00 +0000</lastBuildDate>
     <image>
       <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
       <title>Robotics</title>
       <link>https://robotpilab.github.io/tag/robotics/</link>
     </image>
+    
+    <item>
+      <title>rt-RISeg: Real-Time Model-Free Robot Interactive Segmentation for Active Instance-Level Object Understanding</title>
+      <link>https://robotpilab.github.io/publication/riseg2/</link>
+      <pubDate>Thu, 17 Jul 2025 20:40:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/riseg2/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Caging in Time: A Framework for Robust Object Manipulation under Uncertainties and Limited Robot Perception</title>
@@ -37,14 +45,6 @@
       <guid>https://robotpilab.github.io/publication/rgmc/</guid>
       <description>&lt;p&gt;Published in IEEE Robotics &amp;amp; Automation Magazine (Volume: 31, Issue: 4, December 2024), Pages: 174-185&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>rt-RISeg: Real-Time Model-Free Robot Interactive Segmentation for Active Instance-Level Object Understanding</title>
-      <link>https://robotpilab.github.io/publication/riseg2/</link>
-      <pubDate>Sun, 11 Aug 2024 20:40:00 +0000</pubDate>
-      <guid>https://robotpilab.github.io/publication/riseg2/</guid>
-      <description></description>
     </item>
     
   </channel>

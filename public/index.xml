@@ -13,6 +13,23 @@
     </image>
     
     <item>
+      <title>rt-RISeg: Real-Time Model-Free Robot Interactive Segmentation for Active Instance-Level Object Understanding</title>
+      <link>https://robotpilab.github.io/publication/riseg2/</link>
+      <pubDate>Thu, 17 Jul 2025 20:40:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/riseg2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wearable Roller Rings to Enable Robot Dexterous In-Hand Manipulation through Active Surfaces</title>
+      <link>https://robotpilab.github.io/publication/hayden/</link>
+      <pubDate>Thu, 17 Jul 2025 20:40:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/hayden/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>5 papers accepted to IEEE/RSJ IROS 2025</title>
       <link>https://robotpilab.github.io/post/2025_iros/</link>
       <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
@@ -172,27 +189,10 @@ manipulation.&lt;/p&gt;
     </item>
     
     <item>
-      <title>rt-RISeg: Real-Time Model-Free Robot Interactive Segmentation for Active Instance-Level Object Understanding</title>
-      <link>https://robotpilab.github.io/publication/riseg2/</link>
-      <pubDate>Sun, 11 Aug 2024 20:40:00 +0000</pubDate>
-      <guid>https://robotpilab.github.io/publication/riseg2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>UNO Push: Unified Nonprehensile Object Pushing via Non-Parametric Estimation and Model Predictive Control</title>
       <link>https://robotpilab.github.io/publication/uno/</link>
       <pubDate>Sun, 11 Aug 2024 20:40:00 +0000</pubDate>
       <guid>https://robotpilab.github.io/publication/uno/</guid>
-      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Wearable Roller Rings to Enable Robot Dexterous In-Hand Manipulation through Active Surfaces</title>
-      <link>https://robotpilab.github.io/publication/hayden/</link>
-      <pubDate>Sun, 11 Aug 2024 20:40:00 +0000</pubDate>
-      <guid>https://robotpilab.github.io/publication/hayden/</guid>
       <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
