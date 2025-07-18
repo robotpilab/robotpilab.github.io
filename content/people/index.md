@@ -16,7 +16,7 @@ sections:
           - Ph.D. Students
           - Master Students
           - Undergraduate Students
-          - Visitors
+          - Visiting Students
           - Alumni
       sort_by: Params.last_name
       sort_ascending: true
