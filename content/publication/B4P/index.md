@@ -19,7 +19,7 @@ summary: We propose B4P, a forest-based planning framework that simultaneously f
 url_dataset: ""
 url_project: ""
 url_source: ""
-url_video: ""
+url_video: "https://youtu.be/CJ5SQWEcTGw"
 author_notes: []
 doi: ""
 publication: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
