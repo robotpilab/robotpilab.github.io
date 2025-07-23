@@ -6,6 +6,14 @@
     <lastmod>2025-07-17T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://robotpilab.github.io/author/aaron-m.-dollar/</loc>
+    <lastmod>2025-07-17T20:40:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/publication/arccalib/</loc>
+    <lastmod>2025-07-17T20:40:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://robotpilab.github.io/authors/</loc>
     <lastmod>2025-07-17T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -15,6 +23,14 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/author/benjamin-h.-leebron/</loc>
+    <lastmod>2025-07-17T20:40:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/calibration/</loc>
+    <lastmod>2025-07-17T20:40:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/computer-vision/</loc>
     <lastmod>2025-07-17T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -31,6 +47,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/tag/interactive-perception/</loc>
+    <lastmod>2025-07-17T20:40:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/joshua-t.-grace/</loc>
     <lastmod>2025-07-17T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -226,10 +246,6 @@
     <lastmod>2024-09-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://robotpilab.github.io/author/aaron-m.-dollar/</loc>
-    <lastmod>2024-08-11T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://robotpilab.github.io/publication/josh/</loc>
     <lastmod>2024-08-11T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -239,10 +255,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/publication/interactive/</loc>
-    <lastmod>2024-08-11T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/author/joshua-t.-grace/</loc>
     <lastmod>2024-08-11T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -272,6 +284,30 @@
   </url><url>
     <loc>https://robotpilab.github.io/post/uno_push_iros_24/</loc>
     <lastmod>2024-07-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/assembly/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/contact-rich-interaction/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/kenneth-kimble/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/robert-seney/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/publication/peginhole/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/uncertainty/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/post/howard_award/</loc>
