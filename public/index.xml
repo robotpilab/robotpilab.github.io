@@ -96,6 +96,15 @@
     </item>
     
     <item>
+      <title>Robust Peg-in-Hole Assembly under Uncertainties via Compliant and Interactive Contact-Rich Manipulation</title>
+      <link>https://robotpilab.github.io/publication/peginhole/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/peginhole/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Collision-inclusive Manipulation Planning for Occluded Object Grasping via Compliant Robot Motions</title>
       <link>https://robotpilab.github.io/publication/collision-inclusive-manipulation/</link>
       <pubDate>Thu, 12 Dec 2024 20:12:45 +0000</pubDate>
@@ -233,15 +242,6 @@ manipulation.&lt;/p&gt;
       <description>&lt;!--StartFragment--&gt;
 &lt;p&gt;Our paper &lt;a href=&#34;https://arxiv.org/abs/2403.13274&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;UNO Push: Unified Nonprehensile Object Pushing via Non-Parametric Estimation and Model Predictive Control&amp;rdquo; &lt;/a&gt; has been accepted by IEEE/RSJ IEEE International Conference on Intelligent Robots and Systems (IEEE/RSJ IROS) 2024.  Check out the &lt;a href=&#34;https://www.youtube.com/watch?v=MLzGTxhKs6E&amp;amp;t=1s&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;!&lt;/p&gt;
 &lt;!--EndFragment--&gt;</description>
-    </item>
-    
-    <item>
-      <title>Robust Peg-in-Hole Assembly under Uncertainties via Compliant and Interactive Contact-Rich Manipulation</title>
-      <link>https://robotpilab.github.io/publication/peginhole/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://robotpilab.github.io/publication/peginhole/</guid>
-      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
     </item>
     
     <item>

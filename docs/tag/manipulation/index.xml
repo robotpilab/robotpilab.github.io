@@ -5,7 +5,7 @@
     <link>https://robotpilab.github.io/tag/manipulation/</link>
       <atom:link href="https://robotpilab.github.io/tag/manipulation/index.xml" rel="self" type="application/rss+xml" />
     <description>Manipulation</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
       <title>Manipulation</title>
@@ -13,20 +13,20 @@
     </image>
     
     <item>
+      <title>Robust Peg-in-Hole Assembly under Uncertainties via Compliant and Interactive Contact-Rich Manipulation</title>
+      <link>https://robotpilab.github.io/publication/peginhole/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/peginhole/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Robotic Grasping and Manipulation Competition at the 2024 IEEE/RAS International Conference on Robotics and Automation</title>
       <link>https://robotpilab.github.io/publication/rgmc/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://robotpilab.github.io/publication/rgmc/</guid>
       <description>&lt;p&gt;Published in IEEE Robotics &amp;amp; Automation Magazine (Volume: 31, Issue: 4, December 2024), Pages: 174-185&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Robust Peg-in-Hole Assembly under Uncertainties via Compliant and Interactive Contact-Rich Manipulation</title>
-      <link>https://robotpilab.github.io/publication/peginhole/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://robotpilab.github.io/publication/peginhole/</guid>
-      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

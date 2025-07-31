@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Robust Peg-in-Hole Assembly under Uncertainties via Compliant and Interactive Contact-Rich Manipulation</title>
+      <link>https://robotpilab.github.io/publication/peginhole/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/peginhole/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Direct Self-Identification of Inverse Jacobians for Dexterous Manipulation Through Particle Filtering</title>
       <link>https://robotpilab.github.io/publication/josh/</link>
       <pubDate>Sun, 11 Aug 2024 20:40:00 +0000</pubDate>
@@ -52,15 +61,6 @@
       <link>https://robotpilab.github.io/publication/interactive/</link>
       <pubDate>Sun, 11 Aug 2024 20:40:00 +0000</pubDate>
       <guid>https://robotpilab.github.io/publication/interactive/</guid>
-      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Robust Peg-in-Hole Assembly under Uncertainties via Compliant and Interactive Contact-Rich Manipulation</title>
-      <link>https://robotpilab.github.io/publication/peginhole/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://robotpilab.github.io/publication/peginhole/</guid>
       <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
