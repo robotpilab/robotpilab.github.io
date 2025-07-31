@@ -110,6 +110,30 @@
     <lastmod>2025-07-17T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://robotpilab.github.io/publication-type/2/</loc>
+    <lastmod>2025-07-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/andrew-s.-morgan/</loc>
+    <lastmod>2025-07-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/publication/collision-inclusive-manipulation/</loc>
+    <lastmod>2025-07-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/collision-inclusive-planning/</loc>
+    <lastmod>2025-07-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/compliant-control/</loc>
+    <lastmod>2025-07-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/object-manipulation/</loc>
+    <lastmod>2025-07-12T20:12:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://robotpilab.github.io/post/2025_iros/</loc>
     <lastmod>2025-06-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -126,23 +150,11 @@
     <lastmod>2025-05-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://robotpilab.github.io/publication-type/2/</loc>
-    <lastmod>2025-05-03T20:12:45+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/author/andrew-s.-morgan/</loc>
-    <lastmod>2025-05-03T20:12:45+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://robotpilab.github.io/tag/caging/</loc>
     <lastmod>2025-05-03T20:12:45+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/publication/caging/</loc>
-    <lastmod>2025-05-03T20:12:45+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/tag/object-manipulation/</loc>
     <lastmod>2025-05-03T20:12:45+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -184,18 +196,6 @@
   </url><url>
     <loc>https://robotpilab.github.io/tag/uncertainty/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/publication/collision-inclusive-manipulation/</loc>
-    <lastmod>2024-12-12T20:12:45+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/tag/collision-inclusive-planning/</loc>
-    <lastmod>2024-12-12T20:12:45+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/tag/compliant-control/</loc>
-    <lastmod>2024-12-12T20:12:45+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/author/alessio-xompero/</loc>
