@@ -2,6 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://robotpilab.github.io/authors/</loc>
+    <lastmod>2025-07-29T22:08:14+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/false/</loc>
+    <lastmod>2025-07-29T22:08:14+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/post/</loc>
+    <lastmod>2025-07-29T22:08:14+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/post/kejia-ral/</loc>
+    <lastmod>2025-07-29T22:08:14+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://robotpilab.github.io/publication-type/1/</loc>
     <lastmod>2025-07-17T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -11,10 +27,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/publication/arccalib/</loc>
-    <lastmod>2025-07-17T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/authors/</loc>
     <lastmod>2025-07-17T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -135,14 +147,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/post/2025_iros/</loc>
-    <lastmod>2025-06-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/author/false/</loc>
-    <lastmod>2025-06-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/post/</loc>
     <lastmod>2025-06-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

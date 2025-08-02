@@ -1,6 +1,6 @@
 ---
 title: Mitchell Chen
-role: High School Student
+role: High School Student @ St. John’s School
 
 avatar_filename: avatar.jpg
 social:

@@ -1,6 +1,6 @@
 ---
 title: Zhuoyi Lu
-role: Undergraduate Student @ NTU
+role: Undergraduate Student @ Nanyang Technological University
 
 avatar_filename: avatar.jpg
 social:
