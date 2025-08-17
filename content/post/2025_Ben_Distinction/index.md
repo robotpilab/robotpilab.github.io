@@ -1,5 +1,5 @@
 ---
-title: Ben Leebron Awarded "Distinction in Research and Creative Works" by Rice University
+title: Ben Leebron has Been Awarded "Distinction in Research and Creative Works" by Rice University
 date: 2025-05-05
 image:
   focal_point: top

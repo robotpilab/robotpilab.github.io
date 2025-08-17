@@ -1,5 +1,5 @@
 ---
-title: Our paper "Caging in Time, A Framework for Robust Object Manipulation under Uncertainties and Limited Robot Perception" accepted by IJRR
+title: Our paper "Caging in Time, A Framework for Robust Object Manipulation under Uncertainties and Limited Robot Perception" has been accepted by IJRR
 date: 2025-05-01
 image:
   focal_point: top

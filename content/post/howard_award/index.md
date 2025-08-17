@@ -1,5 +1,5 @@
 ---
-title: Howard Qian Awarded "Distinction in Research and Creative Works" by Rice University
+title: Howard Qian has been Awarded "Distinction in Research and Creative Works" by Rice University
 date: 2024-04-25
 image:
   focal_point: top

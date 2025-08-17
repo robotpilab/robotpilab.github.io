@@ -1,5 +1,5 @@
 ---
-title: Dr. Kaiyu Hang Awarded ASME Rising Star of Mechanical Engineering
+title: Dr. Kaiyu Hang has Been Awarded ASME Rising Star of Mechanical Engineering
 date: 2024-11-19
 image:
   focal_point: top

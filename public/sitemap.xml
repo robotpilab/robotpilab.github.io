@@ -2,8 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://robotpilab.github.io/publication-type/1/</loc>
+    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/aaron-m.-dollar/</loc>
+    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://robotpilab.github.io/authors/</loc>
-    <lastmod>2025-07-29T22:08:14+00:00</lastmod>
+    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/joshua-t.-grace/</loc>
+    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/kaiyu-hang/</loc>
+    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/publication/josh2/</loc>
+    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/author/podshara-chanrungmaneekul/</loc>
+    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/publication_types/</loc>
+    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/publication/</loc>
+    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tag/source-themes/</loc>
+    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://robotpilab.github.io/tags/</loc>
+    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/author/false/</loc>
@@ -16,14 +56,6 @@
   </url><url>
     <loc>https://robotpilab.github.io/post/kejia-ral/</loc>
     <lastmod>2025-07-29T22:08:14+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/publication-type/1/</loc>
-    <lastmod>2025-07-17T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/author/aaron-m.-dollar/</loc>
-    <lastmod>2025-07-17T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/publication/arccalib/</loc>
@@ -62,27 +94,7 @@
     <lastmod>2025-07-17T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://robotpilab.github.io/author/joshua-t.-grace/</loc>
-    <lastmod>2025-07-17T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/author/kaiyu-hang/</loc>
-    <lastmod>2025-07-17T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://robotpilab.github.io/author/kejia-ren/</loc>
-    <lastmod>2025-07-17T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/author/podshara-chanrungmaneekul/</loc>
-    <lastmod>2025-07-17T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/publication_types/</loc>
-    <lastmod>2025-07-17T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/publication/</loc>
     <lastmod>2025-07-17T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -99,14 +111,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://robotpilab.github.io/author/shenli-yuan/</loc>
-    <lastmod>2025-07-17T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/tag/source-themes/</loc>
-    <lastmod>2025-07-17T20:40:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://robotpilab.github.io/tags/</loc>
     <lastmod>2025-07-17T20:40:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
