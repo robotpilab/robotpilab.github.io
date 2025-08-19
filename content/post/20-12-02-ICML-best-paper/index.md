@@ -1,6 +1,6 @@
 ---
 title: Our Paper "Kinodynamic Rapidly-exploring Random Forest for
-  Rearrangement-Based Nonprehensile Manipulation" accepted by IEEE-RAS ICRA 2023
+  Rearrangement-Based Nonprehensile Manipulation" has been accepted by IEEE-RAS ICRA 2023
 date: 2022-12-02
 image:
   focal_point: top

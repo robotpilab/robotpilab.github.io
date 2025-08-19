@@ -1,5 +1,5 @@
 ---
-title: Robot Self-Identification selected by Science Robotics as the Top 5 Editor's Picks of 2021
+title: Robot Self-Identification has been selected by Science Robotics as the Top 5 Editor's Picks of 2021
 date: 2021-12-17T23:13:00.000Z
 draft: false
 featured: false

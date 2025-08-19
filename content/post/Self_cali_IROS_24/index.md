@@ -1,5 +1,5 @@
 ---
-title: Our Paper "Interactive Robot-Environment Self-Calibration via Compliant Exploratory Actions" accepted by IEEE/RSJ IROS 2024
+title: Our Paper "Interactive Robot-Environment Self-Calibration via Compliant Exploratory Actions" has been accepted by IEEE/RSJ IROS 2024
 date: 2024-07-07
 image:
   focal_point: top

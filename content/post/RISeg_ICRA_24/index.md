@@ -1,5 +1,5 @@
 ---
-title: Our Paper "RISeg, Robot Interactive Object Segmentation via Body Frame-Invariant Features" accepted by IEEE-RAS ICRA 2024, as well as its 3DVRM workshop
+title: Our Paper "RISeg, Robot Interactive Object Segmentation via Body Frame-Invariant Features" has been accepted by IEEE-RAS ICRA 2024, as well as its 3DVRM workshop
 date: 2024-03-02
 image:
   focal_point: top
