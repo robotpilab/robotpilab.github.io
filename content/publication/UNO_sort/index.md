@@ -18,8 +18,8 @@ slides: null
 url_pdf: https://arxiv.org/pdf/2410.00261
 summary: We propose a novel object-centric planning paradigm for nonprehensile robot rearrangement manipulation. Our approach focuses on planning desired object motions, which are then realized via robot actions generated online. Experiments show that this paradigm generates more intuitive and efficient robot actions compared to traditional robot-centric approaches.
 url_dataset: ""
-url_project: "https://arxiv.org/abs/2410.00261"
-url_source: ""
+url_project: ""
+url_source: "https://ieeexplore.ieee.org/document/11176447"
 url_video: "https://www.youtube.com/watch?v=PV2Y5SLSZkQ"
 author_notes: []
 doi: ""

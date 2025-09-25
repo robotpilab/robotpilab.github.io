@@ -5,12 +5,21 @@
     <link>https://robotpilab.github.io/author/false/</link>
       <atom:link href="https://robotpilab.github.io/author/false/index.xml" rel="self" type="application/rss+xml" />
     <description>false</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Jul 2025 22:08:14 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 20 Sep 2025 22:08:14 +0000</lastBuildDate>
     <image>
       <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
       <title>false</title>
       <link>https://robotpilab.github.io/author/false/</link>
     </image>
+    
+    <item>
+      <title>Our paper &#34;Object-Centric Kinodynamic Planning for Nonprehensile Robot Rearrangement Manipulation&#34; has been accepted by TRO</title>
+      <link>https://robotpilab.github.io/post/kejia-tro/</link>
+      <pubDate>Sat, 20 Sep 2025 22:08:14 +0000</pubDate>
+      <guid>https://robotpilab.github.io/post/kejia-tro/</guid>
+      <description>&lt;p&gt;Our paper “Object-Centric Kinodynamic Planning for Nonprehensile Robot Rearrangement Manipulation” has been accepted by IEEE Transactions on Robotics (T-RO).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Our paper &#34;Collision-Inclusive Manipulation Planning for Occluded Object Grasping via Compliant Robot Motions&#34; has been accepted by RA-L</title>
