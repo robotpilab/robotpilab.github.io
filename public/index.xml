@@ -13,6 +13,23 @@
     </image>
     
     <item>
+      <title>ManipulationNet released!</title>
+      <link>https://robotpilab.github.io/post/manipulationnet/</link>
+      <pubDate>Wed, 08 Oct 2025 22:08:14 +0000</pubDate>
+      <guid>https://robotpilab.github.io/post/manipulationnet/</guid>
+      <description>&lt;p&gt;We are excited to announce ManipulationNet, a community-driven global infrastructure, that enables benchmarking robot manipulation research at scale with any robot at anytime and anywhere. Inspired by the prior efforts in benchmarking robot manipulation, including standard object sets paired with evaluation protocols, simulation-based benchmarking platforms, and onsite competitions in conferences, the ManipulationNet, for the first time, has simultaneously provided authenticity, accessibility, and realism in one online large-scale benchmarking system. In brief, ManipulationNet provides both hardware and open-source software to host standardized benchmarking tasks, for which participants can submit solutions from their own locations at anytime in a distributed manner, and then get their performance evaluated in a centralized manner to shine on global leaderboards.&lt;/p&gt;
+&lt;p&gt;ManipulationNet organizes benchmarking tasks in two tracks: 1) Physical Skills Track that evaluates robot abilities in physical contact-rich tasks; and 2) Embodied Reasoning Track that challenges robot capabilities in grounding language, vision, and language + vision prompts into effective real-world actions. In the first release, we provide a &amp;ldquo;Peg-In-Hole Assembly&amp;rdquo; task in the Physical Skills Track and a &amp;ldquo;Block Arrangement&amp;rdquo; task in the Embodied Reasoning Track.&lt;/p&gt;
+&lt;p&gt;Over time, ManipulationNet aims to &amp;ldquo;connect the dots&amp;rdquo; of the up-to-date robot abilities and challenges to construct a network of real-world robot skills, a network of research challenge roadmaps, and a network of research progress trajectories. Want to learn more about ManipulationNet? Check out the links below:&lt;/p&gt;
+&lt;p&gt;Project website: &lt;a href=&#34;https://manipulation-net.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://manipulation-net.org&lt;/a&gt;
+Founding Committee: &lt;a href=&#34;https://manipulation-net.org/committee.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://manipulation-net.org/committee.html&lt;/a&gt;
+GitHub Repository: &lt;a href=&#34;https://github.com/ManipulationNet/mnet_client&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/ManipulationNet/mnet_client&lt;/a&gt;
+mnet documentation: &lt;a href=&#34;https://mnet-client.readthedocs.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://mnet-client.readthedocs.io&lt;/a&gt;
+Paper: &lt;a href=&#34;https://manipulation-net.org/MNet_preprint.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://manipulation-net.org/MNet_preprint.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Have questions? Please contact &lt;a href=&#34;mailto:support@manipulation-net.org&#34;&gt;support@manipulation-net.org&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Our paper &#34;Object-Centric Kinodynamic Planning for Nonprehensile Robot Rearrangement Manipulation&#34; has been accepted by TRO</title>
       <link>https://robotpilab.github.io/post/kejia-tro/</link>
       <pubDate>Sat, 20 Sep 2025 22:08:14 +0000</pubDate>
