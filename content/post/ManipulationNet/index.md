@@ -10,10 +10,10 @@ ManipulationNet organizes benchmarking tasks in two tracks: 1) Physical Skills T
 
 Over time, ManipulationNet aims to "connect the dots" of the up-to-date robot abilities and challenges to construct a network of real-world robot skills, a network of research challenge roadmaps, and a network of research progress trajectories. Want to learn more about ManipulationNet? Check out the links below:
 
-Project website: https://manipulation-net.org
-Founding Committee: https://manipulation-net.org/committee.html
-GitHub Repository: https://github.com/ManipulationNet/mnet_client
-mnet documentation: https://mnet-client.readthedocs.io
-Paper: https://manipulation-net.org/MNet_preprint.pdf
+Project website: https://manipulation-net.org  
+Founding Committee: https://manipulation-net.org/committee.html  
+GitHub Repository: https://github.com/ManipulationNet/mnet_client  
+mnet documentation: https://mnet-client.readthedocs.io  
+Paper: https://manipulation-net.org/MNet_preprint.pdf  
 
 Have questions? Please contact support@manipulation-net.org
