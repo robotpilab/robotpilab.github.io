@@ -2,7 +2,7 @@
 title: Complex In-Hand Manipulation via Compliance-Enabled Finger Gaiting and
   Multi-Modal Planning
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Andrew S. Morgan
   - Kaiyu Hang

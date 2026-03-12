@@ -2,7 +2,7 @@
 title: "RISeg: Robot Interactive Object Segmentation via Body Frame-Invariant Features"
 
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Howard Qian
   - Yangxiao Lu

@@ -2,7 +2,7 @@
 title: "Caging in Time: A Framework for Robust Object Manipulation under Uncertainties and Limited Robot Perception"
 
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Gaotian Wang
   - Kejia Ren

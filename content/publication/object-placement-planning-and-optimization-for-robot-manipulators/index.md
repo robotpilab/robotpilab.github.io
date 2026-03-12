@@ -15,7 +15,7 @@ abstract: We address the problem of planning the placement of a rigid object
 slides: null
 url_pdf: https://hangkaiyu.github.io/pdfs/haustein2019a.pdf
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Joshua A. Haustein
   - Kaiyu Hang

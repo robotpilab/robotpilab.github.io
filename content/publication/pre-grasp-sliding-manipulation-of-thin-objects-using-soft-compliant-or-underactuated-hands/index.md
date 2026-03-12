@@ -18,7 +18,7 @@ url_pdf: https://hangkaiyu.github.io/pdfs/hang2019a.pdf
 title: Pre-Grasp Sliding Manipulation of Thin Objects Using Soft, Compliant, or
   Underactuated Hands
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Kaiyu Hang
   - Andrew S. Morgan

@@ -2,7 +2,7 @@
 title: Benchmarking Protocol for Grasp Planning Algorithms
 subtitle: ""
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Yasemin Bekiroglu
   - Naresh Marturi

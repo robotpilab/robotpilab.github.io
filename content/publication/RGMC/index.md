@@ -2,7 +2,7 @@
 title: "Robotic Grasping and Manipulation Competition at the 2024 IEEE/RAS International Conference on Robotics and Automation"
 
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Yu Sun
   - Berk Calli

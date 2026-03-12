@@ -2,7 +2,7 @@
 title: "UNO Push: Unified Nonprehensile Object Pushing via Non-Parametric Estimation and Model Predictive Control"
 
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Gaotian Wang
   - Kejia Ren

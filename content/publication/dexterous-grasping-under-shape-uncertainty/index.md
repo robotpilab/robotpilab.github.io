@@ -3,7 +3,7 @@ title: Dexterous Grasping under Shape Uncertainty
 subtitle: Selected for oral presentation at IEEE-RAS International Conference on
   Robotics and Automation (ICRA), Singapore, 2017
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Miao Li
   - Kaiyu Hang

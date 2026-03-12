@@ -3,7 +3,7 @@ title: Hand-object configuration estimation using particle filters for dexterous
   in-hand manipulation
 subtitle: ""
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Kaiyu Hang
   - Walter G. Bircher

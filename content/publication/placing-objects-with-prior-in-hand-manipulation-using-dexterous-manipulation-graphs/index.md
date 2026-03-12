@@ -18,7 +18,7 @@ url_pdf: https://hangkaiyu.github.io/pdfs/haustein2019b.pdf
 title: Placing Objects with prior In-Hand Manipulation using Dexterous
   Manipulation Graphs
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Joshua A. Haustein
   - Silvia Cruciani

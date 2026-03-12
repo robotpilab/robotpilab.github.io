@@ -2,7 +2,7 @@
 title: On the Evolution of Fingertip Grasping Manifolds
 subtitle: ""
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Kaiyu Hang
   - Joshua A. Haustein

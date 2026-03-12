@@ -2,7 +2,7 @@
 title: "Object-Centric Kinodynamic Planning for Nonprehensile Robot Rearrangement Manipulation"
 
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Kejia Ren
   - Gaotian Wang

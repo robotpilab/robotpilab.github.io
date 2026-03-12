@@ -4,7 +4,7 @@ title: "Hierarchical Fingertip Space: A Unified Framework for Grasp Planning and
 subtitle: Selected for oral presentation at IEEE-RAS International Conference on
   Robotics and Automation (ICRA), Singapore, 2017
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Kaiyu Hang
   - Miao Li

@@ -13,7 +13,7 @@ slides: null
 url_pdf: https://hangkaiyu.github.io/pdfs/cruciani2019a.pdf
 title: Dual-Arm In-Hand Manipulation Using Visual Feedback
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Silvia Cruciani
   - Kaiyu Hang

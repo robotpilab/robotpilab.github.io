@@ -2,7 +2,7 @@
 title: Grasp Moduli Spaces
 subtitle: ""
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Florian T. Pokorny
   - Kaiyu Hang

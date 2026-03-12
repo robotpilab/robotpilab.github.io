@@ -2,7 +2,7 @@
 title: "rt-RISeg: Real-Time Model-Free Robot Interactive Segmentation for Active Instance-Level Object Understanding"
 
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Howard H. Qian
   - Yiting Chen

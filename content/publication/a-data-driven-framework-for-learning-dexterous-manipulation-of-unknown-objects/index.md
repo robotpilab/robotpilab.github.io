@@ -29,7 +29,7 @@ abstract: We address the problem of developing precise, quasi-static control
 slides: null
 url_pdf: https://hangkaiyu.github.io/pdfs/morgan2019a.pdf
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Andrew S. Morgan
   - Kaiyu Hang

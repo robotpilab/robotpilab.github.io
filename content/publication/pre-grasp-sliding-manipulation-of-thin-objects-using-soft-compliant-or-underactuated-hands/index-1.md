@@ -22,7 +22,7 @@ url_pdf: https://arxiv.org/pdf/2302.04360.pdf
 title: Reinforcement Learning in Topology-based Representation for Human Body
   Movement with Whole Arm Manipulation
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Kaiyu Hang
   - Andrew S. Morgan

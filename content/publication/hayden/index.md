@@ -2,7 +2,7 @@
 title: "Wearable Roller Rings to Enable Robot Dexterous In-Hand Manipulation through Active Surfaces"
 
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Hayden Webb
   - Podshara Chanrungmaneekul

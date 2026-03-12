@@ -3,7 +3,7 @@ title: Improving Generalization for 3D Object Categorization with Global
   Structure Histograms
 subtitle: ""
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Marianna Madry
   - Carl Henrik Ek

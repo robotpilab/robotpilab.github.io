@@ -2,7 +2,7 @@
 title: "On the Role of Jacobians in Robust Manipulation"
 
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Joshua T. Grace
   - Podshara Chanrungmaneekul

@@ -2,7 +2,7 @@
 title: Friction Coefficients and Grasp Synthesis
 subtitle: ""
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Kaiyu Hang
   - Florian T. Pokorny

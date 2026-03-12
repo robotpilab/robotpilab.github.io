@@ -12,7 +12,7 @@ abstract: In this work, we address a planar non-prehensile sorting task. Here, a
 slides: null
 url_pdf: https://hangkaiyu.github.io/pdfs/song2020a.pdf
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Haoran Song
   - Joshua A. Haustein

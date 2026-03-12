@@ -2,7 +2,7 @@
 title: "Robust Peg-in-Hole Assembly under Uncertainties via Compliant and Interactive Contact-Rich Manipulation"
 
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Yiting Chen
   - Kenneth Kimble

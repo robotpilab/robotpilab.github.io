@@ -2,7 +2,7 @@
 title: Benchmarking In-Hand Manipulation
 subtitle: ""
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Silvia Cruciani
   - Balakumar Sundaralingam

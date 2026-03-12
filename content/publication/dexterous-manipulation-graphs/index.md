@@ -10,7 +10,7 @@ abstract: We propose the Dexterous Manipulation Graph as a tool to address
 slides: null
 title: Dexterous Manipulation Graphs
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Silvia Cruciani
   - Christian Smith

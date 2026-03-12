@@ -2,7 +2,7 @@
 title: Combinatorial Optimization for Hierarchical Contact-level Grasping
 subtitle: Best Student Paper Award Finalist
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Kaiyu Hang
   - Johannes A. Stork

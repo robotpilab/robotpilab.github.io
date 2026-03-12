@@ -2,7 +2,7 @@
 title: A Framework For Optimal Grasp Contact Planning
 subtitle: ""
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Kaiyu Hang
   - Johannes A. Stork

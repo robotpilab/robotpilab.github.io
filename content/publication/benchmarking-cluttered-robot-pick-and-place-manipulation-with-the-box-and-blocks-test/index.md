@@ -3,7 +3,7 @@ title: Benchmarking Cluttered Robot Pick-and-Place Manipulation with the Box and
   Blocks Test
 subtitle: ""
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Andrew S. Morgan
   - Kaiyu Hang

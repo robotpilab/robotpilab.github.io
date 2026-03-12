@@ -2,7 +2,7 @@
 title: "Interactive Robot-Environment Self-Calibration via Compliant Exploratory Actions"
 
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Podshara Chanrungmaneekul
   - Kejia Ren

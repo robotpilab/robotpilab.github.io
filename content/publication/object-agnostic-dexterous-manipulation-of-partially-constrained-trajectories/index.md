@@ -2,7 +2,7 @@
 title: Object-Agnostic Dexterous Manipulation of Partially Constrained Trajectories
 subtitle: ""
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Andrew S. Morgan
   - Kaiyu Hang

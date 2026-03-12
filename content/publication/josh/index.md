@@ -2,7 +2,7 @@
 title: "Direct Self-Identification of Inverse Jacobians for Dexterous Manipulation Through Particle Filtering"
 
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Joshua T. Grace
   - Podshara Chanrungmaneekul

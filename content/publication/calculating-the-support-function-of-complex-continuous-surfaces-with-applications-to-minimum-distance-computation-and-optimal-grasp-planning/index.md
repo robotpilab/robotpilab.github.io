@@ -3,7 +3,7 @@ title: Calculating the Support Function of Complex Continuous Surfaces With
   Applications to Minimum Distance Computation and Optimal Grasp Planning
 subtitle: ""
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Yu Zheng
   - Kaiyu Hang

@@ -23,7 +23,7 @@ url_pdf: https://hangkaiyu.github.io/pdfs/calli2018.pdf
 title: Path Planning for Within-Hand Manipulation over Learned Representations
   of Safe States
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Berk Calli
   - Andrew Kimmel

@@ -3,7 +3,7 @@ title: End-to-End Nonprehensile Rearrangement with Deep Reinforcement Learning
   and Simulation-to-Reality Transfer
 subtitle: ""
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Weihao Yuan
   - Kaiyu Hang

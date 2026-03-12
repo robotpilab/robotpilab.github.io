@@ -2,7 +2,7 @@
 title: Reinforcement Learning in Topology-based Representation for Human Body
   Movement with Whole Arm Manipulation
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Weihao Yuan
   - Kaiyu Hang

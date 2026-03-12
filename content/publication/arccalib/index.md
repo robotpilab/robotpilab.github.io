@@ -2,7 +2,7 @@
 title: "ARC-Calib: Autonomous Markerless Camera-to-Robot Calibration via Exploratory Robot Motions"
 
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Podshara Chanrungmaneekul
   - Yiting Chen

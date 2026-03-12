@@ -3,7 +3,7 @@ title: Pre-Grasp Sliding Manipulation of Thin Objects Using Soft, Compliant, or
   Underactuated Hands
 subtitle: ""
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Kaiyu Hang
   - Andrew S. Morgan

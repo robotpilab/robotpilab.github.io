@@ -21,7 +21,7 @@ slides: null
 url_pdf: https://hangkaiyu.github.io/pdfs/bircher2019a.pdf
 title: Energy Gradient-Based Graphs for Planning Within-Hand Caging Manipulation
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Walter G. Bircher
   - Andrew S. Morgan

@@ -2,7 +2,7 @@
 title: "B4P: Simultaneous Grasp and Motion Planning for Object Placement via Parallelized Bidirectional Forests and Path Repair"
 
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Benjamin H. Leebron
   - Kejia Ren

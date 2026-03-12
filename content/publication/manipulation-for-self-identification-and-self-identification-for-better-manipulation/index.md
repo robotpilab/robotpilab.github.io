@@ -3,7 +3,7 @@ title: Manipulation for self-Identification, and self-Identification for better
   manipulation
 subtitle: Top 5 Editor's Picks of 2021
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Kaiyu Hang
   - Walter G. Bircher

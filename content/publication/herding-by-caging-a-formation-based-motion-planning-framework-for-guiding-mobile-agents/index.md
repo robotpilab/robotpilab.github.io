@@ -3,7 +3,7 @@ title: "Herding by Caging: A Formation-Based Motion Planning Framework for
   Guiding Mobile Agents"
 subtitle: ""
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Haoran Song
   - Anastasiia Varava

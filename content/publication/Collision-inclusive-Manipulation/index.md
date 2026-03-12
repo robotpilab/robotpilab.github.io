@@ -2,7 +2,7 @@
 title: "Collision-inclusive Manipulation Planning for Occluded Object Grasping via Compliant Robot Motions"
 
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Kejia Ren
   - Gaotian Wang

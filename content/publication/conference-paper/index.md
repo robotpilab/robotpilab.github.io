@@ -22,7 +22,7 @@ abstract: "Robot manipulation in cluttered environments often requires complex
 slides: null
 url_pdf: https://arxiv.org/abs/2208.02312
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Kejia Ren
   - Lydia E. Kavraki

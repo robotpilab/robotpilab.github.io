@@ -2,7 +2,7 @@
 title: Rearrangement with Nonprehensile Manipulation Using Deep Reinforcement Learning
 subtitle: ""
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Weihao Yuan
   - Johannes A. Stork

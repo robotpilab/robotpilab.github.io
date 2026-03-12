@@ -2,7 +2,7 @@
 title: "MotionBits: Video Segmentation through Motion-Level Analysis of Rigid Bodies"
 
 publication_types:
-  - "3"
+  - "preprint"
 authors:
   - Howard H. Qian
   - Kejia Ren

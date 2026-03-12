@@ -3,7 +3,7 @@ title: "Herding by Caging: A Topological Approach towards Guiding Moving Agents
   via Mobile Robots"
 subtitle: ""
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Anastasiia Varava
   - Kaiyu Hang

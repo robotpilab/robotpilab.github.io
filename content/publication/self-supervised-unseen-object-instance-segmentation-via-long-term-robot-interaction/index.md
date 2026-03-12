@@ -4,7 +4,7 @@ title: Self-Supervised Unseen Object Instance Segmentation via Long-Term Robot
 url_pdf: https://arxiv.org/abs/2302.03793
 url_video: https://youtu.be/_ykvsRAXRT0
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Yangxiao Lu
   - Ninad Khargonkar

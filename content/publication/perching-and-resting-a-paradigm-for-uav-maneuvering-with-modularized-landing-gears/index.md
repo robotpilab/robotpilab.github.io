@@ -3,7 +3,7 @@ title: Perching and resting -- A paradigm for UAV maneuvering with modularized
   landing gears
 subtitle: Cover Article
 publication_types:
-  - "2"
+  - "article-journal"
 authors:
   - Kaiyu Hang
   - Ximin Lyu

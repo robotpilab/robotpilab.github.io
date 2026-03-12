@@ -2,7 +2,7 @@
 title: Fingertip Surface Optimization for Robust Grasping on Contact Primitives
 subtitle: (RA-L Submission)
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Haoran Song
   - Michael Y. Wang

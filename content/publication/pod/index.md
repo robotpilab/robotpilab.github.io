@@ -4,7 +4,7 @@ abstract: Building hand-object models for dexterous in-hand manipulation remains
 slides: null
 url_pdf: https://arxiv.org/pdf/2307.10033.pdf
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Podshara Chanrungmaneekul
   - Kejia Ren

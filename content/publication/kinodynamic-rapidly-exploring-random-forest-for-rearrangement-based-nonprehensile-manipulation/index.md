@@ -17,7 +17,7 @@ abstract: Rearrangement-based nonprehensile manipulation still remains as a
 slides: null
 url_pdf: https://arxiv.org/pdf/2302.04360.pdf
 publication_types:
-  - "1"
+  - "paper-conference"
 authors:
   - Kejia Ren
   - Podshara Chanrungmaneekul
