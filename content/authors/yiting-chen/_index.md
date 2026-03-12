@@ -13,6 +13,7 @@ organizations:
     url: ""
 
 superuser: false
+external_link: https://www.chen-yiting.com/
 user_groups:
   - Ph.D. Students
 email: "yc203@rice.edu"

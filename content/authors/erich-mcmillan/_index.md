@@ -10,6 +10,7 @@ social:
     icon_pack: fas
     icon: envelope
 superuser: false
+external_link: https://www.linkedin.com/in/erich-mcmillan-4b9a5b242/
 organizations:
   - name: Microsoft
     url: ""

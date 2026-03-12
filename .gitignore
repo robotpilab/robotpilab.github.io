@@ -4,4 +4,5 @@
 # Hugo
 /resources/
 /public
+/docs
 assets/jsconfig.json

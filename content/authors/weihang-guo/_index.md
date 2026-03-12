@@ -10,6 +10,7 @@ social:
     icon_pack: fas
     icon: envelope
 superuser: false
+external_link: https://www.whguo.me/
 organizations:
   - name: Rice University
     url: ""

@@ -9,6 +9,7 @@ social:
     icon_pack: fas
     icon: envelope
 superuser: false
+external_link: http://webbhayden.com/
 organizations:
   - name: Rice University
     url: ""

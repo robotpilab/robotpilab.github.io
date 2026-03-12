@@ -13,6 +13,7 @@ organizations:
     url: ""
 
 superuser: false
+external_link: https://vector-wangel.github.io/
 user_groups:
   - Ph.D. Students
 email: "gwang@rice.edu"
