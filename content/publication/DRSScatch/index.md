@@ -14,7 +14,7 @@ draft: false
 featured: false
 projects: []
 slides: null
-url_pdf: "./publication/DRSScatch/rss2026.pdf"
+url_pdf: "./publication/drsscatch/rss2026.pdf"
 summary: "We propose Domain-Randomized Instance Set (DRIS), a representation that simultaneously propagates a set of randomized instances to capture uncertainty in system dynamics, enabling more robust policy learning and zero-shot sim-to-real transfer. We demonstrate DRIS on a challenging reactive ball-catching task using a flat plate without mechanical stabilization, showing strong robustness to perceptual and parametric uncertainties."
 url_dataset: ""
 url_project: ""
