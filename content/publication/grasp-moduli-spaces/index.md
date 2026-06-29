@@ -8,8 +8,8 @@ authors:
   - Kaiyu Hang
   - Danica Kragic
 doi: ""
-publication: "Robotics: Science and Sytems (RSS)"
-publication_short: "Robotics: Science and Sytems (RSS)"
+publication: "Robotics: Science and Systems (RSS)"
+publication_short: "Robotics: Science and Systems (RSS)"
 abstract: We present a new approach for modeling grasping using an integrated
   space of grasps and shapes. In particular, we introduce an
   infinite-dimensional space, the Grasp Moduli Space, which represents shapes

@@ -15,7 +15,7 @@ authors:
   - Yunhui Guo
   - Nicholas Ruozzi
   - Yu Xiang
-publication: "Robotics: Science and Systems "
+publication: "Robotics: Science and Systems (RSS)"
 publication_short: "Robotics: Science and Systems (RSS)"
 abstract: We introduce a novel robotic system for improving unseen object
   instance segmentation in the real world by leveraging long-term robot
