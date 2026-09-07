@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{- $lab := site.Params.lab }}
+<section class="page-head">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+<div class="container join-grid">
+  <div class="prose">{{ .Content }}</div>
+  <aside class="contact-card" id="contact">
+    <h2>Contact</h2>
+    <p><b>Kaiyu Hang</b><br>{{ $lab.department }}<br>{{ $lab.university }}</p>
+    <p><span class="label">Email</span><br><span class="mono">{{ $lab.email_text }}</span></p>
+    <p><span class="label">Address</span><br>{{ range $lab.address_lines }}{{ . }}<br>{{ end }}<a href="{{ $lab.map_url }}" rel="noopener">Open in Google Maps</a></p>
+    <p><span class="label">Elsewhere</span><br><a href="{{ $lab.github }}" rel="noopener">GitHub</a> · <a href="{{ $lab.scholar }}" rel="noopener">Google Scholar</a> · <a href="{{ $lab.pi_homepage }}" rel="noopener">PI Homepage</a></p>
+  </aside>
+</div>
+{{ end }}

@@ -1,0 +1,42 @@
+{{ define "main" }}
+<article class="container narrow pub-single">
+  <p class="eyebrow">
+    <a href="{{ "/publication/" | relURL }}">Publications</a> <span class="sep">/</span>
+    {{ partial "venue-short.html" . }} {{ .Date.Year }}
+    {{- with .Params.award }} <span class="badge badge-award">{{ partial "icon.html" "award" }}{{ . }}</span>{{ end }}
+    {{- with .Params.note }} <span class="badge badge-note">{{ . }}</span>{{ end }}
+  </p>
+  <h1>{{ .Title }}</h1>
+  <p class="pub-authors lead">{{ partial "authors.html" . }}</p>
+  <p class="muted">{{ .Params.publication | default .Params.publication_short }}{{ with .Date }} · {{ .Format "January 2006" }}{{ end }}</p>
+  <div class="pub-links">{{ partial "pub-links.html" . }}</div>
+
+  {{- with .Resources.GetMatch "featured.*" }}
+  {{- $img := . }}{{ if gt .Width 1400 }}{{ $img = .Resize "1400x q82" }}{{ end }}
+  <figure class="pub-figure"><img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt=""></figure>
+  {{- end }}
+
+  {{- with .Params.abstract }}
+  <h2>Abstract</h2>
+  <div class="prose abstract">{{ replaceRE `\\emph\{([^}]*)\}` "*$1*" . | markdownify }}</div>
+  {{- end }}
+
+  {{- with .Params.url_video }}
+  {{- $id := replaceRE `^.*(?:[?&]v=|youtu\.be/|/embed/)([A-Za-z0-9_-]{11}).*$` "$1" . }}
+  {{- if and (ne $id .) (eq (len $id) 11) }}
+  <h2>Video</h2>
+  <div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/{{ $id }}" title="Video: {{ $.Title }}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  {{- end }}
+  {{- end }}
+
+  {{- with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+
+  {{- with .Resources.GetMatch "cite.bib" }}
+  <h2>BibTeX</h2>
+  <div class="bib-wrap">
+    <pre class="bibtex" id="bibtex">{{ trim .Content " \n\r\t" }}</pre>
+    <button type="button" class="btn btn-small copy-bib" data-target="bibtex">{{ partial "icon.html" "copy" }} Copy</button>
+  </div>
+  {{- end }}
+</article>
+{{ end }}

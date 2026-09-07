@@ -1,0 +1,12 @@
+{{- $type := "" }}{{ with .Params.publication_types }}{{ $type = index . 0 }}{{ end }}
+<li class="pub" data-type="{{ $type }}" id="{{ .File.ContentBaseName | urlize }}">
+  <a class="pub-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  <div class="pub-authors">{{ partial "authors.html" . }}</div>
+  <div class="pub-venue">
+    <span class="venue-short">{{ partial "venue-short.html" . }} {{ .Date.Year }}</span>
+    {{- with .Params.publication_short }}<span class="venue-full">{{ . }}</span>{{ end }}
+    {{- with .Params.award }}<span class="badge badge-award">{{ partial "icon.html" "award" }}{{ . }}</span>{{ end }}
+    {{- with .Params.note }}<span class="badge badge-note">{{ . }}</span>{{ end }}
+  </div>
+  <div class="pub-links">{{ partial "pub-links.html" . }}</div>
+</li>

@@ -1,0 +1,30 @@
+{{- $hero := site.Params.hero }}
+{{- $poster := "" }}
+{{- with resources.Get $hero.poster }}{{ $p := .Resize "1920x q80" }}{{ $poster = $p.RelPermalink }}{{ end }}
+{{- $video := resources.Get $hero.video }}
+{{- $webm := "" }}{{ with $hero.video }}{{ $webm = replaceRE `\.mp4$` ".webm" . }}{{ end }}
+<section class="hero" id="top">
+  <div class="hero-media" aria-hidden="true">
+    {{- if $video }}
+    <video class="hero-bg" autoplay muted loop playsinline preload="metadata"{{ with $poster }} poster="{{ . }}"{{ end }}>
+      {{- with resources.Get $webm }}
+      <source src="{{ .RelPermalink }}" type="video/webm">
+      {{- end }}
+      <source src="{{ $video.RelPermalink }}" type="video/mp4">
+    </video>
+    {{- else }}
+    <img class="hero-bg" src="{{ $poster }}" alt="">
+    {{- end }}
+    <div class="hero-shade"></div>
+  </div>
+  <div class="hero-content container">
+    {{- with $hero.kicker }}<p class="hero-kicker">{{ . }}</p>{{ end }}
+    <h1 class="hero-title">Robot<span class="pi">Π</span> Lab</h1>
+    <p class="hero-lede">{{ site.Params.tagline | markdownify }}</p>
+    <div class="btn-row">
+      {{- with $hero.primary }}<a class="btn btn-primary" href="{{ .url | relURL }}">{{ .text }}</a>{{ end }}
+      {{- with $hero.secondary }}<a class="btn btn-ghost" href="{{ .url | relURL }}">{{ .text }}</a>{{ end }}
+    </div>
+  </div>
+  <a class="scroll-cue" href="#news" aria-label="Scroll down"><span></span></a>
+</section>

@@ -1,0 +1,15 @@
+{{- /* Returns the lead image resource of a news post (or nil).
+       Looks at front matter `image.filename` first (with or without extension), then `featured.*`, then any image. */ -}}
+{{- $img := "" }}
+{{- $name := "" }}
+{{- with .Params.image }}{{ with .filename }}{{ $name = . }}{{ end }}{{ end }}
+{{- if $name }}
+  {{- $img = .Resources.GetMatch $name }}
+  {{- if not $img }}
+    {{- $base := strings.TrimSuffix (path.Ext $name) $name }}
+    {{- $img = .Resources.GetMatch (printf "%s.*" $base) }}
+  {{- end }}
+{{- end }}
+{{- if not $img }}{{ $img = .Resources.GetMatch "featured.*" }}{{ end }}
+{{- if not $img }}{{ with .Resources.ByType "image" }}{{ $img = index . 0 }}{{ end }}{{ end }}
+{{- return $img }}

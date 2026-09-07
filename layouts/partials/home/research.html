@@ -1,0 +1,31 @@
+{{- $areas := (site.GetPage "/research").Pages.ByWeight }}
+<section class="section" id="research">
+  <div class="container">
+    <h2 class="section-title">Research</h2>
+    {{- range $i, $p := $areas }}
+    <article class="area-row{{ if eq (mod $i 2) 1 }} flip{{ end }}" id="{{ $p.File.ContentBaseName }}">
+      <div class="area-art">
+        {{- with $p.Resources.GetMatch "featured.*" }}
+        {{- $img := . }}{{ if gt .Width 1100 }}{{ $img = .Resize "1100x q82" }}{{ end }}
+        <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="lazy">
+        {{- end }}
+      </div>
+      <div class="area-text">
+        <div class="area-num">{{ printf "%02d" (add $i 1) }}</div>
+        <h3>{{ $p.Title }}</h3>
+        {{ $p.Content }}
+        {{- with $p.Params.members }}
+        <p class="area-members">
+          {{- range $j, $slug := . }}
+          {{- with site.GetPage (printf "/people/%s" $slug) }}
+          {{- if $j }}<span class="sep">·</span>{{ end }}
+          {{- if .Params.homepage }}<a href="{{ .Params.homepage }}" rel="noopener">{{ .Title }}</a>{{ else }}<span>{{ .Title }}</span>{{ end }}
+          {{- end }}
+          {{- end }}
+        </p>
+        {{- end }}
+      </div>
+    </article>
+    {{- end }}
+  </div>
+</section>
