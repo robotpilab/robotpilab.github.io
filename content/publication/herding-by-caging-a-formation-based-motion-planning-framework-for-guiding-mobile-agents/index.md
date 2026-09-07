@@ -1,7 +1,6 @@
 ---
 title: "Herding by Caging: A Formation-Based Motion Planning Framework for
   Guiding Mobile Agents"
-subtitle: ""
 publication_types:
   - "article-journal"
 authors:
@@ -51,10 +50,9 @@ url_video: ""
 author_notes: []
 doi: ""
 publication: Autonomous Robots, 2021
-tags:
-  - Source Themes
+tags: []
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  caption: ""
   focal_point: ""
   preview_only: false
 date: 2021-08-11T20:31:00.000Z
@@ -63,5 +61,3 @@ publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
 ---
-
-Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/).

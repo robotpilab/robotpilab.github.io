@@ -33,5 +33,3 @@ image:
   filename: 
 publishDate: 2017-01-01T00:00:00.000Z
 ---
-
-Supplementary notes can be added here, including [code and math](https://arxiv.org/abs/2302.04360).

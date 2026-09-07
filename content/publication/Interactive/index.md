@@ -24,10 +24,9 @@ url_video: https://youtu.be/NiDBvtswzV4
 author_notes: []
 doi: ""
 publication: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-tags:
-  - Source Themes
+tags: []
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  caption: ""
   focal_point: ""
   preview_only: false
 date: 2024-08-11T20:40:00.000Z
@@ -36,5 +35,3 @@ publishDate: 2014-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
 ---
-
-Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/).

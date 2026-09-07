@@ -1,5 +1,4 @@
 ---
-subtitle: "Best Oral Paper Award Finalist "
 abstract: In this work, we address the problem of executing in-hand manipulation
   based on visual input. Given an initial grasp, the robot has to change its
   grasp configuration without releasing the object. We propose a method for
@@ -20,7 +19,7 @@ authors:
   - Christian Smith
   - Danica Kragic
 doi: ""
-publication_short: IEEE-RAS International Conference on Humanoids Robots (Humanoids)
+publication_short: IEEE-RAS International Conference on Humanoid Robots (Humanoids)
 projects:
   - Non-prehensile manipulation
 image:
@@ -31,14 +30,12 @@ image:
 summary: ""
 url_project: ""
 url_video: 
-publication: IEEE-RAS International Conference on Humanoids Robots (Humanoids)
+publication: IEEE-RAS International Conference on Humanoid Robots (Humanoids)
 featured: true
 tags: []
 date: 2019-06-29T03:23:00.000Z
 url_slides: ""
 links:
 publishDate: 2017-01-01T00:00:00.000Z
+award: "Best Oral Paper Award Finalist · Mike Stilman Award Finalist"
 ---
-
-
-

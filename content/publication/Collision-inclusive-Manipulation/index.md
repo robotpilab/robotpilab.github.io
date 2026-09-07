@@ -37,5 +37,3 @@ publishDate: 2025-07-12T20:12:45.000Z
 url_poster: ""
 url_code: ""
 ---
-
-Supplementary notes can be added here, including [code and math](https://arxiv.org/abs/2412.06983).

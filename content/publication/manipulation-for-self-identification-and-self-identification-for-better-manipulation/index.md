@@ -1,7 +1,6 @@
 ---
 title: Manipulation for self-Identification, and self-Identification for better
   manipulation
-subtitle: Top 5 Editor's Picks of 2021
 publication_types:
   - "article-journal"
 authors:
@@ -62,10 +61,9 @@ url_video: ""
 author_notes: []
 doi: ""
 publication: Science Robotics, 2021
-tags:
-  - Source Themes
+tags: []
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  caption: ""
   focal_point: ""
   preview_only: false
 date: 2021-05-11T18:51:00.000Z
@@ -73,6 +71,5 @@ url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
+award: "Top 5 Editors' Picks"
 ---
-
-Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/).

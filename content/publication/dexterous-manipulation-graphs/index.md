@@ -1,5 +1,4 @@
 ---
-subtitle: ""
 abstract: We propose the Dexterous Manipulation Graph as a tool to address
   in-hand manipulation and reposition an object inside a robot's end-effector.
   This graph is used to plan a sequence of manipulation primitives to bring the
@@ -35,6 +34,3 @@ url_slides: ""
 url_pdf: https://hangkaiyu.github.io/pdfs/cruciani18a.pdf
 publishDate: 2017-01-01T00:00:00.000Z
 ---
-
-
-

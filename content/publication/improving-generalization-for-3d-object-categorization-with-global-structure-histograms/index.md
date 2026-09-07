@@ -1,7 +1,6 @@
 ---
 title: Improving Generalization for 3D Object Categorization with Global
   Structure Histograms
-subtitle: ""
 publication_types:
   - "paper-conference"
 authors:
@@ -39,7 +38,5 @@ url_slides: ""
 tags: []
 url_pdf: https://hangkaiyu.github.io/pdfs/madry2012IROS.pdf
 publishDate: 2017-01-01T00:00:00.000Z
+award: "Best Cognitive Robotics Paper Award, Finalist"
 ---
-
-
-

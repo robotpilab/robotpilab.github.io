@@ -1,0 +1,30 @@
+# Honors that are not tied to a single paper.
+# Paper awards live in each publication's front matter as `award: "..."` and are listed automatically.
+# `post` is the folder name under content/post/ of the related news item (optional).
+
+- year: 2025
+  title: Distinction in Research and Creative Works, Rice University
+  who: Ben Leebron
+  post: 2025_Ben_Distinction
+- year: 2024
+  title: ASME Rising Star of Mechanical Engineering
+  who: Kaiyu Hang
+  post: Hang_ASME
+- year: 2024
+  title: 3rd Place, Student Mechanism and Robotics Design Competition, ASME IDETC
+  who: Hayden Webb
+  post: Hayden_award
+- year: 2024
+  title: Distinction in Research and Creative Works, Rice University
+  who: Howard Qian
+  post: howard_award
+- year: 2023
+  title: National Science Foundation CAREER Award
+  who: Kaiyu Hang
+  post: national-science-foundation-career-award
+- year: 2017–2018
+  title: Junior Fellowship Award, Institute for Advanced Study, HKUST
+  who: Kaiyu Hang
+- year: 2015
+  title: Ranked 13th in the Final Match, Amazon Picking Challenge
+  who: Kaiyu Hang

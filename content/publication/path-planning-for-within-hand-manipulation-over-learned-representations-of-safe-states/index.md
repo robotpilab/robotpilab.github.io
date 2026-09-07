@@ -1,5 +1,4 @@
 ---
-subtitle: ""
 abstract: This work proposes a framework for tracking a desired path of an
   object held by an adaptive hand via within-hand manipulation. Such
   underactuated hands are able to passively achieve stable contacts with
@@ -29,7 +28,7 @@ authors:
   - Andrew Kimmel
   - Kaiyu Hang
   - Kostas Bekris
-  - and Aaron M. Dollar
+  - Aaron M. Dollar
 doi: ""
 publication_short: International Symposium on Experimental Robotics (ISER)
 projects:
@@ -50,6 +49,3 @@ url_slides: ""
 links:
 publishDate: 2017-01-01T00:00:00.000Z
 ---
-
-
-

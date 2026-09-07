@@ -8,7 +8,7 @@ authors:
   - Kaiyu Hang
   - Bowen Wen
   - Kostas Bekris
-  - and Aaron M. Dollar
+  - Aaron M. Dollar
 publication_short: IEEE Robotics and Automation Letters (RAL)
 abstract: This work presents a method for achieving complete SO(3) finger gating
   control of grasped objects against gravity, using a manipulation planner that
@@ -22,12 +22,11 @@ abstract: This work presents a method for achieving complete SO(3) finger gating
   manipulation capabilities.
 draft: false
 featured: false
-tags:
-  - Source Themes
+tags: []
 slides: null
 url_pdf: https://arxiv.org/pdf/2201.07928.pdf
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  caption: ""
   focal_point: ""
   preview_only: false
 summary: This work presents a method for achieving complete SO(3) finger gating
@@ -54,5 +53,3 @@ publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
 ---
-
-Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/).

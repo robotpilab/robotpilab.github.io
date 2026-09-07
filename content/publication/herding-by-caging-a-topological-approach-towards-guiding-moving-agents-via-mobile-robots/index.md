@@ -1,7 +1,6 @@
 ---
 title: "Herding by Caging: A Topological Approach towards Guiding Moving Agents
   via Mobile Robots"
-subtitle: ""
 publication_types:
   - "paper-conference"
 authors:
@@ -42,6 +41,3 @@ tags: []
 url_pdf: https://hangkaiyu.github.io/pdfs/varava2017a.pdf
 publishDate: 2017-01-01T00:00:00.000Z
 ---
-
-
-

@@ -1,6 +1,5 @@
 ---
 title: A Framework For Optimal Grasp Contact Planning
-subtitle: ""
 publication_types:
   - "paper-conference"
 authors:
@@ -24,7 +23,6 @@ abstract: >-
   approximate heuristic search to further reduce computational cost while
   maintaining bounded sub-optimality for resulting grasps.
 
-
   We exemplify our formulation with point-contact grasping, for which we define domain-specific heuristics and demonstrate optimality and bounded sub-optimality by comparing against exhaustive and uniform cost search on example objects. Furthermore, we explain how to restrict the search graph to satisfy grasp constraints for modeling hand kinematics. We also analyze our algorithm empirically in terms of created and visited search states and resultant effective branching factor.
 featured: true
 projects:
@@ -43,6 +41,3 @@ tags: []
 url_pdf: https://hangkaiyu.github.io/pdfs/hang2017a.pdf
 publishDate: 2017-01-01T00:00:00.000Z
 ---
-
-
-

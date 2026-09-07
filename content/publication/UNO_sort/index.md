@@ -24,8 +24,7 @@ url_video: "https://www.youtube.com/watch?v=PV2Y5SLSZkQ"
 author_notes: []
 doi: ""
 publication: IEEE Transactions on Robotics (T-RO)
-tags:
-  - Source Themes
+tags: []
 image:
   caption: ""
   focal_point: ""
@@ -36,5 +35,3 @@ publishDate: 2025-09-10T22:16:51.000Z
 url_poster: ""
 url_code: ""
 ---
-
-Supplementary notes can be added here, including [code and math](https://arxiv.org/abs/2410.00261).

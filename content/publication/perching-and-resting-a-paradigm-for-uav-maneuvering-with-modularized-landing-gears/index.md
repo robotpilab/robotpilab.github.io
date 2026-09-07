@@ -1,7 +1,6 @@
 ---
 title: Perching and resting -- A paradigm for UAV maneuvering with modularized
   landing gears
-subtitle: Cover Article
 publication_types:
   - "article-journal"
 authors:
@@ -69,10 +68,9 @@ url_video: ""
 author_notes: []
 doi: ""
 publication: Science Robotics, March, 2019.
-tags:
-  - Source Themes
+tags: []
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  caption: ""
   focal_point: ""
   preview_only: false
 date: 2019-03-11T20:46:00.000Z
@@ -80,6 +78,5 @@ url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
+award: "Cover Article"
 ---
-
-Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/).

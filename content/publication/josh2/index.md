@@ -14,7 +14,7 @@ draft: false
 featured: false
 projects: []
 slides: null
-url_pdf: "./publication/josh2/Grace_IROS2025.pdf"
+url_pdf: "Grace_IROS2025.pdf"
 summary: We introduce an inverse Jacobian estimation method that separately identifies motion direction and magnitude without any prior system knowledge, enabling a unified framework for hands and arms. Experiments on the Yale Model O, Yale Stewart Hand, and a UR5e arm demonstrate real-time control with submillimeter precision.
 url_dataset: ""
 url_project: ""
@@ -23,10 +23,9 @@ url_video: ""
 author_notes: []
 doi: ""
 publication: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025
-tags:
-  - Source Themes
+tags: []
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  caption: ""
   focal_point: ""
   preview_only: false
 date: 2025-08-01T00:00:00.000Z
@@ -35,5 +34,3 @@ publishDate: 2025-08-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
 ---
-
-Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/).

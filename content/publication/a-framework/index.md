@@ -1,6 +1,5 @@
 ---
 title: A Framework For Optimal Grasp Contact Planning
-subtitle: ""
 publication_types:
   - "article-journal"
 authors:
@@ -20,7 +19,6 @@ abstract: >-
   expensive exhaustive search and reduces computational cost by several orders
   of magnitude. 
 
-
   We present admissible heuristic functions and exploit approximate heuristic search to further reduce computational cost while maintaining bounded sub-optimality for resulting grasps. We exemplify our formulation with point-contact grasping, for which we define domain-specific heuristics and demonstrate optimality and bounded sub-optimality by comparing against exhaustive and uniform cost search on example objects. Furthermore, we explain how to restrict the search graph to satisfy grasp constraints for modeling hand kinematics. We also analyze our algorithm empirically in terms of created and visited search states and resultant effective branching factor.
 draft: false
 featured: false
@@ -38,7 +36,6 @@ summary: >-
   expensive exhaustive search and reduces computational cost by several orders
   of magnitude. 
 
-
   We present admissible heuristic functions and exploit approximate heuristic search to further reduce computational cost while maintaining bounded sub-optimality for resulting grasps. We exemplify our formulation with point-contact grasping, for which we define domain-specific heuristics and demonstrate optimality and bounded sub-optimality by comparing against exhaustive and uniform cost search on example objects. Furthermore, we explain how to restrict the search graph to satisfy grasp constraints for modeling hand kinematics. We also analyze our algorithm empirically in terms of created and visited search states and resultant effective branching factor.
 url_dataset: ""
 url_project: ""
@@ -47,10 +44,9 @@ url_video: ""
 author_notes: []
 doi: ""
 publication: IEEE Robotics and Automation Letters
-tags:
-  - Source Themes
+tags: []
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  caption: ""
   focal_point: ""
   preview_only: false
 date: 2017-08-11T20:54:00.000Z
@@ -59,5 +55,3 @@ publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
 ---
-
-Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/).

@@ -1,13 +1,13 @@
 ---
 title: Rearrangement with Nonprehensile Manipulation Using Deep Reinforcement Learning
-subtitle: ""
 publication_types:
   - "paper-conference"
 authors:
   - Weihao Yuan
   - Johannes A. Stork
   - Danica Kragic
-  - Michael Y. Wang and Kaiyu Hang
+  - Michael Y. Wang
+  - Kaiyu Hang
 doi: ""
 publication: IEEE-RAS International Conference on Robotics and Automation (ICRA)
 publication_short: IEEE-RAS International Conference on Robotics and Automation (ICRA)
@@ -47,6 +47,3 @@ links:
     url: https://arxiv.org/abs/2302.04360
 publishDate: 2017-01-01T00:00:00.000Z
 ---
-
-
-
