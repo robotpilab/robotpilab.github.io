@@ -1,6 +1,6 @@
 <header class="site-header" id="site-header">
   <div class="container nav-bar">
-    <a class="brand" href="{{ "/" | relURL }}" aria-label="{{ site.Title }} — home">
+    <a class="brand" href="{{ site.Home.RelPermalink }}" aria-label="{{ site.Title }} — home">
       {{- with resources.Get "media/icon.png" }}{{ $i := .Fit "80x80" }}
       <img src="{{ $i.RelPermalink }}" width="{{ $i.Width }}" height="{{ $i.Height }}" alt="">
       {{- end }}

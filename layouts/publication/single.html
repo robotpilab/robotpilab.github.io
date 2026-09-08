@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article class="container narrow pub-single">
   <p class="eyebrow">
-    <a href="{{ "/publication/" | relURL }}">Publications</a> <span class="sep">/</span>
+    <a href="{{ (site.GetPage "/publication").RelPermalink }}">Publications</a> <span class="sep">/</span>
     {{ partial "venue-short.html" . }} {{ .Date.Year }}
     {{- with .Params.award }} <span class="badge badge-award">{{ partial "icon.html" "award" }}{{ . }}</span>{{ end }}
     {{- with .Params.note }} <span class="badge badge-note">{{ . }}</span>{{ end }}

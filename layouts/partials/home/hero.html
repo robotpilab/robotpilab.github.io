@@ -22,8 +22,8 @@
     <h1 class="hero-title">Robot<span class="pi">Π</span> Lab</h1>
     <p class="hero-lede">{{ site.Params.tagline | markdownify }}</p>
     <div class="btn-row">
-      {{- with $hero.primary }}<a class="btn btn-primary" href="{{ .url | relURL }}">{{ .text }}</a>{{ end }}
-      {{- with $hero.secondary }}<a class="btn btn-ghost" href="{{ .url | relURL }}">{{ .text }}</a>{{ end }}
+      {{- with $hero.primary }}<a class="btn btn-primary" href="{{ partial "site-url.html" .url }}">{{ .text }}</a>{{ end }}
+      {{- with $hero.secondary }}<a class="btn btn-ghost" href="{{ partial "site-url.html" .url }}">{{ .text }}</a>{{ end }}
     </div>
   </div>
   <a class="scroll-cue" href="#news" aria-label="Scroll down"><span></span></a>

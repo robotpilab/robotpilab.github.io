@@ -1,0 +1,9 @@
+{{- /* Turn a site-relative URL from config ("/join/", "/#research", "https://...") into a link that also works
+       when the site is served from a sub-path such as https://robotpilab.github.io/preview/. */ -}}
+{{- $u := . }}
+{{- if or (hasPrefix $u "http") (hasPrefix $u "#") }}
+  {{- if hasPrefix $u "#" }}{{ $u = printf "%s%s" site.Home.RelPermalink $u }}{{ end }}
+{{- else }}
+  {{- $u = printf "%s%s" (strings.TrimSuffix "/" site.Home.RelPermalink) $u }}
+{{- end }}
+{{- return $u }}
