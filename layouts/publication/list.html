@@ -10,12 +10,20 @@
   </div>
 </section>
 <div class="container pubs">
-  <div class="pub-filter" role="group" aria-label="Filter publications by type">
-    <button type="button" class="active" data-filter="all">All <span class="count">{{ len $pubs }}</span></button>
-    <button type="button" data-filter="article-journal">Journal <span class="count">{{ len $journals }}</span></button>
-    <button type="button" data-filter="paper-conference">Conference <span class="count">{{ len $confs }}</span></button>
-    <button type="button" data-filter="preprint">Preprint <span class="count">{{ len $preprints }}</span></button>
+  <div class="pub-tools">
+    <label class="pub-search">
+      <span class="visually-hidden">Search publications</span>
+      {{ partial "icon.html" "search" }}
+      <input type="search" id="pub-search" placeholder="Search title, author, venue, year…" autocomplete="off" spellcheck="false">
+    </label>
+    <div class="pub-filter" role="group" aria-label="Filter publications by type">
+      <button type="button" class="active" data-filter="all">All <span class="count">{{ len $pubs }}</span></button>
+      <button type="button" data-filter="article-journal">Journal <span class="count">{{ len $journals }}</span></button>
+      <button type="button" data-filter="paper-conference">Conference <span class="count">{{ len $confs }}</span></button>
+      <button type="button" data-filter="preprint">Preprint <span class="count">{{ len $preprints }}</span></button>
+    </div>
   </div>
+  <p class="pub-status muted" id="pub-status" aria-live="polite" hidden></p>
   {{- range $pubs.GroupByDate "2006" }}
   <section class="pub-year">
     <h2 class="year">{{ .Key }}</h2>
@@ -26,5 +34,6 @@
     </ol>
   </section>
   {{- end }}
+  <p class="pub-empty muted" id="pub-empty" hidden>No publications match. Try fewer or different words.</p>
 </div>
 {{ end }}

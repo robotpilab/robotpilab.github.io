@@ -36,4 +36,4 @@ hero:
     url: /join/
 
 home:
-  news_count: 6
+  news_count: 8   # two rows of four cards
