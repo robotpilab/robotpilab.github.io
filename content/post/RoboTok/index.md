@@ -11,6 +11,8 @@ Robot learning increasingly depends on broad and diverse demonstrations, but col
 
 RoboTok addresses this by learning a latent motion space from 3D hand trajectories expressed in estimated actor-centered reference frames. Because the trajectories are normalized to the actor rather than the camera, manipulation behaviors can be compared across viewpoint, appearance, and occlusion changes, and the representation stays compact enough for efficient search and continual indexing over internet-scale video collections.
 
+![Encoding every hand trajectory once into a latent motion space, then retrieving neighbors for a query trajectory](method.jpg "Every trajectory is encoded once into a latent motion space; a query clip is then matched to its nearest neighbors.")
+
 What we care about most:
 
 🧭 **Retrieval that follows the motion, not the pixels.** Encoding hand trajectories in an estimated torso frame makes matching robust to where the camera happened to be and what the kitchen happened to look like.
