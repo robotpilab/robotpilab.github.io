@@ -12,24 +12,35 @@
   {{- with $members }}
   <section class="people-group">
     <h2>{{ $group }}</h2>
-    <ul class="people-grid">
-      {{- range sort . "Params.last_name" }}
-      {{- $name := .Title }}
-      <li class="person">
-        {{- with .Resources.GetMatch "avatar.*" }}
-        {{- $a := .Fill "320x320 Smart q82" }}
-        <img class="avatar" src="{{ $a.RelPermalink }}" width="160" height="160" alt="{{ $name }}" loading="lazy">
-        {{- end }}
-        <h3>{{ with .Params.homepage }}<a href="{{ . }}" rel="noopener">{{ $name }}</a>{{ else }}{{ $name }}{{ end }}</h3>
-        {{- with .Params.role }}<p class="role">{{ . | markdownify }}</p>{{ end }}
-        <p class="person-links">
-          {{- with .Params.email }}<a href="mailto:{{ . }}" title="Email {{ $name }}" aria-label="Email {{ $name }}">{{ partial "icon.html" "mail" }}</a>{{ end }}
-          {{- with .Params.homepage }}<a href="{{ . }}" rel="noopener" title="Homepage" aria-label="{{ $name }}'s homepage">{{ partial "icon.html" "home" }}</a>{{ end }}
-          {{- with .Params.scholar }}<a href="{{ . }}" rel="noopener" title="Google Scholar" aria-label="{{ $name }} on Google Scholar">{{ partial "icon.html" "scholar" }}</a>{{ end }}
-        </p>
-      </li>
+    {{- $dated := where . "Params.year" "!=" nil }}
+    {{- if $dated }}
+      {{/* Alumni and other dated groups: split into sub-groups by year, newest first. */}}
+      {{- range $dated.GroupByParam "year" "desc" }}
+      <section class="people-subgroup" aria-label="{{ $group }} {{ .Key }}">
+        <div class="people-year" aria-hidden="true">{{ .Key }}</div>
+        <ul class="people-grid">
+          {{- range sort .Pages "Params.last_name" }}
+          {{ partial "person-card.html" . }}
+          {{- end }}
+        </ul>
+      </section>
       {{- end }}
-    </ul>
+      {{- with where . "Params.year" nil }}
+      <section class="people-subgroup">
+        <ul class="people-grid">
+          {{- range sort . "Params.last_name" }}
+          {{ partial "person-card.html" . }}
+          {{- end }}
+        </ul>
+      </section>
+      {{- end }}
+    {{- else }}
+      <ul class="people-grid">
+        {{- range sort . "Params.last_name" }}
+        {{ partial "person-card.html" . }}
+        {{- end }}
+      </ul>
+    {{- end }}
   </section>
   {{- end }}
   {{- end }}

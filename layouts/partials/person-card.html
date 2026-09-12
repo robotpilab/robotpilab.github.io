@@ -1,0 +1,14 @@
+{{- $name := .Title }}
+<li class="person">
+  {{- with .Resources.GetMatch "avatar.*" }}
+  {{- $a := .Fill "320x320 Smart q82" }}
+  <img class="avatar" src="{{ $a.RelPermalink }}" width="160" height="160" alt="{{ $name }}" loading="lazy">
+  {{- end }}
+  <h3>{{ with .Params.homepage }}<a href="{{ . }}" rel="noopener">{{ $name }}</a>{{ else }}{{ $name }}{{ end }}</h3>
+  {{- with .Params.role }}<p class="role">{{ . | markdownify }}</p>{{ end }}
+  <p class="person-links">
+    {{- with .Params.email }}<a href="mailto:{{ . }}" title="Email {{ $name }}" aria-label="Email {{ $name }}">{{ partial "icon.html" "mail" }}</a>{{ end }}
+    {{- with .Params.homepage }}<a href="{{ . }}" rel="noopener" title="Homepage" aria-label="{{ $name }}'s homepage">{{ partial "icon.html" "home" }}</a>{{ end }}
+    {{- with .Params.scholar }}<a href="{{ . }}" rel="noopener" title="Google Scholar" aria-label="{{ $name }} on Google Scholar">{{ partial "icon.html" "scholar" }}</a>{{ end }}
+  </p>
+</li>

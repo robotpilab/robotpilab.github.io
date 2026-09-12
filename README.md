@@ -24,7 +24,7 @@ Pushing to `main` runs `.github/workflows/gh-pages.yml`, which builds the site a
 |--------------------|------------------------------------------------------------------------------------------|
 | a publication      | Create `content/publication/<slug>/index.md` (copy a recent one). Optional `cite.bib`, `featured.png`, poster PDF in the same folder. |
 | a news post        | Create `content/post/<slug>/index.md` with `title`, `date`, and `image.filename` pointing at an image in the same folder. |
-| a person           | Create `content/people/<first-last>/index.md` with `title`, `role`, `group`, `email`, `homepage`, `last_name`, plus `avatar.jpg`. |
+| a person           | Create `content/people/<first-last>/index.md` with `title`, `role`, `group`, `email`, `homepage`, `last_name`, plus `avatar.jpg`. Alumni also need `year` (the year they left), which sub-groups the Alumni section newest first. |
 | a research area    | Create `content/research/<slug>/index.md` with `title`, `weight` (order), `members` (people slugs) and a `featured.png`. |
 | a lab honor        | Append to `data/honors.yaml`. Paper awards go in the publication's front matter as `award: "..."`. |
 
