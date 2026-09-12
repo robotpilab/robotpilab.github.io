@@ -289,7 +289,9 @@ body.home .site-header:not(.scrolled):not(.nav-open) .brand img { filter: bright
 .people-year::after { content: ""; flex: 1; border-top: 1px dashed var(--dash); }
 .people-grid { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 2rem 1.5rem; }
 .person { text-align: center; }
-.avatar { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0 auto 0.9rem; box-shadow: 0 0 0 4px var(--bg-soft), 0 0 0 5px var(--line); }
+.avatar { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0 auto 0.9rem; box-shadow: 0 0 0 4px var(--bg-soft), 0 0 0 5px var(--line); transition: box-shadow 0.15s, opacity 0.15s; }
+.avatar-link { display: block; border-radius: 50%; }
+.avatar-link:hover .avatar { opacity: 0.9; box-shadow: 0 0 0 4px var(--bg-soft), 0 0 0 5px var(--blue); }
 .person h3 { font-size: 1.02rem; margin-bottom: 0.15rem; }
 .person h3 a { color: var(--navy); }
 .person .role { color: var(--muted); font-size: 0.88rem; margin: 0 0 0.5rem; line-height: 1.4; }
@@ -301,10 +303,12 @@ body.home .site-header:not(.scrolled):not(.nav-open) .brand img { filter: bright
 /* Alumni: smaller avatar to the left of the name and destination. */
 .people-grid-compact { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.3rem 1.5rem; }
 .people-grid-compact .person { display: flex; align-items: center; align-self: start; gap: 0.9rem; text-align: left; }
+.people-grid-compact .avatar-link { flex: 0 0 64px; }
 .people-grid-compact .avatar {
   width: 64px; height: 64px; flex: 0 0 64px; margin: 0;
   box-shadow: 0 0 0 3px var(--bg-soft), 0 0 0 4px var(--line);
 }
+.people-grid-compact .avatar-link:hover .avatar { box-shadow: 0 0 0 3px var(--bg-soft), 0 0 0 4px var(--blue); }
 .people-grid-compact .person-text { min-width: 0; }
 .people-grid-compact .person h3 { font-size: 0.95rem; margin-bottom: 0.1rem; }
 .people-grid-compact .role { font-size: 0.82rem; margin-bottom: 0.3rem; }

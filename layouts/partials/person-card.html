@@ -1,11 +1,15 @@
 {{- $name := .Title }}
+{{- $home := .Params.homepage }}
 <li class="person">
   {{- with .Resources.GetMatch "avatar.*" }}
   {{- $a := .Fill "320x320 Smart q82" }}
+  {{/* The name beside the avatar already links to the homepage, so this duplicate link is hidden from assistive tech. */}}
+  {{- with $home }}<a class="avatar-link" href="{{ . }}" rel="noopener" tabindex="-1" aria-hidden="true">{{ end }}
   <img class="avatar" src="{{ $a.RelPermalink }}" width="160" height="160" alt="{{ $name }}" loading="lazy">
+  {{- if $home }}</a>{{ end }}
   {{- end }}
   <div class="person-text">
-    <h3>{{ with .Params.homepage }}<a href="{{ . }}" rel="noopener">{{ $name }}</a>{{ else }}{{ $name }}{{ end }}</h3>
+    <h3>{{ with $home }}<a href="{{ . }}" rel="noopener">{{ $name }}</a>{{ else }}{{ $name }}{{ end }}</h3>
     {{- with .Params.role }}
     {{- $parts := split . "→" }}
     {{- if gt (len $parts) 1 }}
@@ -17,7 +21,7 @@
     {{- end }}
     <p class="person-links">
       {{- with .Params.email }}<a href="mailto:{{ . }}" title="Email {{ $name }}" aria-label="Email {{ $name }}">{{ partial "icon.html" "mail" }}</a>{{ end }}
-      {{- with .Params.homepage }}<a href="{{ . }}" rel="noopener" title="Homepage" aria-label="{{ $name }}'s homepage">{{ partial "icon.html" "home" }}</a>{{ end }}
+      {{- with $home }}<a href="{{ . }}" rel="noopener" title="Homepage" aria-label="{{ $name }}'s homepage">{{ partial "icon.html" "home" }}</a>{{ end }}
       {{- with .Params.scholar }}<a href="{{ . }}" rel="noopener" title="Google Scholar" aria-label="{{ $name }} on Google Scholar">{{ partial "icon.html" "scholar" }}</a>{{ end }}
     </p>
   </div>
