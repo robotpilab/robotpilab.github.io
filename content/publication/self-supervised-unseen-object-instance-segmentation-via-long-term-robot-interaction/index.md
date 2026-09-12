@@ -49,4 +49,6 @@ summary: Our robot system improves segmentation of unseen object instances in
   by our system, significantly improving accuracy across domains and enhancing
   robotic grasping of previously unseen objects.
 date: 2023-06-28T17:02:54.900Z
+research:
+  - active-perception
 ---

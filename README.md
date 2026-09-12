@@ -25,13 +25,17 @@ Pushing to `main` runs `.github/workflows/gh-pages.yml`, which builds the site a
 | a publication      | Create `content/publication/<slug>/index.md` (copy a recent one). Optional `cite.bib`, `featured.png`, poster PDF in the same folder. |
 | a news post        | Create `content/post/<slug>/index.md` with `title`, `date`, and `image.filename` pointing at an image in the same folder. |
 | a person           | Create `content/people/<first-last>/index.md` with `title`, `role`, `group`, `email`, `homepage`, `last_name`, plus `avatar.jpg`. Alumni also need `year` (the year they left), which sub-groups the Alumni section newest first. |
-| a research area    | Create `content/research/<slug>/index.md` with `title`, `weight` (order), `members` (people slugs) and a `featured.png`. |
+| a research direction | Create `content/research/<slug>/index.md` with `title`, `weight` (order), `members` (people slugs) and a `featured.jpg` (shown at 4:3). Cards appear in the home page's horizontal reel. |
 | a lab honor        | Append to `data/honors.yaml`. Paper awards go in the publication's front matter as `award: "..."`. |
 
 Publication front matter fields used by the templates: `title`, `authors`, `publication_types`
 (`article-journal`, `paper-conference`, `preprint`), `publication_short`, `publication`, `date`, `abstract`,
 `url_pdf`, `url_project`, `url_code`, `url_video`, `url_poster`, `url_dataset`, `url_slides`, `doi`,
-`award`, `note`. Lab members are shown in bold automatically when their name matches a `content/people` entry.
+`award`, `note`, `research`.
+
+`research` is a list of research-direction slugs (the folder names under `content/research/`). It is
+optional, and it powers the “N publications” link on each direction card, which opens
+`/publication/?d=<slug>`. The publications page also accepts `?q=<text>` to open a search. Lab members are shown in bold automatically when their name matches a `content/people` entry.
 
 ## Homepage video
 

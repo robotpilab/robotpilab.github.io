@@ -36,4 +36,6 @@ url_slides: ""
 publishDate: 2025-07-12T20:12:45.000Z
 url_poster: ""
 url_code: ""
+research:
+  - robust-manipulation
 ---

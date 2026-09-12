@@ -33,4 +33,6 @@ url_slides: ""
 publishDate: 2025-07-17T00:00:00.000Z
 url_poster: ""
 url_code: ""
+research:
+  - dexterous-manipulation
 ---

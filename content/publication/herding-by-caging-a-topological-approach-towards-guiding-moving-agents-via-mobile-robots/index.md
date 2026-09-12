@@ -40,4 +40,6 @@ url_slides: ""
 tags: []
 url_pdf: https://hangkaiyu.github.io/pdfs/varava2017a.pdf
 publishDate: 2017-01-01T00:00:00.000Z
+research:
+  - robust-manipulation
 ---

@@ -197,21 +197,53 @@ body.home .site-header:not(.scrolled):not(.nav-open) .brand img { filter: bright
 .news-item-body p { margin: 0; font-size: 0.95rem; }
 @media (max-width: 640px) { .news-item { grid-template-columns: 1fr; } }
 
-/* ---------- research ---------- */
-.area-row { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; padding: 2.6rem 0; }
-.area-row + .area-row { border-top: 1px dashed var(--dash); }
-.area-row.flip .area-art { order: 2; }
-.area-art { display: grid; place-items: center; }
-.area-art img { max-height: 380px; width: auto; max-width: 100%; object-fit: contain; border-radius: 10px; }
-.area-num { font-family: var(--display); font-weight: 700; font-size: 0.95rem; color: var(--blue); letter-spacing: 0.06em; }
-.area-text h3 { font-size: clamp(1.3rem, 2vw, 1.6rem); letter-spacing: -0.02em; margin: 0.3rem 0 0.8rem; }
-.area-text p { color: var(--muted); font-size: 0.98rem; max-width: 34rem; }
-.area-members { font-size: 0.9rem !important; color: var(--ink) !important; margin-top: 0.4rem; }
-.area-members a { font-weight: 500; }
-@media (max-width: 800px) {
-  .area-row { grid-template-columns: 1fr; gap: 1.2rem; }
-  .area-row.flip .area-art { order: 0; }
-  .area-art img { max-height: 280px; }
+/* ---------- research directions (horizontal reel) ---------- */
+.reel-nav { display: flex; gap: 0.4rem; }
+.reel-btn {
+  width: 34px; height: 34px; border-radius: 50%; cursor: pointer;
+  border: 1px solid var(--line); background: #fff; color: var(--navy);
+  font-size: 1.2rem; line-height: 1; display: grid; place-items: center;
+  transition: background 0.15s, border-color 0.15s, opacity 0.15s;
+}
+.reel-btn:hover:not(:disabled) { background: var(--bg-tint); border-color: var(--dash); }
+.reel-btn:disabled { opacity: 0.35; cursor: default; }
+
+.reel {
+  list-style: none; display: flex; gap: 1.25rem;
+  overflow-x: auto; overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch;
+  padding: 0.25rem 0 1rem;
+  scrollbar-width: thin; scrollbar-color: var(--dash) transparent;
+}
+.reel::-webkit-scrollbar { height: 8px; }
+.reel::-webkit-scrollbar-thumb { background: var(--dash); border-radius: 4px; }
+.reel::-webkit-scrollbar-track { background: transparent; }
+
+.rcard {
+  flex: 0 0 320px; scroll-snap-align: start;
+  display: flex; flex-direction: column; background: #fff;
+  border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+  transition: box-shadow 0.18s, border-color 0.18s;
+}
+.rcard:hover { box-shadow: var(--shadow); border-color: var(--dash); }
+.rcard-media { display: block; aspect-ratio: 4 / 3; background: var(--bg-soft); overflow: hidden; }
+.rcard-media img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease; }
+.rcard:hover .rcard-media img { transform: scale(1.03); }
+.rcard-body { display: flex; flex-direction: column; flex: 1; padding: 1rem 1.1rem 1.2rem; }
+.rcard-num { font-family: var(--display); font-weight: 700; font-size: 0.8rem; letter-spacing: 0.08em; color: var(--blue); }
+.rcard h3 { font-size: 1.05rem; line-height: 1.3; margin: 0.25rem 0 0.5rem; }
+.rcard h3 a { color: var(--navy); }
+.rcard-text { color: var(--muted); font-size: 0.88rem; line-height: 1.5; }
+.rcard-text p { margin: 0; }
+.rcard-members { font-size: 0.82rem; margin: 0.7rem 0 0; }
+.rcard-members a { font-weight: 500; }
+.rcard-more {
+  margin-top: auto; padding-top: 0.8rem;
+  font-family: var(--display); font-weight: 600; font-size: 0.82rem; white-space: nowrap;
+}
+@media (max-width: 760px) {
+  .reel-nav { display: none; }
+  .rcard { flex-basis: 78vw; }
 }
 
 /* ---------- awards ---------- */
@@ -238,6 +270,10 @@ body.home .site-header:not(.scrolled):not(.nav-open) .brand img { filter: bright
 .pub-search input::-webkit-search-cancel-button { cursor: pointer; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .pub-status { font-size: 0.9rem; margin: -0.6rem 0 1rem; }
+.pub-clear {
+  font: inherit; font-size: 0.85rem; font-weight: 600; color: var(--blue-dark);
+  background: none; border: 0; padding: 0 0 0 0.15rem; cursor: pointer; text-decoration: underline; text-underline-offset: 2px;
+}
 .pub-empty { padding: 2rem 0; text-align: center; border-top: 1px dashed var(--dash); }
 .pub-filter { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .pub-filter button {

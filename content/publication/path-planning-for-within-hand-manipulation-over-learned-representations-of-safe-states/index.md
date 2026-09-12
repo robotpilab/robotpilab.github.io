@@ -48,4 +48,6 @@ date: 2018-06-30T18:36:00.000Z
 url_slides: ""
 links:
 publishDate: 2017-01-01T00:00:00.000Z
+research:
+  - dexterous-manipulation
 ---

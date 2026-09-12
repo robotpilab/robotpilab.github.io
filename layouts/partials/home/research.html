@@ -1,31 +1,44 @@
 {{- $areas := (site.GetPage "/research").Pages.ByWeight }}
+{{- $pubs := where site.RegularPages "Section" "publication" }}
 <section class="section" id="research">
   <div class="container">
-    <h2 class="section-title">Research</h2>
-    {{- range $i, $p := $areas }}
-    <article class="area-row{{ if eq (mod $i 2) 1 }} flip{{ end }}" id="{{ $p.File.ContentBaseName }}">
-      <div class="area-art">
+    <div class="section-head">
+      <h2>Research Directions</h2>
+      <div class="reel-nav" aria-hidden="true">
+        <button type="button" class="reel-btn" data-step="-1" aria-label="Scroll directions left" tabindex="-1">‹</button>
+        <button type="button" class="reel-btn" data-step="1" aria-label="Scroll directions right" tabindex="-1">›</button>
+      </div>
+    </div>
+    <ul class="reel">
+      {{- range $i, $p := $areas }}
+      {{- $slug := $p.File.ContentBaseName }}
+      {{- $n := len (where $pubs "Params.research" "intersect" (slice $slug)) }}
+      {{- $url := printf "%s?d=%s" (site.GetPage "/publication").RelPermalink $slug }}
+      <li class="rcard" id="{{ $slug }}">
         {{- with $p.Resources.GetMatch "featured.*" }}
-        {{- $img := . }}{{ if gt .Width 1100 }}{{ $img = .Resize "1100x q82" }}{{ end }}
-        <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="lazy">
+        {{- $img := .Fill "720x540 Smart q82" }}
+        <a class="rcard-media" href="{{ $url }}" tabindex="-1" aria-hidden="true">
+          <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="lazy">
+        </a>
         {{- end }}
-      </div>
-      <div class="area-text">
-        <div class="area-num">{{ printf "%02d" (add $i 1) }}</div>
-        <h3>{{ $p.Title }}</h3>
-        {{ $p.Content }}
-        {{- with $p.Params.members }}
-        <p class="area-members">
-          {{- range $j, $slug := . }}
-          {{- with site.GetPage (printf "/people/%s" $slug) }}
-          {{- if $j }}<span class="sep">·</span>{{ end }}
-          {{- if .Params.homepage }}<a href="{{ .Params.homepage }}" rel="noopener">{{ .Title }}</a>{{ else }}<span>{{ .Title }}</span>{{ end }}
+        <div class="rcard-body">
+          <div class="rcard-num">{{ printf "%02d" (add $i 1) }}</div>
+          <h3><a href="{{ $url }}">{{ $p.Title }}</a></h3>
+          <div class="rcard-text">{{ $p.Content }}</div>
+          {{- with $p.Params.members }}
+          <p class="rcard-members">
+            {{- range $j, $slug := . }}
+            {{- with site.GetPage (printf "/people/%s" $slug) }}
+            {{- if $j }}<span class="sep">·</span>{{ end }}
+            {{- if .Params.homepage }}<a href="{{ .Params.homepage }}" rel="noopener">{{ .Title }}</a>{{ else }}<span>{{ .Title }}</span>{{ end }}
+            {{- end }}
+            {{- end }}
+          </p>
           {{- end }}
-          {{- end }}
-        </p>
-        {{- end }}
-      </div>
-    </article>
-    {{- end }}
+          {{- if $n }}<a class="rcard-more" href="{{ $url }}">{{ $n }} publication{{ if ne $n 1 }}s{{ end }} →</a>{{ end }}
+        </div>
+      </li>
+      {{- end }}
+    </ul>
   </div>
 </section>

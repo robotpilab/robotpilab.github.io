@@ -1,7 +1,7 @@
 {{- $type := "" }}{{ with .Params.publication_types }}{{ $type = index . 0 }}{{ end }}
 {{- $venue := .Params.publication_short | default .Params.publication | default "" }}
 {{- $hay := printf "%s %s %s %s %d %s %s" .Title (delimit (.Params.authors | default slice) " ") $venue (partial "venue-short.html" .) .Date.Year (.Params.award | default "") (.Params.note | default "") | lower }}
-<li class="pub" data-type="{{ $type }}" data-search="{{ $hay }}" id="{{ .File.ContentBaseName | urlize }}">
+<li class="pub" data-type="{{ $type }}" data-dir="{{ delimit (.Params.research | default slice) " " }}" data-search="{{ $hay }}" id="{{ .File.ContentBaseName | urlize }}">
   <a class="pub-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
   <div class="pub-authors">{{ partial "authors.html" . }}</div>
   <div class="pub-venue">

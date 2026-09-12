@@ -55,4 +55,6 @@ url_slides: ""
 publishDate: 2026-03-04T18:29:00.000Z
 url_poster: ""
 url_code: ""
+research:
+  - benchmarking
 ---

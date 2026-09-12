@@ -33,4 +33,7 @@ url_slides: ""
 publishDate: 2025-08-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
+research:
+  - active-perception
+  - dexterous-manipulation
 ---

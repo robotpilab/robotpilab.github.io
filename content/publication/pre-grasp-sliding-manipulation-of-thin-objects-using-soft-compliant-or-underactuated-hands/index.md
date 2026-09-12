@@ -43,4 +43,6 @@ date: 2019-06-29T03:27:00.000Z
 url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
 award: "Best Paper Award in Robotic Manipulation, Finalist"
+research:
+  - dexterous-manipulation
 ---
