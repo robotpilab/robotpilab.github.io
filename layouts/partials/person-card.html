@@ -6,7 +6,15 @@
   {{- end }}
   <div class="person-text">
     <h3>{{ with .Params.homepage }}<a href="{{ . }}" rel="noopener">{{ $name }}</a>{{ else }}{{ $name }}{{ end }}</h3>
-    {{- with .Params.role }}<p class="role">{{ . | markdownify }}</p>{{ end }}
+    {{- with .Params.role }}
+    {{- $parts := split . "→" }}
+    {{- if gt (len $parts) 1 }}
+    {{/* "Master student → Microsoft": the destination gets its own line. */}}
+    <p class="role">{{ trim (index $parts 0) " " | markdownify }}<span class="role-dest">→ {{ trim (index $parts 1) " " | markdownify }}</span></p>
+    {{- else }}
+    <p class="role">{{ . | markdownify }}</p>
+    {{- end }}
+    {{- end }}
     <p class="person-links">
       {{- with .Params.email }}<a href="mailto:{{ . }}" title="Email {{ $name }}" aria-label="Email {{ $name }}">{{ partial "icon.html" "mail" }}</a>{{ end }}
       {{- with .Params.homepage }}<a href="{{ . }}" rel="noopener" title="Homepage" aria-label="{{ $name }}'s homepage">{{ partial "icon.html" "home" }}</a>{{ end }}

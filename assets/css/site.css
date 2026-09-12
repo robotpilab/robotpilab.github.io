@@ -293,12 +293,13 @@ body.home .site-header:not(.scrolled):not(.nav-open) .brand img { filter: bright
 .person h3 { font-size: 1.02rem; margin-bottom: 0.15rem; }
 .person h3 a { color: var(--navy); }
 .person .role { color: var(--muted); font-size: 0.88rem; margin: 0 0 0.5rem; line-height: 1.4; }
+.role-dest { display: block; }
 .person-links { display: flex; justify-content: center; gap: 0.6rem; margin: 0; }
 .person-links a { color: var(--muted); display: inline-flex; padding: 0.2rem; border-radius: 6px; }
 .person-links a:hover { color: var(--blue-dark); background: var(--bg-tint); }
 
 /* Alumni: smaller avatar to the left of the name and destination. */
-.people-grid-compact { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.4rem 1.8rem; }
+.people-grid-compact { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.3rem 1.5rem; }
 .people-grid-compact .person { display: flex; align-items: center; align-self: start; gap: 0.9rem; text-align: left; }
 .people-grid-compact .avatar {
   width: 64px; height: 64px; flex: 0 0 64px; margin: 0;
