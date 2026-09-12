@@ -1,7 +1,7 @@
 ---
 title: Kejia Ren
-role: Graduate student in Computer Science
-group: Ph.D. Students
+role: Ph.D. student → Apple
+group: Alumni
 email: kr43@rice.edu
 last_name: Ren
 ---
