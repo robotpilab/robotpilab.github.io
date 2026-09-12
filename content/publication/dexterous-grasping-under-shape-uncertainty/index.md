@@ -1,7 +1,5 @@
 ---
 title: Dexterous Grasping under Shape Uncertainty
-subtitle: Selected for oral presentation at IEEE-RAS International Conference on
-  Robotics and Automation (ICRA), Singapore, 2017
 publication_types:
   - "article-journal"
 authors:
@@ -44,10 +42,9 @@ url_video: ""
 author_notes: []
 doi: ""
 publication: Robotics and Autonomous Systems
-tags:
-  - Source Themes
+tags: []
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  caption: ""
   focal_point: ""
   preview_only: false
 date: 2016-08-11T20:58:00.000Z
@@ -55,6 +52,5 @@ url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
+note: "Selected for oral presentation at IEEE-RAS ICRA 2017, Singapore"
 ---
-
-Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/).

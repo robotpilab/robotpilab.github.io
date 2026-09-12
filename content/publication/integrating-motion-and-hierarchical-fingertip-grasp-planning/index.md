@@ -1,11 +1,11 @@
 ---
 title: Integrating Motion and Hierarchical Fingertip Grasp Planning
-subtitle: Best Robotic Manipulation Paper Award Finalist
 publication_types:
   - "paper-conference"
 authors:
   - Joshua A. Haustein
-  - Kaiyu Hang and Danica Kragic
+  - Kaiyu Hang
+  - Danica Kragic
 doi: ""
 publication: IEEE-RAS International Conference on Robotics and Automation (ICRA)
 publication_short: IEEE-RAS International Conference on Robotics and Automation (ICRA)
@@ -36,7 +36,5 @@ url_slides: ""
 tags: []
 url_pdf: https://hangkaiyu.github.io/pdfs/haustein2017a.pdf
 publishDate: 2017-01-01T00:00:00.000Z
+award: "Best Robotic Manipulation Paper Award, Finalist"
 ---
-
-
-

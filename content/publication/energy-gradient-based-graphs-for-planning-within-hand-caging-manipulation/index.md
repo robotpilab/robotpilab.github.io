@@ -1,5 +1,4 @@
 ---
-subtitle: ""
 abstract: In this work, we present a within-hand manipulation approach that
   leverages a simple energy model based on caging grasps made by underactuated
   hands. Instead of explicitly modeling the contacts and dynamics in
@@ -47,7 +46,6 @@ url_slides: ""
 links:
 
 publishDate: 2017-01-01T00:00:00.000Z
+research:
+  - dexterous-manipulation
 ---
-
-
-

@@ -1,0 +1,15 @@
+{{- $n := site.Params.home.news_count | default 6 }}
+{{- $posts := first $n (where site.RegularPages "Section" "post") }}
+<section class="section" id="news">
+  <div class="container">
+    <div class="section-head">
+      <h2>News</h2>
+      <a class="more" href="{{ (site.GetPage "/post").RelPermalink }}">All news →</a>
+    </div>
+    <div class="news-grid">
+      {{- range $posts }}
+      {{ partial "news-card.html" . }}
+      {{- end }}
+    </div>
+  </div>
+</section>

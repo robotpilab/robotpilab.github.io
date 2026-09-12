@@ -1,0 +1,42 @@
+{{- $pubs := where site.RegularPages "Section" "publication" }}
+{{- $awarded := where $pubs "Params.award" "!=" nil }}
+<section class="section" id="awards">
+  <div class="container">
+    <div class="section-head">
+      <h2>Awards &amp; Honors</h2>
+      <a class="more" href="{{ (site.GetPage "/publication").RelPermalink }}">All publications →</a>
+    </div>
+    <div class="awards-grid">
+      <div>
+        <h3 class="awards-sub">Paper awards</h3>
+        <ul class="award-list">
+          {{- range $awarded }}
+          <li class="award">
+            <div class="award-meta">{{ partial "venue-short.html" . }} {{ .Date.Year }} <span class="sep">·</span> {{ .Params.award }}</div>
+            <a class="award-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <div class="award-authors">{{ partial "authors.html" . }}</div>
+          </li>
+          {{- end }}
+        </ul>
+      </div>
+      <div>
+        <h3 class="awards-sub">Honors</h3>
+        <ul class="award-list">
+          {{- range site.Data.honors }}
+          {{- $url := "" }}
+          {{- with .post }}{{ with site.GetPage (printf "/post/%s" .) }}{{ $url = .RelPermalink }}{{ end }}{{ end }}
+          <li class="award">
+            <div class="award-meta">{{ .year }}</div>
+            {{- if $url }}
+            <a class="award-title" href="{{ $url }}">{{ .title }}</a>
+            {{- else }}
+            <div class="award-title">{{ .title }}</div>
+            {{- end }}
+            <div class="award-authors"><b>{{ .who }}</b></div>
+          </li>
+          {{- end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

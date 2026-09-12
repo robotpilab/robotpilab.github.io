@@ -38,4 +38,6 @@ url_slides: ""
 publishDate: 2026-03-06T20:12:00.000Z
 url_poster: ""
 url_code: ""
+research:
+  - active-perception
 ---

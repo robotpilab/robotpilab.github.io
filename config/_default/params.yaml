@@ -1,119 +1,39 @@
-# SITE SETUP
-# Guide: https://wowchemy.com/docs/getting-started/
-# Documentation: https://wowchemy.com/docs/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# Site-wide parameters (read in templates as site.Params.*)
 
-# Appearance
+description: >-
+  The Rice Robotics and Physical Interactions (RobotΠ) Lab, led by Prof. Kaiyu Hang, studies how robots
+  can physically interact with the world through robust, dexterous manipulation.
 
-appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: Minimal
-  font_size: M
+# Shown under the lab name in the homepage hero (Markdown allowed).
+tagline: where robots **P**hysically **I**nteract with the world
 
-# SEO
+lab:
+  name: Rice RobotΠ Lab
+  long_name: Robotics and Physical Interactions Lab
+  department: Department of Computer Science
+  university: Rice University
+  address_lines:
+    - 6100 Main Street
+    - Houston, TX 77005, United States
+  map_url: https://www.google.com/maps/search/?api=1&query=29.72045,-95.3986
+  # Written out to avoid scraping, exactly as on the previous site.
+  email_text: kaiyu(_dot_)hang(_at_)rice(_dot_)edu
+  github: https://github.com/Rice-RobotPI-Lab
+  scholar: https://scholar.google.se/citations?user=GrgH1lQAAAAJ&hl=en
+  pi_homepage: https://hangkaiyu.github.io/
 
-marketing:
-  seo:
-    site_type: Organization
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-  verification:
-    google: ''
-    baidu: ''
+hero:
+  # Drop a short, muted real-robot clip at assets/media/hero.mp4 (optionally also hero.webm).
+  # Until the file exists the poster image below is shown instead.
+  video: media/hero.mp4
+  poster: media/both.jpg
+  kicker: Robotics and Physical Interactions Lab · Rice University
+  primary:
+    text: Explore Our Research
+    url: /#research
+  secondary:
+    text: Join the Lab
+    url: /join/
 
-# Site header
-
-header:
-  navbar:
-    enable: true
-    align: r
-    show_logo: true
-    show_language: false
-    show_day_night: true
-    show_search: true
-    highlight_active_link: false
-
-# Site footer
-
-footer:
-  sharing: 
-    enable: false
-  copyright:
-    license:
-      enable: false
-      allow_derivatives: false
-      share_alike: false
-      allow_commercial: false
-
-# Localization
-
-locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
-  address_format: en-us
-
-# Site features
-
-features:
-  sharing: 
-    enable: false
-  syntax_highlighter:
-    enable: false
-    extra_languages:
-      - r
-      - latex
-  math:
-    enable: true
-  privacy_pack:
-    enable: false
-  repository:
-    url: 'https://github.com/<username>'
-    content_dir: content
-    branch: main
-  avatar:
-    gravatar: false
-    shape: circle
-  comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: false
-    commento:
-      url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
-  search:
-    provider: wowchemy
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
-  map:
-    provider: 'mapnik'
-    api_key: ''
-    zoom: 15
-
-# Extensions
-
-extensions:
-  cms:
-    branch: main
-    local_backend: false
-  academicons:
-    enable: false
-
-# Citation style
-
-publications:
-  date_format: January 2006
-  citation_style: apa
+home:
+  news_count: 8   # two rows of four cards

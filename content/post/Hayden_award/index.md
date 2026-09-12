@@ -5,7 +5,6 @@ image:
   focal_point: top
   filename: featured.jpg
 ---
-<!--StartFragment-->
 
 We are excited to announce that our lab member, Hayden Webb, has placed 3rd place in the prestigious "Student Mechanism and Robotics Design Competition" at the 2024 ASME IDETC.
 
@@ -21,5 +20,3 @@ Hayden placed 3rd in the undergraduate category in the final round of competitio
 
 Watch Hayden's presentation of the Roller Ring project:
 [Watch the Roller Ring Presentation](https://drive.google.com/file/d/1J3lAjavMBV7FJxDEK0GsumOdJK12hqMm/view?usp=sharing)
-
-<!--EndFragment-->

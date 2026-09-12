@@ -37,6 +37,6 @@ url_slides: ""
 publishDate: 2025-07-17T00:00:00.000Z
 url_poster: ""
 url_code: ""
+research:
+  - active-perception
 ---
-
-Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/).

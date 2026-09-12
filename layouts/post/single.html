@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article class="container narrow article">
+  <header class="article-head">
+    <p class="eyebrow"><a href="{{ (site.GetPage "/post").RelPermalink }}">News</a> <span class="sep">/</span> <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time></p>
+    <h1>{{ .Title }}</h1>
+  </header>
+  {{- with partial "post-image.html" . }}
+  {{- $img := . }}{{ if gt .Width 1400 }}{{ $img = .Resize "1400x q82" }}{{ end }}
+  <figure class="article-hero"><img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt=""></figure>
+  {{- end }}
+  <div class="prose">{{ .Content }}</div>
+</article>
+{{ end }}

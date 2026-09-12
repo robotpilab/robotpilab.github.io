@@ -6,8 +6,5 @@ image:
   focal_point: top
   filename: featured.jpg
 ---
-<!--StartFragment-->
 
-Our paper ["Non-Parametric Self-Identification and Model Predictive Control of Dexterous In-Hand Manipulation" ](https://arxiv.org/abs/2307.10033)has been accepted by IEEE/RSJ IEEE International Conference on Intelligent Robots and Systems (IEEE/RSJ IROS). Check out the [video](https://youtu.be/4FQ2193q1kk)!
-
-<!--EndFragment-->
+Our paper ["Non-Parametric Self-Identification and Model Predictive Control of Dexterous In-Hand Manipulation" ](https://arxiv.org/abs/2307.10033)has been accepted by IEEE/RSJ IEEE International Conference on Intelligent Robots and Systems (IEEE/RSJ IROS). Check out the [video](https://youtu.be/4FQ2193q1kk)!

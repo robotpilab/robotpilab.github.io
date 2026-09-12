@@ -1,5 +1,4 @@
 ---
-subtitle: ""
 abstract: Person re-identification is a critical security task for recognizing a
   person across spatially disjoint sensors. Previous work can be computationally
   intensive and is mainly based on low-level cues extracted from RGB data and
@@ -23,9 +22,10 @@ authors:
   - Joshua A. Haustein
   - Silvia Cruciani
   - Rizwan Asif
-  - Kaiyu Hang and Danica Kragic
+  - Kaiyu Hang
+  - Danica Kragic
 doi: ""
-publication_short: IEEE-RAS International Conference on Humanoids Robots (Humanoids)
+publication_short: IEEE-RAS International Conference on Humanoid Robots (Humanoids)
 projects:
   - Non-prehensile manipulation
 image:
@@ -36,14 +36,13 @@ image:
 summary: ""
 url_project: ""
 url_video: 
-publication: IEEE-RAS International Conference on Humanoids Robots (Humanoids)
+publication: IEEE-RAS International Conference on Humanoid Robots (Humanoids)
 featured: true
 tags: []
 date: 2019-06-29T03:25:00.000Z
 url_slides: ""
 links:
 publishDate: 2017-01-01T00:00:00.000Z
+research:
+  - dexterous-manipulation
 ---
-
-
-

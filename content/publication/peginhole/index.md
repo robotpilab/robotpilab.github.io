@@ -40,6 +40,6 @@ url_slides: ""
 publishDate: 2025-04-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
+research:
+  - robust-manipulation
 ---
-
-Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/).

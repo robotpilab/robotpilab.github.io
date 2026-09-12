@@ -1,0 +1,12 @@
+{{- /* Thumbnail for a post image. Wide banners / logos are letterboxed instead of cropped.
+       Usage: partial "thumb.html" (dict "img" $img "w" 720 "h" 450) -> returns dict "src" "width" "height" "contain" */ -}}
+{{- $img := .img }}{{ $w := .w }}{{ $h := .h }}
+{{- $ratio := div (float $img.Width) (float $img.Height) }}
+{{- $contain := or (gt $ratio 1.85) (lt $ratio 0.9) }}
+{{- $t := "" }}
+{{- if $contain }}
+  {{- $t = $img.Fit (printf "%dx%d q82" $w $h) }}
+{{- else }}
+  {{- $t = $img.Fill (printf "%dx%d Smart q80" $w $h) }}
+{{- end }}
+{{- return (dict "src" $t.RelPermalink "width" $t.Width "height" $t.Height "contain" $contain) }}

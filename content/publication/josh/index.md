@@ -14,7 +14,7 @@ draft: false
 featured: false
 projects: []
 slides: null
-url_pdf: "./publication/josh/Grace_ICRA24.pdf"
+url_pdf: "Grace_ICRA24.pdf"
 summary: Controlling robotic in-hand manipulation is complex due to the varying physics and required system knowledge. One model, the inverse Jacobian, translates desired object motions to hand controls, but acquiring it without sophisticated system models is challenging. Our method uses a particle filter-based scheme to self-identify inverse Jacobians, enabling underactuated hands to stably grasp during self-identification movements. This approach requires no prior knowledge and learns the system's inverse Jacobian through exploratory motions. Our system closely approximates the inverse Jacobian, performing manipulation tasks successfully. Experiments on a Yale Model O hand show sub-millimeter precision and real-time control up to 900Hz.
 url_dataset: ""
 url_project: ""
@@ -23,10 +23,9 @@ url_video: ""
 author_notes: []
 doi: ""
 publication: IEEE International Conference on Robotics and Automation, 2024
-tags:
-  - Source Themes
+tags: []
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  caption: ""
   focal_point: ""
   preview_only: false
 date: 2024-08-11T20:40:00.000Z
@@ -34,6 +33,7 @@ url_slides: ""
 publishDate: 2024-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
+research:
+  - active-perception
+  - dexterous-manipulation
 ---
-
-Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/).
