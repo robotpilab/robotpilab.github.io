@@ -297,6 +297,20 @@ body.home .site-header:not(.scrolled):not(.nav-open) .brand img { filter: bright
 .person-links a { color: var(--muted); display: inline-flex; padding: 0.2rem; border-radius: 6px; }
 .person-links a:hover { color: var(--blue-dark); background: var(--bg-tint); }
 
+/* Alumni: smaller avatar to the left of the name and destination. */
+.people-grid-compact { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.4rem 1.8rem; }
+.people-grid-compact .person { display: flex; align-items: center; align-self: start; gap: 0.9rem; text-align: left; }
+.people-grid-compact .avatar {
+  width: 64px; height: 64px; flex: 0 0 64px; margin: 0;
+  box-shadow: 0 0 0 3px var(--bg-soft), 0 0 0 4px var(--line);
+}
+.people-grid-compact .person-text { min-width: 0; }
+.people-grid-compact .person h3 { font-size: 0.95rem; margin-bottom: 0.1rem; }
+.people-grid-compact .role { font-size: 0.82rem; margin-bottom: 0.3rem; }
+.people-grid-compact .person-links { justify-content: flex-start; gap: 0.4rem; }
+.people-grid-compact .person-links a { padding: 0.1rem; }
+.people-grid-compact .person-links svg { width: 15px; height: 15px; }
+
 /* ---------- join / contact ---------- */
 .join-grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 3rem; align-items: start; padding-bottom: 4rem; }
 .contact-card { background: var(--bg-soft); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.4rem 1.5rem; }
