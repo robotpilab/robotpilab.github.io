@@ -80,7 +80,7 @@ def upload():
     stale = [f for f in api.list_repo_files(SPACE_ID, repo_type="space")
              if f not in local and f != ".gitattributes"]
     if stale:
-        api.delete_files(stale, repo_id=SPACE_ID, repo_type="space",
+        api.delete_files(SPACE_ID, stale, repo_type="space",
                          commit_message="Remove files from the previous deploy")
         print("removed %d stale file(s)" % len(stale))
 
