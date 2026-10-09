@@ -1,0 +1,11 @@
+# Overrides for the private review copy hosted as a Hugging Face static Space.
+# Build with:  hugo --environment hfspace
+#
+# Hugging Face static Spaces serve files literally and do NOT fall back to a
+# directory's index.html, so "/publication/" would 404. uglyURLs emits
+# "/publication.html" instead, which a flat host can serve.
+uglyURLs: true
+baseURL: 'https://rice-robotpi-lab-robotpi-io.static.hf.space/'
+
+# The review copy should never be indexed by search engines.
+enableRobotsTXT: false

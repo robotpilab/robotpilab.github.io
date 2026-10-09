@@ -18,6 +18,24 @@ and open <http://localhost:1313>.
 Pushing to `main` runs `.github/workflows/gh-pages.yml`, which builds the site and publishes it to the
 `gh-pages` branch that GitHub Pages serves. Pull requests are built but not deployed.
 
+## Private preview on Hugging Face
+
+A private copy for review lives as a static Space at
+<https://huggingface.co/spaces/Rice-RobotPI-Lab/RobotPI_io> and is visible only to members of
+the `Rice-RobotPI-Lab` organization. To refresh it after pushing changes:
+
+```sh
+python tools/deploy-hf-space.py
+```
+
+It builds with `hugo --environment hfspace` into `public-hf/` and uploads that. The extra
+environment turns on `uglyURLs`, because Hugging Face static Spaces serve files literally and
+do not fall back to a directory's `index.html` — so the preview uses `/publication.html`
+while the public site keeps `/publication/`. Nothing about the GitHub Pages build changes.
+
+To let someone review it, add them to the Hugging Face organization; there is no way to share
+a private Space with a non-member.
+
 ## Editing content
 
 | To add…            | Do this                                                                                  |

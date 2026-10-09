@@ -6,4 +6,5 @@
 # Hugo
 /resources/
 /public
+/public-hf
 .hugo_build.lock
