@@ -1,14 +1,13 @@
 ---
 title: Hand-object configuration estimation using particle filters for dexterous
   in-hand manipulation
-subtitle: ""
 publication_types:
   - "article-journal"
 authors:
   - Kaiyu Hang
   - Walter G. Bircher
   - Andrew S. Morgan
-  - and Aaron M. Dollar
+  - Aaron M. Dollar
 publication_short: International Journal of Robotics Research (IJRR)
 abstract: We consider the problem of dexterous manipulation with a focus on
   unknown or uncertain hand-object parameters, such as hand configuration,
@@ -72,10 +71,9 @@ url_video: ""
 author_notes: []
 doi: ""
 publication: International Journal of Robotics Research
-tags:
-  - Source Themes
+tags: []
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  caption: ""
   focal_point: ""
   preview_only: false
 date: 2019-08-11T20:45:00.000Z
@@ -83,6 +81,6 @@ url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
+research:
+  - dexterous-manipulation
 ---
-
-Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/).

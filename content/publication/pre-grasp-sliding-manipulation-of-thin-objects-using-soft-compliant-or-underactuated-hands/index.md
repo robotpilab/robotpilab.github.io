@@ -1,5 +1,4 @@
 ---
-subtitle: Best Robotic Manipulation Paper Award Finalist
 abstract: Person re-identification is a critical security task for recognizing a
   person across spatially disjoint sensors. Previous work can be computationally
   intensive and is mainly based on low-level cues extracted from RGB data and
@@ -43,7 +42,7 @@ tags: []
 date: 2019-06-29T03:27:00.000Z
 url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
+award: "Best Paper Award in Robotic Manipulation, Finalist"
+research:
+  - dexterous-manipulation
 ---
-
-
-

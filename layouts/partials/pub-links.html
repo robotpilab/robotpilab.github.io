@@ -1,0 +1,15 @@
+{{- $p := . }}
+{{- $fields := slice (slice "url_pdf" "PDF") (slice "url_project" "Project") (slice "url_code" "Code") (slice "url_video" "Video") (slice "url_poster" "Poster") (slice "url_dataset" "Dataset") (slice "url_slides" "Slides") (slice "url_source" "Source") }}
+{{- range $fields }}
+  {{- $key := index . 0 }}{{ $label := index . 1 }}
+  {{- $u := index $p.Params $key }}
+  {{- if $u }}
+    {{- $u = trim $u " \n\r\t" }}
+    {{- if not (hasPrefix $u "http") }}
+      {{- with $p.Resources.GetMatch $u }}{{ $u = .RelPermalink }}{{ else }}{{ $u = "" }}{{ end }}
+    {{- end }}
+    {{- if $u }}<a class="chip" href="{{ $u }}" rel="noopener">{{ $label }}</a>{{ end }}
+  {{- end }}
+{{- end }}
+{{- with $p.Params.doi }}<a class="chip" href="https://doi.org/{{ . }}" rel="noopener">DOI</a>{{ end }}
+{{- with $p.Resources.GetMatch "cite.bib" }}<a class="chip" href="{{ .RelPermalink }}">BibTeX</a>{{ end }}

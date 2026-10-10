@@ -1,0 +1,8 @@
+{{- /* Images referenced from Markdown: resize page-bundle images, pass everything else through. */ -}}
+{{- $img := .Page.Resources.GetMatch .Destination }}
+{{- if $img }}
+  {{- if gt $img.Width 1400 }}{{ $img = $img.Resize "1400x q82" }}{{ end }}
+  <figure class="md-figure"><img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ .Text }}" loading="lazy">{{ with .Title }}<figcaption>{{ . }}</figcaption>{{ end }}</figure>
+{{- else }}
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy">
+{{- end }}

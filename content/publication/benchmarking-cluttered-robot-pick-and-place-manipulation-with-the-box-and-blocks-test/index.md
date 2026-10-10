@@ -1,7 +1,6 @@
 ---
 title: Benchmarking Cluttered Robot Pick-and-Place Manipulation with the Box and
   Blocks Test
-subtitle: ""
 publication_types:
   - "article-journal"
 authors:
@@ -57,10 +56,9 @@ url_video: ""
 author_notes: []
 doi: ""
 publication: Robotics and Automation Letters, 2020
-tags:
-  - Source Themes
+tags: []
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  caption: ""
   focal_point: ""
   preview_only: false
 date: 2020-08-11T20:38:00.000Z
@@ -68,6 +66,6 @@ url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
+research:
+  - benchmarking
 ---
-
-Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/).

@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section class="page-head">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+<div class="container">
+  <ol class="news-list">
+    {{- range .Pages }}
+    {{- $img := partial "post-image.html" . }}
+    {{- $t := "" }}{{ if $img }}{{ $t = partial "thumb.html" (dict "img" $img "w" 560 "h" 350) }}{{ end }}
+    <li class="news-item">
+      <a class="news-item-thumb{{ if and $t $t.contain }} contain{{ end }}" href="{{ .RelPermalink }}" tabindex="-1" aria-hidden="true">
+        {{- if $t }}
+        <img src="{{ $t.src }}" width="{{ $t.width }}" height="{{ $t.height }}" alt="" loading="lazy">
+        {{- else }}
+        <div class="news-thumb-empty"><span class="pi">Π</span></div>
+        {{- end }}
+      </a>
+      <div class="news-item-body">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        {{- with .Summary }}<p class="muted">{{ . | plainify | truncate 220 }}</p>{{ end }}
+      </div>
+    </li>
+    {{- end }}
+  </ol>
+</div>
+{{ end }}

@@ -1,0 +1,22 @@
+# Overrides for the private review copy hosted as a Hugging Face static Space.
+# Build with:  hugo --environment hfspace
+#
+# 1. Hugging Face static Spaces serve files literally and do NOT fall back to a
+#    directory's index.html, so "/publication/" would 404. uglyURLs emits
+#    "/publication.html" instead, which a flat host can serve.
+#
+# 2. The Space is viewed through an iframe on huggingface.co, which may mount it
+#    under a path that is not the origin root. Root-relative links such as
+#    "/css/site.css" break there, so emit page-relative links instead; the bundle
+#    then works wherever it is mounted.
+uglyURLs: true
+relativeURLs: true
+baseURL: 'https://rice-robotpi-lab-robotpi-io.static.hf.space/'
+
+# The review copy should never be indexed by search engines.
+enableRobotsTXT: false
+
+# Alias pages (e.g. the legacy /contact/ -> /join/ redirect) always emit an absolute
+# redirect to baseURL, which would jump out of the iframe. The preview has no legacy
+# URLs to preserve, so skip them; the public build still generates them.
+disableAliases: true

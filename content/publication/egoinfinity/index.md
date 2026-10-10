@@ -41,4 +41,6 @@ url_slides: ""
 publishDate: 2026-06-27T00:00:00.000Z
 url_poster: ""
 url_code: "https://github.com/Rice-RobotPI-Lab/EgoInfinity"
+research:
+  - data-engines
 ---

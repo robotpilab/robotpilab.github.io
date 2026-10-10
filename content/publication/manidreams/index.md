@@ -37,4 +37,6 @@ url_slides: ""
 publishDate: 2026-03-18T22:46:00.000Z
 url_poster: ""
 url_code: "https://github.com/Rice-RobotPI-Lab/ManiDreams"
+research:
+  - robust-manipulation
 ---

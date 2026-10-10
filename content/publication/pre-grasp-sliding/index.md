@@ -1,7 +1,6 @@
 ---
 title: Pre-Grasp Sliding Manipulation of Thin Objects Using Soft, Compliant, or
   Underactuated Hands
-subtitle: ""
 publication_types:
   - "article-journal"
 authors:
@@ -57,10 +56,9 @@ url_video: ""
 author_notes: []
 doi: ""
 publication: IEEE Robotics and Automation Letters
-tags:
-  - Source Themes
+tags: []
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  caption: ""
   focal_point: ""
   preview_only: false
 date: 2019-08-11T20:50:00.000Z
@@ -68,6 +66,6 @@ url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
+research:
+  - dexterous-manipulation
 ---
-
-Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/).

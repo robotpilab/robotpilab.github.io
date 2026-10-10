@@ -1,6 +1,5 @@
 ---
 title: Friction Coefficients and Grasp Synthesis
-subtitle: ""
 publication_types:
   - "paper-conference"
 authors:
@@ -37,6 +36,3 @@ tags: []
 url_pdf: https://hangkaiyu.github.io/pdfs/hang2013a.pdf
 publishDate: 2017-01-01T00:00:00.000Z
 ---
-
-
-

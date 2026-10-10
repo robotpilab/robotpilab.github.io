@@ -36,6 +36,6 @@ url_slides: ""
 publishDate: 2025-05-03T20:12:45.000Z
 url_poster: "Caging_in_Time_Poster.pdf"
 url_code: ""
+research:
+  - robust-manipulation
 ---
-
-Supplementary notes can be added here, including [code and math](https://arxiv.org/abs/2410.16481).

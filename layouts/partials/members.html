@@ -1,0 +1,4 @@
+{{- /* Names of everyone under content/people (current members and alumni), used to bold lab authors. */ -}}
+{{- $names := slice }}
+{{- with site.GetPage "/people" }}{{ range .Pages }}{{ $names = $names | append .Title }}{{ end }}{{ end }}
+{{- return $names }}

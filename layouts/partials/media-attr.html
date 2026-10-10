@@ -1,0 +1,16 @@
+{{- /*
+  Return a same-site media URL attribute, e.g. src="..." or poster="...".
+
+  In the private Hugging Face preview (hugo --environment hfspace) the URL goes into data-hf-<attr>
+  instead. The browser's preload scanner fetches an eagerly loaded src straight from the raw HTML,
+  before any script can add the preview's access signature, and Safari then gets a 401 for it.
+  layouts/partials/hf-sign.html turns data-hf-<attr> into a signed <attr>. Lazy images don't need this.
+
+  The value is returned (not printed) so it keeps its safeHTMLAttr type; printed text in an attribute
+  position would be replaced by Go's "ZgotmplZ" placeholder.
+
+  Usage:  <img {{ partial "media-attr.html" (dict "attr" "src" "url" $img.RelPermalink) }} ...>
+*/ -}}
+{{- $name := .attr -}}
+{{- if eq hugo.Environment "hfspace" }}{{ $name = printf "data-hf-%s" .attr }}{{ end -}}
+{{- return (printf "%s=%q" $name .url | safeHTMLAttr) -}}

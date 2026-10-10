@@ -1,6 +1,5 @@
 ---
 title: On the Evolution of Fingertip Grasping Manifolds
-subtitle: ""
 publication_types:
   - "paper-conference"
 authors:
@@ -45,6 +44,3 @@ tags: []
 url_pdf: https://hangkaiyu.github.io/pdfs/hang2016a.pdf
 publishDate: 2017-01-01T00:00:00.000Z
 ---
-
-
-

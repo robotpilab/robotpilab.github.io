@@ -1,0 +1,7 @@
+{{- $members := partialCached "members.html" . }}
+{{- $out := slice }}
+{{- range .Params.authors }}
+  {{- $n := trim . " \n\r\t" }}
+  {{- if in $members $n }}{{ $out = $out | append (printf "<b>%s</b>" $n) }}{{ else }}{{ $out = $out | append $n }}{{ end }}
+{{- end }}
+{{- delimit $out ", " | safeHTML }}

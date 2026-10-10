@@ -1,0 +1,15 @@
+{{- /* Turn a site-relative URL from config ("/join/", "/#research", "https://...") into a working link.
+       Resolving it as a page first keeps it correct both under a sub-path deployment and when
+       uglyURLs is on (where /join/ is actually /join.html). */ -}}
+{{- $u := . }}
+{{- if or (hasPrefix $u "http") (hasPrefix $u "#") }}
+  {{- if hasPrefix $u "#" }}{{ $u = printf "%s%s" site.Home.RelPermalink $u }}{{ end }}
+{{- else }}
+  {{- $page := site.GetPage (strings.TrimSuffix "/" $u) }}
+  {{- if $page }}
+    {{- $u = $page.RelPermalink }}
+  {{- else }}
+    {{- $u = printf "%s%s" (strings.TrimSuffix "/" site.Home.RelPermalink) $u }}
+  {{- end }}
+{{- end }}
+{{- return $u }}

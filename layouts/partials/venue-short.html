@@ -1,0 +1,4 @@
+{{- /* "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)" -> "IROS"; otherwise the venue as written. */ -}}
+{{- $v := .Params.publication_short | default .Params.publication | default "" }}
+{{- $s := replaceRE `^.*\(([^()]+)\)\s*$` "$1" $v }}
+{{- return (trim $s " \n\r\t") }}

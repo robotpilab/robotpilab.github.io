@@ -1,6 +1,5 @@
 ---
 title: Fingertip Surface Optimization for Robust Grasping on Contact Primitives
-subtitle: (RA-L Submission)
 publication_types:
   - "paper-conference"
 authors:
@@ -41,6 +40,3 @@ url_slides: ""
 tags: []
 publishDate: 2017-01-01T00:00:00.000Z
 ---
-
-
-

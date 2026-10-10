@@ -1,0 +1,50 @@
+{{ define "main" }}
+{{- $people := .Pages }}
+<section class="page-head">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+<div class="container">
+  {{- range .Params.groups }}
+  {{- $group := . }}
+  {{- $members := where $people "Params.group" $group }}
+  {{- with $members }}
+  {{/* Alumni are shown as a denser row: a small avatar beside the name and destination. */}}
+  {{- $gridClass := cond (eq $group "Alumni") "people-grid people-grid-compact" "people-grid" }}
+  <section class="people-group">
+    <h2>{{ $group }}</h2>
+    {{- $dated := where . "Params.year" "!=" nil }}
+    {{- if $dated }}
+      {{/* Dated groups (alumni) split into sub-groups by year, newest first. */}}
+      {{- range $dated.GroupByParam "year" "desc" }}
+      <section class="people-subgroup" aria-label="{{ $group }} {{ .Key }}">
+        <div class="people-year" aria-hidden="true">{{ .Key }}</div>
+        <ul class="{{ $gridClass }}">
+          {{- range sort .Pages "Params.last_name" }}
+          {{ partial "person-card.html" . }}
+          {{- end }}
+        </ul>
+      </section>
+      {{- end }}
+      {{- with where . "Params.year" nil }}
+      <section class="people-subgroup">
+        <ul class="{{ $gridClass }}">
+          {{- range sort . "Params.last_name" }}
+          {{ partial "person-card.html" . }}
+          {{- end }}
+        </ul>
+      </section>
+      {{- end }}
+    {{- else }}
+      <ul class="{{ $gridClass }}">
+        {{- range sort . "Params.last_name" }}
+        {{ partial "person-card.html" . }}
+        {{- end }}
+      </ul>
+    {{- end }}
+  </section>
+  {{- end }}
+  {{- end }}
+</div>
+{{ end }}

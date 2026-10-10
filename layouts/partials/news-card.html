@@ -1,0 +1,15 @@
+{{- $img := partial "post-image.html" . }}
+{{- $t := "" }}{{ if $img }}{{ $t = partial "thumb.html" (dict "img" $img "w" 720 "h" 450) }}{{ end }}
+<a class="news-card" href="{{ .RelPermalink }}">
+  <div class="news-thumb{{ if and $t $t.contain }} contain{{ end }}">
+    {{- if $t }}
+    <img src="{{ $t.src }}" width="{{ $t.width }}" height="{{ $t.height }}" alt="" loading="lazy">
+    {{- else }}
+    <div class="news-thumb-empty" aria-hidden="true"><span class="pi">Π</span></div>
+    {{- end }}
+  </div>
+  <div class="news-body">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+    <h3>{{ .Title }}</h3>
+  </div>
+</a>

@@ -1,0 +1,42 @@
+{{ define "main" }}
+{{- $pubs := .Pages }}
+{{- $journals := where $pubs "Params.publication_types" "intersect" (slice "article-journal") }}
+{{- $confs := where $pubs "Params.publication_types" "intersect" (slice "paper-conference") }}
+{{- $preprints := where $pubs "Params.publication_types" "intersect" (slice "preprint") }}
+{{- /* Names of the research directions, so ?d=<slug> can be labelled in the status line. */}}
+{{- $dirs := dict }}
+{{- range (site.GetPage "/research").Pages }}{{ $dirs = merge $dirs (dict .File.ContentBaseName .Title) }}{{ end }}
+<section class="page-head">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <p class="muted">{{ len $pubs }} publications · lab members in <b>bold</b>. Also on <a href="{{ site.Params.lab.scholar }}" rel="noopener">Google Scholar</a>.</p>
+  </div>
+</section>
+<div class="container pubs" data-directions="{{ $dirs | jsonify }}">
+  <div class="pub-tools">
+    <label class="pub-search">
+      <span class="visually-hidden">Search publications</span>
+      {{ partial "icon.html" "search" }}
+      <input type="search" id="pub-search" placeholder="Search title, author, venue, year…" autocomplete="off" spellcheck="false">
+    </label>
+    <div class="pub-filter" role="group" aria-label="Filter publications by type">
+      <button type="button" class="active" data-filter="all">All <span class="count">{{ len $pubs }}</span></button>
+      <button type="button" data-filter="article-journal">Journal <span class="count">{{ len $journals }}</span></button>
+      <button type="button" data-filter="paper-conference">Conference <span class="count">{{ len $confs }}</span></button>
+      <button type="button" data-filter="preprint">Preprint <span class="count">{{ len $preprints }}</span></button>
+    </div>
+  </div>
+  <p class="pub-status muted" id="pub-status" aria-live="polite" hidden></p>
+  {{- range $pubs.GroupByDate "2006" }}
+  <section class="pub-year">
+    <h2 class="year">{{ .Key }}</h2>
+    <ol class="pub-list">
+      {{- range .Pages }}
+      {{ partial "pub-entry.html" . }}
+      {{- end }}
+    </ol>
+  </section>
+  {{- end }}
+  <p class="pub-empty muted" id="pub-empty" hidden>No publications match. Try fewer or different words.</p>
+</div>
+{{ end }}

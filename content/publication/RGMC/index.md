@@ -42,6 +42,8 @@ image:
 date: 2024-12-11T00:00:00.000Z
 publishDate: 2024-12-11T00:00:00.000Z
 doi: "10.1109/MRA.2024.3481609"
+research:
+  - benchmarking
 ---
 
 Published in IEEE Robotics & Automation Magazine (Volume: 31, Issue: 4, December 2024), Pages: 174-185

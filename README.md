@@ -1,35 +1,80 @@
-# [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
+# Rice RobotΠ Lab website
 
-[![Screenshot](./preview.png)](https://wowchemy.com/hugo-themes/)
+Source of <https://robotpilab.github.io>. Built with [Hugo](https://gohugo.io) (v0.135, no external theme):
+all templates live in `layouts/`, styles and scripts in `assets/`, and content in Markdown under `content/`.
 
-The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
+## Preview locally
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+Install Hugo (`winget install Hugo.Hugo.Extended` / `brew install hugo`), then:
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://wowchemy.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/wowchemy?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+```sh
+hugo server
+```
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+and open <http://localhost:1313>.
 
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 60 seconds, or [view the showcase](https://wowchemy.com/creators/).
+## Deploy
 
-The integrated [**Wowchemy**](https://wowchemy.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+Pushing to `main` runs `.github/workflows/gh-pages.yml`, which builds the site and publishes it to the
+`gh-pages` branch that GitHub Pages serves. Pull requests are built but not deployed.
 
-- 👉 [**Get Started**](https://wowchemy.com/hugo-themes/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/wowchemy/wowchemy-hugo-themes/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://github.com/wowchemy/wowchemy-hugo-themes/releases)
+## Private preview on Hugging Face
 
-## We ask you, humbly, to support this open source movement
+A private copy for review lives as a static Space at
+<https://huggingface.co/spaces/Rice-RobotPI-Lab/RobotPI_io> and is visible only to members of
+the `Rice-RobotPI-Lab` organization. To refresh it after pushing changes:
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+```sh
+python tools/deploy-hf-space.py
+```
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+It builds with `hugo --environment hfspace` into `public-hf/` and uploads that. The extra
+environment turns on `uglyURLs`, because Hugging Face static Spaces serve files literally and
+do not fall back to a directory's `index.html` — so the preview uses `/publication.html`
+while the public site keeps `/publication/`. Nothing about the GitHub Pages build changes.
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+To let someone review it, add them to the Hugging Face organization; there is no way to share
+a private Space with a non-member. Reviewers should open the Space page above; the bare
+`*.static.hf.space` address answers "Invalid username or password." on purpose.
 
+Why the preview build differs: the Hub shows a private static Space inside an iframe whose first
+URL carries a short-lived `?__sign=` token, and it authorizes each request by that token in the
+request's own URL or in its `Referer`. Its cookie is never sent inside the iframe, and Safari trims
+such Referers to the bare origin, so the only credential every browser keeps is the URL itself. In
+the `hfspace` environment the stylesheet and script are therefore inlined, and
+`layouts/partials/hf-sign.html` adds the token to every in-site link, image and video URL. It also
+opens files and other sites in a new tab, and shows a banner when the 24-hour token expires
+(reloading the Space page issues a new one).
+
+## Editing content
+
+| To add…            | Do this                                                                                  |
+|--------------------|------------------------------------------------------------------------------------------|
+| a publication      | Create `content/publication/<slug>/index.md` (copy a recent one). Optional `cite.bib`, `featured.png`, poster PDF in the same folder. |
+| a news post        | Create `content/post/<slug>/index.md` with `title`, `date`, and `image.filename` pointing at an image in the same folder. |
+| a person           | Create `content/people/<first-last>/index.md` with `title`, `role`, `group`, `email`, `homepage`, `last_name`, plus `avatar.jpg`. Alumni also need `year` (the year they left), which sub-groups the Alumni section newest first. |
+| a research direction | Create `content/research/<slug>/index.md` with `title`, `weight` (order), `members` (people slugs) and a `featured.jpg` (shown at 4:3). Cards appear in the home page's horizontal reel. |
+| a lab honor        | Append to `data/honors.yaml`. Paper awards go in the publication's front matter as `award: "..."`. |
+
+Publication front matter fields used by the templates: `title`, `authors`, `publication_types`
+(`article-journal`, `paper-conference`, `preprint`), `publication_short`, `publication`, `date`, `abstract`,
+`url_pdf`, `url_project`, `url_code`, `url_video`, `url_poster`, `url_dataset`, `url_slides`, `doi`,
+`award`, `note`, `research`.
+
+`research` is a list of research-direction slugs (the folder names under `content/research/`). It is
+optional, and it powers the “N publications” link on each direction card, which opens
+`/publication/?d=<slug>`. The publications page also accepts `?q=<text>` to open a search. Lab members are shown in bold automatically when their name matches a `content/people` entry.
+
+## Homepage video
+
+The hero plays `assets/media/hero.mp4` (and `hero.webm` if present) muted and looped, with
+`assets/media/both.jpg` as the poster. Until a video file exists, the poster image is shown.
+Recommended: 10–30 s, 1920×1080, H.264, no audio, ≤ 8 MB, e.g.
+
+```sh
+ffmpeg -i input.mov -an -vf "scale=1920:-2" -c:v libx264 -crf 26 -preset slow -movflags +faststart assets/media/hero.mp4
+ffmpeg -i input.mov -an -vf "scale=1920:-2" -c:v libvpx-vp9 -b:v 0 -crf 34 assets/media/hero.webm
+```
+
+Site-wide settings (lab name, address, links, hero button text) are in `config/_default/params.yaml`;
+the navigation is in `config/_default/menus.yaml`.

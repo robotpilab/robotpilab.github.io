@@ -1,9 +1,10 @@
 # IDEs
 .idea/
+.vscode/
 .claude/
 
 # Hugo
 /resources/
 /public
-/docs
-assets/jsconfig.json
+/public-hf
+.hugo_build.lock

@@ -1,6 +1,5 @@
 ---
 title: Grasp Moduli Spaces
-subtitle: ""
 publication_types:
   - "paper-conference"
 authors:
@@ -46,6 +45,3 @@ tags: []
 url_pdf: https://hangkaiyu.github.io/pdfs/pokorny2013b.pdf
 publishDate: 2017-01-01T00:00:00.000Z
 ---
-
-
-
