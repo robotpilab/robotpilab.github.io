@@ -1,0 +1,143 @@
+{{- /*
+  Hugging Face private-Space support. Rendered only with `hugo --environment hfspace`, early in <head>.
+
+  The huggingface.co App tab shows a private static Space in a cross-site iframe whose src is
+  `/index.html?__sign=<JWT>`. The Hub authorizes each request by __sign in the request's own URL,
+  or by a Referer whose URL carries it. Its cookie is SameSite=Lax, so browsers never send it inside
+  that iframe, and Safari (tracking prevention) also cuts the Referer of such requests down to the bare
+  origin. The only credential every browser keeps is the URL itself.
+
+  So this script puts __sign on every same-site URL the page asks for: links, images, video, icons.
+  - The stylesheet and script are inlined by the templates, so they need no request at all.
+  - Eagerly loaded media are emitted as data-hf-src / data-hf-poster (layouts/partials/media-attr.html),
+    because the browser's preload scanner would otherwise fetch them unsigned before any script runs;
+    here they get a signed src/poster. Lazy images are signed as the parser inserts them, before they load.
+  - Failed images are retried signed. Files (PDF, BibTeX) and other sites open in a new tab: browsers
+    refuse to show a PDF inside the Hub's sandboxed frame, and most sites refuse to be framed.
+  - The signature lasts 24 hours. Once it has expired, in-site links are held back with a banner asking
+    to reload, instead of landing on the Hub's bare "Invalid username or password." page.
+
+  Anything else that fetches a same-site URL (srcset, <picture>, <audio>, <iframe>, CSS url(), forms)
+  is not handled and would fail in Safari only: Chrome still sends a signed Referer, which hides it.
+*/ -}}
+<script>
+(function () {
+  'use strict';
+  var carry = [];
+  new URLSearchParams(location.search).forEach(function (v, k) {
+    if (k.slice(0, 2) === '__') carry.push([k, v]);
+  });
+  var sig = null;
+  carry.forEach(function (kv) { if (kv[0] === '__sign') sig = kv[1]; });
+  if (!sig) return;
+
+  // ---- expiry -------------------------------------------------------------
+  var exp = Infinity;
+  try {
+    var p = sig.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
+    var e = JSON.parse(atob(p + '==='.slice((p.length + 3) % 4))).exp;
+    if (typeof e === 'number') exp = e * 1000;
+  } catch (err) { /* unreadable token: never claim it expired */ }
+  function expired() { return Date.now() >= exp; }
+  function banner() {
+    if (!document.body) { document.addEventListener('DOMContentLoaded', banner); return; }
+    if (document.getElementById('hf-expired')) return;
+    var d = document.createElement('div');
+    d.id = 'hf-expired';
+    d.setAttribute('role', 'alert');
+    d.textContent = 'This preview session has expired. Reload the page to keep browsing.';
+    d.style.cssText = 'position:fixed;left:0;right:0;bottom:0;z-index:9999;padding:.75rem 1rem;' +
+      'background:#00205b;color:#fff;font:600 14px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;text-align:center';
+    document.body.appendChild(d);
+  }
+  function checkExpiry() { if (expired()) banner(); }
+  // A single timer is not enough: it can fire late when the machine sleeps through the expiry.
+  if (exp !== Infinity) {
+    setTimeout(checkExpiry, Math.max(0, Math.min(exp - Date.now() + 500, 2147483647)));
+    setInterval(checkExpiry, 60000);
+    document.addEventListener('visibilitychange', function () { if (!document.hidden) checkExpiry(); });
+    window.addEventListener('focus', checkExpiry);
+    window.addEventListener('pageshow', checkExpiry);
+    checkExpiry();
+  }
+
+  // ---- signing --------------------------------------------------------------
+  function resolve(raw) {
+    if (!raw) return null;
+    var u;
+    try { u = new URL(raw, location.href); } catch (err) { return null; }
+    return (u.protocol === 'http:' || u.protocol === 'https:') ? u : null;
+  }
+  function signed(u) { return u.searchParams.get('__sign') === sig; }
+  function sign(u) {
+    // The Hub answers "/" with a redirect to "/index.html" that drops the query string.
+    if (u.pathname.slice(-1) === '/') u.pathname += 'index.html';
+    carry.forEach(function (kv) { u.searchParams.set(kv[0], kv[1]); });
+    return u.href;
+  }
+  function newTab(a) { a.target = '_blank'; a.rel = 'noopener'; }
+
+  // Returns true when the link stays on this Space (so it needs the signature to work).
+  function fixLink(a) {
+    var raw = a.getAttribute('href');
+    if (!raw || raw.charAt(0) === '#') return false;       // same-page anchor
+    var u = resolve(raw);
+    if (!u) return false;                                   // mailto: and the like
+    if (u.origin !== location.origin) { newTab(a); return false; }
+    if (!/(\.html|\/)$/.test(u.pathname)) newTab(a);        // a file, e.g. PDF or BibTeX
+    if (!signed(u)) a.setAttribute('href', sign(u));
+    return true;
+  }
+  // Move data-hf-<attr> (or a plain unsigned <attr>) into a signed <attr>.
+  function fixAttr(el, attr) {
+    var held = el.getAttribute('data-hf-' + attr);
+    if (held !== null) el.removeAttribute('data-hf-' + attr);
+    var u = resolve(held !== null ? held : el.getAttribute(attr));
+    if (!u || u.origin !== location.origin) {
+      if (held !== null) el.setAttribute(attr, held);
+      return false;
+    }
+    if (held === null && signed(u)) return false;
+    el.setAttribute(attr, sign(u));
+    return true;
+  }
+  var reloadQueued = [];
+  function reloadVideo(v) {                    // a <source> whose src changed needs load() on its <video>
+    if (!v || typeof v.load !== 'function' || reloadQueued.indexOf(v) !== -1) return;
+    reloadQueued.push(v);
+    setTimeout(function () { reloadQueued.splice(reloadQueued.indexOf(v), 1); v.load(); }, 0);
+  }
+  function fix(el) {
+    if (!el || el.nodeType !== 1) return;
+    switch (el.tagName) {
+      case 'A': if (el.hasAttribute('href')) fixLink(el); break;
+      case 'IMG': fixAttr(el, 'src'); break;
+      case 'SOURCE': if (fixAttr(el, 'src')) reloadVideo(el.parentNode); break;
+      case 'VIDEO':
+        fixAttr(el, 'poster');
+        if ((el.hasAttribute('src') || el.hasAttribute('data-hf-src')) && fixAttr(el, 'src')) reloadVideo(el);
+        break;
+      case 'LINK': if (/\bicon\b/i.test(el.rel)) fixAttr(el, 'href'); break;
+    }
+  }
+  var SELECTOR = 'a[href],img,source,video,link[rel~="icon"],[data-hf-src],[data-hf-poster]';
+  function fixTree(root) {
+    fix(root);
+    if (root.querySelectorAll) Array.prototype.forEach.call(root.querySelectorAll(SELECTOR), fix);
+  }
+
+  new MutationObserver(function (records) {
+    records.forEach(function (r) { Array.prototype.forEach.call(r.addedNodes, fixTree); });
+  }).observe(document.documentElement, { childList: true, subtree: true });
+  document.addEventListener('DOMContentLoaded', function () { fixTree(document.documentElement); });
+
+  // Re-sign a link at click time (and hold it back once the signature has expired);
+  // retry media that failed while unsigned.
+  document.addEventListener('click', function (ev) {
+    var a = ev.target && ev.target.closest ? ev.target.closest('a[href]') : null;
+    if (!a || !fixLink(a)) return;
+    if (expired()) { ev.preventDefault(); banner(); }
+  }, true);
+  document.addEventListener('error', function (ev) { fix(ev.target); }, true);
+})();
+</script>

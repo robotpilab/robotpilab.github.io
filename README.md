@@ -34,7 +34,17 @@ do not fall back to a directory's `index.html` — so the preview uses `/publica
 while the public site keeps `/publication/`. Nothing about the GitHub Pages build changes.
 
 To let someone review it, add them to the Hugging Face organization; there is no way to share
-a private Space with a non-member.
+a private Space with a non-member. Reviewers should open the Space page above; the bare
+`*.static.hf.space` address answers "Invalid username or password." on purpose.
+
+Why the preview build differs: the Hub shows a private static Space inside an iframe whose first
+URL carries a short-lived `?__sign=` token, and it authorizes each request by that token in the
+request's own URL or in its `Referer`. Its cookie is never sent inside the iframe, and Safari trims
+such Referers to the bare origin, so the only credential every browser keeps is the URL itself. In
+the `hfspace` environment the stylesheet and script are therefore inlined, and
+`layouts/partials/hf-sign.html` adds the token to every in-site link, image and video URL. It also
+opens files and other sites in a new tab, and shows a banner when the 24-hour token expires
+(reloading the Space page issues a new one).
 
 ## Editing content
 

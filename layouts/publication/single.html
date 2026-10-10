@@ -13,7 +13,7 @@
 
   {{- with .Resources.GetMatch "featured.*" }}
   {{- $img := . }}{{ if gt .Width 1400 }}{{ $img = .Resize "1400x q82" }}{{ end }}
-  <figure class="pub-figure"><img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt=""></figure>
+  <figure class="pub-figure"><img {{ partial "media-attr.html" (dict "attr" "src" "url" $img.RelPermalink) }} width="{{ $img.Width }}" height="{{ $img.Height }}" alt=""></figure>
   {{- end }}
 
   {{- with .Params.abstract }}

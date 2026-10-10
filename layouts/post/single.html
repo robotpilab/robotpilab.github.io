@@ -6,7 +6,7 @@
   </header>
   {{- with partial "post-image.html" . }}
   {{- $img := . }}{{ if gt .Width 1400 }}{{ $img = .Resize "1400x q82" }}{{ end }}
-  <figure class="article-hero"><img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt=""></figure>
+  <figure class="article-hero"><img {{ partial "media-attr.html" (dict "attr" "src" "url" $img.RelPermalink) }} width="{{ $img.Width }}" height="{{ $img.Height }}" alt=""></figure>
   {{- end }}
   <div class="prose">{{ .Content }}</div>
 </article>

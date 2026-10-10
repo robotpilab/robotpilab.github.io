@@ -88,7 +88,11 @@
           clear.textContent = 'Show all';
           clear.addEventListener('click', function () {
             dir = '';
-            history.replaceState(null, '', window.location.pathname);
+            // Drop only the direction filter; other query parameters (e.g. a hosting
+            // signature on the Hugging Face preview) must survive or later requests fail.
+            var u = new URL(window.location.href);
+            u.searchParams.delete('d');
+            history.replaceState(null, '', u.pathname + u.search + u.hash);
             apply();
           });
           status.appendChild(document.createTextNode(' '));
@@ -138,16 +142,35 @@
     update();
   }
 
-  /* Copy BibTeX to the clipboard. */
+  /* Copy BibTeX to the clipboard.
+     navigator.clipboard is unavailable on plain http and can be refused inside an embedding
+     iframe (e.g. the Hugging Face preview), so fall back to selecting the text and copying it
+     the old way, and as a last resort leave it selected for the reader to copy. */
   document.querySelectorAll('.copy-bib').forEach(function (btn) {
+    var original = btn.innerHTML;
+    var say = function (text) {
+      btn.textContent = text;
+      setTimeout(function () { btn.innerHTML = original; }, 1800);
+    };
     btn.addEventListener('click', function () {
       var pre = document.getElementById(btn.getAttribute('data-target'));
-      if (!pre || !navigator.clipboard) return;
-      navigator.clipboard.writeText(pre.textContent).then(function () {
-        var old = btn.innerHTML;
-        btn.textContent = 'Copied';
-        setTimeout(function () { btn.innerHTML = old; }, 1600);
-      });
+      if (!pre) return;
+      var fallback = function () {
+        var range = document.createRange();
+        range.selectNodeContents(pre);
+        var sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+        var ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+        if (ok) sel.removeAllRanges();
+        say(ok ? 'Copied' : 'Selected: press Ctrl+C / ⌘C');
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(pre.textContent).then(function () { say('Copied'); }, fallback);
+      } else {
+        fallback();
+      }
     });
   });
 })();

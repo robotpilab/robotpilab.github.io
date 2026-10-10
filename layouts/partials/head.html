@@ -7,6 +7,13 @@
 {{- $desc = $desc | truncate 200 -}}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{{- if eq hugo.Environment "hfspace" }}
+{{- /* Signed preview URLs carry an access token: send the full URL as Referer only to the
+       Space itself (which needs it to authorize assets), never to other sites. */}}
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="noindex, nofollow">
+{{ partial "hf-sign.html" . }}
+{{- end }}
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc }}">
 <link rel="canonical" href="{{ .Permalink }}">
@@ -21,14 +28,25 @@
 <meta name="twitter:card" content="summary_large_image">
 {{- with resources.Get "media/icon.png" }}
 {{- $fav := .Fit "64x64" }}{{ $touch := .Fit "180x180" }}
+{{- if eq hugo.Environment "hfspace" }}
+{{- /* Inline, so the private preview needs no authorized request for it. */}}
+<link rel="icon" type="image/png" href="data:image/png;base64,{{ $fav.Content | base64Encode }}">
+{{- else }}
 <link rel="icon" type="image/png" href="{{ $fav.RelPermalink }}">
 <link rel="apple-touch-icon" href="{{ $touch.RelPermalink }}">
+{{- end }}
 {{- end }}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
 {{- $css := resources.Get "css/site.css" | minify | fingerprint }}
+{{- if eq hugo.Environment "hfspace" }}
+{{- /* Inline in the private preview: a separate stylesheet request is refused there whenever the
+       browser trims the Referer (Safari), so the page would render unstyled. */}}
+<style>{{ $css.Content | safeCSS }}</style>
+{{- else }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{- end }}
 {{- range .AlternativeOutputFormats }}
 <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ site.Title }}">
 {{- end }}

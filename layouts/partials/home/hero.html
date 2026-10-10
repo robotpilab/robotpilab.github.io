@@ -6,14 +6,14 @@
 <section class="hero" id="top">
   <div class="hero-media" aria-hidden="true">
     {{- if $video }}
-    <video class="hero-bg" autoplay muted loop playsinline preload="metadata"{{ with $poster }} poster="{{ . }}"{{ end }}>
+    <video class="hero-bg" autoplay muted loop playsinline preload="metadata"{{ with $poster }} {{ partial "media-attr.html" (dict "attr" "poster" "url" .) }}{{ end }}>
       {{- with resources.Get $webm }}
-      <source src="{{ .RelPermalink }}" type="video/webm">
+      <source {{ partial "media-attr.html" (dict "attr" "src" "url" .RelPermalink) }} type="video/webm">
       {{- end }}
-      <source src="{{ $video.RelPermalink }}" type="video/mp4">
+      <source {{ partial "media-attr.html" (dict "attr" "src" "url" $video.RelPermalink) }} type="video/mp4">
     </video>
     {{- else }}
-    <img class="hero-bg" src="{{ $poster }}" alt="">
+    <img class="hero-bg" {{ partial "media-attr.html" (dict "attr" "src" "url" $poster) }} alt="">
     {{- end }}
     <div class="hero-shade"></div>
   </div>
