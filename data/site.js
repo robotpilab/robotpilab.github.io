@@ -187,7 +187,8 @@ window.LAB_NEWS = [
     date: "2024-11-19",
     title: "Dr. Kaiyu Hang has Been Awarded ASME Rising Star of Mechanical Engineering",
     text: "Dr. Kaiyu Hang has been selected by the American Society of Mechanical Engineers (ASME) to receive the award of ASME Rising Star of Mechanical Engineering in recognition of his contributions to robotic manipulation. Dr. Kaiyu Hang presented his work at the award ceremony in the 2024 International Mechanical Engineering Congress & Exposition (ASME IMECE), Portland, Oregon, USA.",
-    image: "assets/img/news/hang_asme.webp"
+    image: "assets/img/news/hang_asme.webp",
+    url: "https://event.asme.org/IMECE-2024/Program/Rising-Stars-of-Mechanical-Engineering"
   },
   {
     date: "2024-09-15",
@@ -296,7 +297,9 @@ window.LAB_AWARDS = [
   { year: "2026", title: "NIST Spotlight: ManipulationNet", detail: "U.S. National Institute of Standards and Technology",
     paper: "Spotlight: Test Your Robot’s Skills in NIST’s Global Online Competition",
     url: "https://www.nist.gov/news-events/news/2026/06/spotlight-test-your-robots-skills-nists-global-online-competition" },
-  { year: "2024", title: "ASME Rising Star of Mechanical Engineering", detail: "American Society of Mechanical Engineers", note: "Kaiyu Hang" },
+  { year: "2024", title: "ASME Rising Star of Mechanical Engineering", detail: "American Society of Mechanical Engineers", note: "Kaiyu Hang",
+    paper: "Rising Stars of Mechanical Engineering, ASME IMECE 2024",
+    url: "https://event.asme.org/IMECE-2024/Program/Rising-Stars-of-Mechanical-Engineering" },
   { year: "2023", title: "NSF CAREER Award", detail: "U.S. National Science Foundation", note: "Kaiyu Hang",
     paper: "Rice U.'s Kaiyu Hang wins NSF CAREER Award",
     url: "https://news.rice.edu/news/2023/rice-us-kaiyu-hang-wins-nsf-career-award" },
