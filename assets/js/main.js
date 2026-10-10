@@ -144,13 +144,10 @@
       el.addEventListener("touchend", function () { holdUntil = performance.now() + 2500; }, { passive: true });
       el.addEventListener("wheel", function () { holdUntil = performance.now() + 1500; }, { passive: true });
 
-      // Roll only while the row is on screen, so it starts from the first card when someone scrolls to it.
+      // Roll only while the row is on screen: it starts from the first card the moment it scrolls into view.
       var inView = !("IntersectionObserver" in window);
       if (!inView) {
-        new IntersectionObserver(function (entries) {
-          inView = entries[0].isIntersecting;
-          if (inView) holdUntil = Math.max(holdUntil, performance.now() + 700);
-        }, { threshold: 0.4 }).observe(el);
+        new IntersectionObserver(function (entries) { inView = entries[0].isIntersecting; }).observe(el);
       }
 
       requestAnimationFrame(function tick(now) {
