@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rice RobotΠ Lab</title>
+  <meta name="description" content="The Robotics and Physical Interactions Lab at Rice University: where robots physically interact with the world.">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/img/icon-180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header is-clear" id="site-header"></header>
+
+  <main>
+    <section class="hero">
+      <video class="hero-video" autoplay muted loop playsinline poster="assets/img/hero-poster.jpg" aria-hidden="true">
+        <source src="assets/video/hero.mp4" type="video/mp4">
+      </video>
+      <!-- Shown in the corner only while the hero video is between data-from and data-to (seconds). -->
+      <video class="hero-inset" data-from="40.0" data-to="44.3" muted loop playsinline preload="metadata" src="assets/video/hero-inset.mp4" aria-hidden="true"></video>
+      <div class="wrap">
+        <span class="eyebrow">Rice University · Computer Science</span>
+        <h1><span>Where robots</span> <span><b>P</b>hysically <b>I</b>nteract</span> <span>with the world</span></h1>
+        <p class="hero-sub">The Robotics and Physical Interactions Lab builds manipulation systems that are efficient, <span class="nowrap">robust, and general.</span> <a class="hero-pi" href="people.html#pi-title">Meet the PI: Kaiyu Hang</a></p>
+        <div class="hero-actions">
+          <a class="btn btn-light" href="join.html">Join us</a>
+          <a class="btn btn-outline-light" href="#research-highlights">Highlights</a>
+          <a class="btn btn-outline-light" href="publications.html">Publications</a>
+          <a class="btn btn-outline-light" href="people.html">Meet the Team</a>
+        </div>
+      </div>
+      <button class="hero-toggle" type="button" aria-label="Pause background video">
+        <svg class="i-pause" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1h3v10H2zM7 1h3v10H7z"/></svg>
+        <svg class="i-play" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 1l8 5-8 5z"/></svg>
+      </button>
+    </section>
+
+    <section class="section">
+      <div class="wrap mission">
+        <div>
+          <h2>Robots that work through contact, not around it.</h2>
+        </div>
+        <div>
+          <p>We study robotic systems that physically interact with other robots, people, and the world. By developing algorithms in learning, optimization, planning, estimation, and control, we work toward general, robust, dexterous, dynamic, and forceful manipulation that holds up under real-world uncertainty.</p>
+          <ul class="themes">
+            <li>Robot learning</li>
+            <li>Learning from videos</li>
+            <li>Reinforcement learning</li>
+            <li>Grasping</li>
+            <li>In-hand manipulation</li>
+            <li>Nonprehensile manipulation</li>
+            <li>Dual-arm manipulation</li>
+            <li>Mobile manipulation</li>
+            <li>Multi-robot manipulation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" aria-labelledby="highlights-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2 id="highlights-title">Recent Work</h2>
+          </div>
+          <div class="roller-controls">
+            <button class="roller-btn" type="button" data-roll="-1" aria-label="Previous paper">←</button>
+            <button class="roller-btn" type="button" data-roll="1" aria-label="Next paper">→</button>
+          </div>
+        </div>
+      </div>
+      <div class="roller" id="highlights"><div class="roller-track"></div></div>
+    </section>
+
+    <section class="section" aria-labelledby="news-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2 id="news-title">News</h2>
+          </div>
+          <a class="more" href="publications.html">All publications</a>
+        </div>
+        <ul class="news" id="news"></ul>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="research-highlights" aria-labelledby="awards-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2 id="awards-title">Research Highlights</h2>
+          </div>
+          <div class="roller-controls">
+            <button class="roller-btn" type="button" data-roll="-1" aria-label="Previous highlight">←</button>
+            <button class="roller-btn" type="button" data-roll="1" aria-label="Next highlight">→</button>
+          </div>
+        </div>
+      </div>
+      <div class="roller" id="awards"><div class="roller-track"></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script src="data/site.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
