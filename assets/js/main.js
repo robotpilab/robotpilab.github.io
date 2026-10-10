@@ -199,7 +199,7 @@
   }
 
   function renderHighlights() {
-    var el = $("highlights");
+    var el = $("recent-work");
     if (!el) return;
     el.querySelector(".roller-track").innerHTML = (window.LAB_HIGHLIGHTS || []).map(function (h) {
       var tag = h.url ? "a" : "div";
