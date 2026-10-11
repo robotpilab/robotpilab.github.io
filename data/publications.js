@@ -621,7 +621,7 @@ window.LAB_PUBLICATIONS = [
       "Kaiyu Hang",
       "Bowen Wen",
       "Kostas Bekris",
-      "And Aaron M. Dollar"
+      "Aaron M. Dollar"
     ],
     "venue": "IEEE Robotics and Automation Letters (RAL)",
     "year": 2022,
@@ -829,7 +829,7 @@ window.LAB_PUBLICATIONS = [
       "Kaiyu Hang",
       "Walter G. Bircher",
       "Andrew S. Morgan",
-      "And Aaron M. Dollar"
+      "Aaron M. Dollar"
     ],
     "venue": "International Journal of Robotics Research (IJRR)",
     "year": 2019,
@@ -1075,7 +1075,7 @@ window.LAB_PUBLICATIONS = [
       "Andrew Kimmel",
       "Kaiyu Hang",
       "Kostas Bekris",
-      "And Aaron M. Dollar"
+      "Aaron M. Dollar"
     ],
     "venue": "International Symposium on Experimental Robotics (ISER)",
     "year": 2018,
