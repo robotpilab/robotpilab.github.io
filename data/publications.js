@@ -182,6 +182,10 @@ window.LAB_PUBLICATIONS = [
       {
         "label": "PDF",
         "url": "http://arxiv.org/abs/2603.04363"
+      },
+      {
+        "label": "Project",
+        "url": "https://manipulation-net.org/"
       }
     ]
   },
