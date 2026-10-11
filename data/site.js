@@ -13,7 +13,8 @@ window.LAB_SITE = {
   links: [
     { label: "GitHub", url: "https://github.com/Rice-RobotPI-Lab" },
     { label: "Google Scholar", url: "https://scholar.google.se/citations?user=GrgH1lQAAAAJ&hl=en" },
-    { label: "Rice Computer Science", url: "https://csweb.rice.edu/" }
+    { label: "Rice Computer Science", url: "https://csweb.rice.edu/" },
+    { label: "Ken Kennedy Institute", url: "https://kenkennedy.rice.edu/" }
   ]
 };
 
