@@ -232,7 +232,8 @@
         : "";
       return "<li" + (i >= NEWS_SHOWN ? " hidden" : "") + '><time datetime="' + esc(n.date) + '">' + formatDate(n.date) + "</time>" +
         (n.image ? '<img src="' + esc(n.image) + '" alt="" loading="lazy">' : "<span></span>") +
-        "<div><h3>" + title + "</h3>" + (n.text ? "<p>" + esc(n.text) + "</p>" : "") + more + "</div></li>";
+        "<div><h3>" + title + "</h3>" + (n.text ? "<p>" + esc(n.text) + "</p>" : "") + more +
+        (n.linkLabel && n.url ? '<a class="news-link" href="' + esc(n.url) + '"' + ext(n.url) + ">" + esc(n.linkLabel) + "</a>" : "") + "</div></li>";
     }).join("");
 
     el.addEventListener("click", function (e) {

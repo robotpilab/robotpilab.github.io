@@ -75,7 +75,16 @@ window.LAB_HIGHLIGHTS = [
 // News, newest first, imported from the previous lab site. The home page shows the first six
 // and a "Show all" button. `text` is the summary. `more` (optional) holds further paragraphs
 // that open under "Read more"; web addresses in them become links. `image` and `url` are optional.
+// `linkLabel` (optional) adds a link with that wording under the text, going to `url`.
 window.LAB_NEWS = [
+  {
+    date: "2026-09-03",
+    title: "RoboTok released!",
+    text: "We are excited to introduce RoboTok, a scalable data engine for robot manipulation learning. It organizes internet human demonstration videos into a torso-relative 3D hand trajectory embedding space and retrieves clips with similar hand motions for a given query demonstration.",
+    image: "assets/img/news/robotok.webp",
+    url: "https://rice-robotpi-lab.github.io/RoboTok/",
+    linkLabel: "Read more"
+  },
   {
     date: "2026-06-27",
     title: "EgoInfinity released!",

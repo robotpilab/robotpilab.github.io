@@ -269,8 +269,9 @@ a.award:hover { background: var(--blue-soft); text-decoration: none; }
 .news li[hidden] { display: none; }
 .news-more { overflow-wrap: anywhere; }
 .news-more p { margin-top: 8px; }
-.news-toggle { margin-top: 6px; padding: 0; border: 0; background: none; color: var(--blue); font: inherit; font-size: 11.5px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; }
-.news-toggle:hover { text-decoration: underline; text-underline-offset: 3px; }
+.news-toggle, .news-link { margin-top: 6px; padding: 0; border: 0; background: none; color: var(--blue); font: inherit; font-size: 11.5px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; }
+.news-link { display: inline-block; }
+.news-toggle:hover, .news-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 .news-all { margin-top: 24px; cursor: pointer; font-family: inherit; }
 @media (max-width: 720px) {
   .news li { grid-template-columns: 88px minmax(0, 1fr); gap: 6px 14px; }
