@@ -19,9 +19,9 @@ window.LAB_PEOPLE = {
 
   phd: [
     { name: "Gaotian Wang", role: "Ph.D. candidate, Computer Science", photo: "assets/img/people/gaotian-wang.jpg", website: "https://vector-wangel.github.io/", email: "gwang@rice.edu" },
-    { name: "Howard Qian", role: "Ph.D. student, Computer Science", photo: "assets/img/people/howard-qian.png", website: "https://howardqian201.github.io/", email: "hhq1@rice.edu" },
     { name: "Podshara Chanrungmaneekul", role: "Ph.D. candidate, Computer Science", photo: "assets/img/people/podshara-chanrungmaneekul.jpg", website: "https://podshara.github.io/", email: "pc45@rice.edu" },
-    { name: "Yiting Chen", role: "Ph.D. student, Computer Science", photo: "assets/img/people/yiting-chen.jpg", website: "https://www.chen-yiting.com/", email: "yc203@rice.edu" }
+    { name: "Yiting Chen", role: "Ph.D. student, Computer Science", photo: "assets/img/people/yiting-chen.jpg", website: "https://www.chen-yiting.com/", email: "yc203@rice.edu" },
+    { name: "Howard Qian", role: "Ph.D. student, Computer Science", photo: "assets/img/people/howard-qian.png", website: "https://howardqian201.github.io/", email: "hhq1@rice.edu" }
   ],
 
   visiting: [
