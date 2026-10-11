@@ -84,6 +84,15 @@
     else { var p = video.play(); if (p && p.catch) p.catch(sync); }
     sync();
 
+    // Progress line: follows the video's position through the loop.
+    var bar = document.querySelector(".hero-progress span");
+    if (bar) {
+      requestAnimationFrame(function step() {
+        if (video.duration) bar.style.transform = "scaleX(" + (video.currentTime / video.duration).toFixed(4) + ")";
+        requestAnimationFrame(step);
+      });
+    }
+
     // Corner inset: visible only while the main video is between its data-from and data-to.
     var inset = document.querySelector(".hero-inset");
     if (!inset) return;
