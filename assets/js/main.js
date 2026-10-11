@@ -300,7 +300,11 @@
   function labMembers() {
     var p = window.LAB_PEOPLE || {}, names = {};
     [[p.pi], p.phd, p.visiting, p.alumni].forEach(function (group) {
-      (group || []).forEach(function (m) { if (m) names[m.name] = true; });
+      (group || []).forEach(function (m) {
+        if (!m) return;
+        names[m.name] = true;
+        (m.aliases || []).forEach(function (alias) { names[alias] = true; });
+      });
     });
     return names;
   }

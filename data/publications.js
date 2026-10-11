@@ -905,7 +905,8 @@ window.LAB_PUBLICATIONS = [
       "Joshua A. Haustein",
       "Silvia Cruciani",
       "Rizwan Asif",
-      "Kaiyu Hang and Danica Kragic"
+      "Kaiyu Hang",
+      "Danica Kragic"
     ],
     "venue": "IEEE-RAS International Conference on Humanoids Robots (Humanoids)",
     "year": 2019,
@@ -1032,7 +1033,8 @@ window.LAB_PUBLICATIONS = [
       "Weihao Yuan",
       "Johannes A. Stork",
       "Danica Kragic",
-      "Michael Y. Wang and Kaiyu Hang"
+      "Michael Y. Wang",
+      "Kaiyu Hang"
     ],
     "venue": "IEEE-RAS International Conference on Robotics and Automation (ICRA)",
     "year": 2018,
@@ -1125,7 +1127,8 @@ window.LAB_PUBLICATIONS = [
     "title": "Integrating Motion and Hierarchical Fingertip Grasp Planning",
     "authors": [
       "Joshua A. Haustein",
-      "Kaiyu Hang and Danica Kragic"
+      "Kaiyu Hang",
+      "Danica Kragic"
     ],
     "venue": "IEEE-RAS International Conference on Robotics and Automation (ICRA)",
     "year": 2017,
