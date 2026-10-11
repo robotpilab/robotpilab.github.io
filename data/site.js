@@ -69,6 +69,13 @@ window.LAB_HIGHLIGHTS = [
     video: "assets/video/collision.mp4",
     poster: "assets/video/collision.jpg",
     url: "https://arxiv.org/pdf/2412.06983.pdf"
+  },
+  {
+    title: "ARC-Calib: Autonomous Markerless Camera-to-Robot Calibration via Exploratory Robot Motions",
+    venue: "IROS 2025",
+    video: "assets/video/arc-calib.mp4",
+    poster: "assets/video/arc-calib.jpg",
+    url: "https://arxiv.org/abs/2503.14701"
   }
 ];
 
