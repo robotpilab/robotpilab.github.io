@@ -13,7 +13,7 @@ Most content lives in `data/`. Edit the file, refresh the page.
 | To change | Edit |
 | --- | --- |
 | Recent Work cards, news, Research Highlights cards, footer contact details | `data/site.js` |
-| PI, current members, alumni | `data/people.js` |
+| PI, graduate students, alumni | `data/people.js` |
 | Publications | `data/publications.js` |
 | Join Us text | `join.html` |
 | Hero headline, hero buttons, intro paragraph and topic chips | `index.html` |
